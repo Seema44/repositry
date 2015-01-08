@@ -1,4 +1,2 @@
 
-(unity-panel-service:2168): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
-
-(unity-panel-service:2168): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed
+(unity-panel-service:2084): Indicator-Appmenu-CRITICAL **: menus_destroyed: assertion 'wm != NULL' failed

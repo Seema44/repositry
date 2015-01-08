@@ -1,23 +1,150 @@
 
-** (zeitgeist-fts:2554): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+** (zeitgeist-fts:2513): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Activating service name='com.canonical.Unity.Webapps.Service'
+Successfully activated service 'com.canonical.Unity.Webapps.Service'
+** Message: Investigating webapp: unity-webapps-common 
 
-** (zeitgeist-fts:2554): WARNING **: Unable to get info on application://nautilus-autostart.desktop
 
-** (zeitgeist-fts:2554): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+** (process:2646): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qml 
 
-** (zeitgeist-fts:2554): WARNING **: Unable to get info on application://nautilus-autostart.desktop
 
-** (zeitgeist-fts:2554): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+** (process:2646): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qml-doc 
 
-** (zeitgeist-fts:2554): WARNING **: Unable to get info on application://nautilus-autostart.desktop
 
-** (zeitgeist-fts:2554): WARNING **: Unable to get info on application://nautilus-autostart.desktop
-module-cache-reaper-Message: Reaping abandoned data directories
-module-cache-reaper-Message: Reaping abandoned cache directories
-Activating service name='com.ubuntu.OneConf'
-Successfully activated service 'com.ubuntu.OneConf'
-WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/seema/.cache/oneconf/d0d62873a79456431e9397c1546f5fc5/other_hosts'
-Activating service name='com.ubuntu.sso'
-Successfully activated service 'com.ubuntu.sso'
-Activating service name='com.ubuntu.sso'
-Successfully activated service 'com.ubuntu.sso'
+** (process:2646): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qml-examples 
+
+
+** (process:2646): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-service 
+
+
+** (process:2646): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-amazoncloudreader 
+
+** Message: Investigating webapp: unity-webapps-bbcnews 
+
+** Message: Investigating webapp: unity-webapps-cnn-news 
+
+** Message: Investigating webapp: unity-webapps-deezer 
+
+** Message: Investigating webapp: unity-webapps-dev 
+
+
+** (process:2646): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-deviantart 
+
+** Message: Investigating webapp: unity-webapps-facebookmessenger 
+
+** Message: Investigating webapp: unity-webapps-googlenews 
+
+** Message: Investigating webapp: unity-webapps-googleplusgames 
+
+
+** (process:2646): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-grooveshark 
+
+** Message: Investigating webapp: unity-webapps-hulu-player 
+
+** Message: Investigating webapp: unity-webapps-lastfm-radio 
+
+** Message: Investigating webapp: unity-webapps-launchpad 
+
+** Message: Investigating webapp: unity-webapps-librefm 
+
+** Message: Investigating webapp: unity-webapps-linkedin 
+
+** Message: Investigating webapp: unity-webapps-mail-ru 
+
+** Message: Investigating webapp: unity-webapps-newsblur 
+
+** Message: Investigating webapp: unity-webapps-pandora 
+
+** Message: Investigating webapp: unity-webapps-pandora-com 
+
+** Message: Investigating webapp: unity-webapps-qml-autopilot 
+
+
+** (process:2646): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qq-mail 
+
+** Message: Investigating webapp: unity-webapps-reddit 
+
+** Message: Investigating webapp: unity-webapps-tumblr 
+
+** Message: Investigating webapp: unity-webapps-twitter 
+
+** Message: Investigating webapp: unity-webapps-vkcom 
+
+** Message: Investigating webapp: unity-webapps-wordpress 
+
+** Message: Investigating webapp: unity-webapps-wordpress-com 
+
+** Message: Investigating webapp: unity-webapps-yahoonews 
+
+** Message: Investigating webapp: unity-webapps-yandex-music 
+
+** Message: Investigating webapp: unity-webapps-yandexmail 
+
+** Message: Investigating webapp: unity-webapps-yandexmusic 
+
+** Message: Investigating webapp: unity-webapps-yandexnews 
+
+** Message: Investigating webapp: unity-webapps-qml 
+
+
+** (process:2646): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-qml-examples 
+
+
+** (process:2646): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-service 
+
+
+** (process:2646): WARNING **: Found newline before all of metadata, skipping app
+** Message: Investigating webapp: unity-webapps-gmail 
+
+** Message: Investigating webapp: unity-webapps-googlecalendar 
+
+** Message: Investigating webapp: unity-webapps-googledocs 
+
+** Message: Investigating webapp: unity-webapps-googleplus 
+
+** Message: Investigating webapp: unity-webapps-livemail 
+
+** Message: Investigating webapp: unity-webapps-yahoomail 
+
+** Message: Investigating webapp: unity-webapps-youtube 
+
+Activating service name='com.canonical.Unity.Scope.Home'
+Successfully activated service 'com.canonical.Unity.Scope.Home'
+
+(unity-scope-home:2721): unity-scope-home-WARNING **: platform-info.vala:112: Unable to read SIM properties: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files
+
+(unity-scope-home:2721): unity-scope-home-WARNING **: scope.vala:235: Failed to get list of remote scopes: Request failed with error 2
+Activating service name='com.canonical.Unity.Scope.Applications'
+Activating service name='com.canonical.Unity.Scope.LocalFiles'
+Activating service name='com.canonical.Unity.Scope.File.Gdrive'
+
+(process:2736): unity-files-daemon-WARNING **: folder.vala:65: Failed to read favorites: Failed to open file '/home/seema/.gtk-bookmarks': No such file or directory
+Successfully activated service 'com.canonical.Unity.Scope.LocalFiles'
+Successfully activated service 'com.canonical.Unity.Scope.File.Gdrive'
+Successfully activated service 'com.canonical.Unity.Scope.Applications'
+
+** (zeitgeist-fts:2513): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:2513): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+Activating service name='org.gtk.vfs.Metadata'
+Successfully activated service 'org.gtk.vfs.Metadata'
+
+** (zeitgeist-fts:2513): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:2513): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:2513): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:2513): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:2513): WARNING **: Unable to get info on application://nautilus-autostart.desktop

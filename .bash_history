@@ -476,3 +476,90 @@ git status
 git add
 git add .gon
 git clone https://github.com/seema93/repositry
+git init
+git status
+git add config/
+git add Xauthority
+git add progrms
+git status
+git commit -m "add cute story" 
+git add '*.cpp'
+git commit -m "add all the cpp files"
+git log
+git remote add origin https://github.com/seema93/repos.git
+git push -u origin master
+git diff HEAD
+git diff --staged
+git checkout --progrms.cpp
+sud pip install -r requirements.txt
+
+sudo apt -get install exim4
+sudo apt-get install exim4
+git clone https://github.com/seema93/repos.git
+git clone https://github.com/seema93/LibreHatti
+git clone https://github.com/seema93/LibreHatti/repositry
+git init
+git status
+git add -A.
+git add -A .
+git status
+git add -A .
+git status
+git commit -m "add cute story"
+git add "*.desktop"
+git commit -m "add desktop files"
+git commit -m 'add desktop files'
+git log
+git remote add origin https://github.com/seema93/LibreHatti
+git remote add origin https://github.com/seema93
+git push -u origin master
+git clone
+git clone https://github.com/seema93/repositry
+git clone https://github.com/seema93/LibreHatti
+mysql -u root -p
+LINE NO10 DATABASES
+Line no 10 DATABASES
+cd src
+settings.py
+config.py
+python-mysqldb
+sudo apt-get install mysql-server
+sudo apt-get install python-pip
+sudo apt-get install python-mysqldb
+sudo pip install -r requirements.txt
+sudo apt-get install exim4
+git clone
+git clone https://github.com/seema93
+git clone https://github.com/seema93/LibreHatti
+mysql -u root -p
+sudo pip install -r requirements.txt
+
+cd src
+sudo apt-get install django1.7
+sudo apt-get install django 1.7
+cd src
+cd liberhatti/src
+sudo apt-get install django 1.7
+sudo pip install https://www.djangoproject.com/download/1.7.b4/tarball/
+cd liberhatti/repositry
+cd repositry
+python manage.py migrate
+python setup.py install
+setup.py install
+cd LibreHatti/lirehatti
+repositry
+sudo get repositry
+sudo apt-get repositry
+sudo -get repositry
+git init
+git clone https://github.com/seema93
+git pull
+git clone https://github.com/seema93/LibreHatti.git
+txt
+cd LibreHatti/
+vi requirements.txt 
+sudo pip install -r requirements.txt 
+cd src
+python manage.py migrate
+ls
+python manage.py runserver 127.0.0.1:8090

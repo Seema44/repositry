@@ -1,0 +1,36 @@
+{
+   "checksum": "203ec683c99036c7f146322b022e9f77",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13065191968288683",
+            "id": "5",
+            "name": "Try Django Tutorial 1 of 21 - New Django Project in Virtualenv download south django registration - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=3DccH9AMwFQ"
+         } ],
+         "date_added": "13065148935657724",
+         "date_modified": "13065191968288683",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13065148935657752",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13065148935657753",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

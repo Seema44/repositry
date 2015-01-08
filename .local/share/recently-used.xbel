@@ -1024,22 +1024,24 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Git%20-%20About%20Version%20Control.html" added="2015-01-07T10:33:13Z" modified="2015-01-07T10:33:14Z" visited="2015-01-07T10:33:14Z">
+  <bookmark href="file:///home/seema/Pictures/Git%20-%20About%20Version%20Control.html" added="2015-01-07T10:33:13Z" modified="2015-01-08T07:20:59Z" visited="2015-01-07T10:33:14Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
           <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-01-07T10:33:14Z" count="2"/>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2015-01-08T07:20:59Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Git%20-%20About%20Version%20Control_files/Git%20-%20Getting%20a%20Git%20Repository.html" added="2015-01-07T10:46:14Z" modified="2015-01-07T10:46:15Z" visited="2015-01-07T10:46:16Z">
+  <bookmark href="file:///home/seema/Pictures/Git%20-%20About%20Version%20Control_files/Git%20-%20Getting%20a%20Git%20Repository.html" added="2015-01-07T10:46:14Z" modified="2015-01-08T16:48:14Z" visited="2015-01-07T10:46:16Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
           <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-01-07T10:46:15Z" count="2"/>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2015-01-08T16:48:14Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -1338,7 +1340,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2022:58:34.png" added="2015-01-07T23:23:10Z" modified="2015-01-08T00:32:39Z" visited="2015-01-07T23:23:10Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2022:58:34.png" added="2015-01-07T23:23:10Z" modified="2015-01-08T17:24:06Z" visited="2015-01-07T23:23:10Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1346,12 +1348,13 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:32:39Z" count="7"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T17:24:06Z" count="10"/>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2015-01-08T07:31:27Z" count="5"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:11:17.png" added="2015-01-07T23:23:23Z" modified="2015-01-08T00:32:40Z" visited="2015-01-07T23:23:24Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:11:17.png" added="2015-01-07T23:23:23Z" modified="2015-01-08T17:24:10Z" visited="2015-01-07T23:23:24Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1359,12 +1362,12 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:32:40Z" count="9"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T17:24:10Z" count="16"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:11:53.png" added="2015-01-07T23:23:46Z" modified="2015-01-08T00:32:40Z" visited="2015-01-07T23:23:46Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:11:53.png" added="2015-01-07T23:23:46Z" modified="2015-01-08T17:24:11Z" visited="2015-01-07T23:23:46Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1372,13 +1375,13 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:32:40Z" count="8"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T17:24:11Z" count="15"/>
           <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2015-01-07T23:59:11Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:12:33.png" added="2015-01-07T23:24:55Z" modified="2015-01-08T00:05:00Z" visited="2015-01-07T23:24:56Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:12:33.png" added="2015-01-07T23:24:55Z" modified="2015-01-08T17:24:13Z" visited="2015-01-07T23:24:56Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1386,13 +1389,13 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:04:01Z" count="6"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T17:24:13Z" count="9"/>
           <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2015-01-08T00:05:00Z" count="13"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:14:47.png" added="2015-01-07T23:24:56Z" modified="2015-01-07T23:59:22Z" visited="2015-01-07T23:24:56Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:14:47.png" added="2015-01-07T23:24:56Z" modified="2015-01-08T17:24:16Z" visited="2015-01-07T23:24:56Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1400,7 +1403,7 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:22Z" count="5"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T17:24:16Z" count="7"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -1431,7 +1434,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:30:54.png" added="2015-01-07T23:25:08Z" modified="2015-01-08T00:30:32Z" visited="2015-01-07T23:25:09Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:30:54.png" added="2015-01-07T23:25:08Z" modified="2015-01-08T07:31:23Z" visited="2015-01-07T23:25:09Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1439,12 +1442,12 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:30:32Z" count="2"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T07:31:23Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:30:47.png" added="2015-01-07T23:25:08Z" modified="2015-01-08T00:30:30Z" visited="2015-01-07T23:25:09Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:30:47.png" added="2015-01-07T23:25:08Z" modified="2015-01-08T07:31:37Z" visited="2015-01-07T23:25:09Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1452,12 +1455,12 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:30:30Z" count="2"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T07:31:37Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:30:06.png" added="2015-01-07T23:25:09Z" modified="2015-01-08T00:29:22Z" visited="2015-01-07T23:25:12Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:30:06.png" added="2015-01-07T23:25:09Z" modified="2015-01-08T07:31:38Z" visited="2015-01-07T23:25:12Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1465,12 +1468,12 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:29:22Z" count="3"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T07:31:38Z" count="4"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:29:30.png" added="2015-01-07T23:25:10Z" modified="2015-01-08T00:28:50Z" visited="2015-01-07T23:25:12Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:29:30.png" added="2015-01-07T23:25:10Z" modified="2015-01-08T07:34:36Z" visited="2015-01-07T23:25:12Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1478,12 +1481,12 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:28:50Z" count="5"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T07:34:36Z" count="8"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:29:00.png" added="2015-01-07T23:25:10Z" modified="2015-01-08T00:27:22Z" visited="2015-01-07T23:25:12Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:29:00.png" added="2015-01-07T23:25:10Z" modified="2015-01-08T07:34:34Z" visited="2015-01-07T23:25:12Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1491,12 +1494,12 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:27:22Z" count="5"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T07:34:34Z" count="8"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:28:25.png" added="2015-01-07T23:25:10Z" modified="2015-01-07T23:59:24Z" visited="2015-01-07T23:25:12Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:28:25.png" added="2015-01-07T23:25:10Z" modified="2015-01-08T07:33:49Z" visited="2015-01-07T23:25:12Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1504,12 +1507,12 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:24Z" count="4"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T07:33:49Z" count="6"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:26:31.png" added="2015-01-07T23:25:11Z" modified="2015-01-07T23:59:23Z" visited="2015-01-07T23:25:12Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:26:31.png" added="2015-01-07T23:25:11Z" modified="2015-01-08T07:33:47Z" visited="2015-01-07T23:25:12Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1517,12 +1520,12 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:23Z" count="3"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T07:33:47Z" count="7"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:25:14.png" added="2015-01-07T23:25:11Z" modified="2015-01-07T23:59:23Z" visited="2015-01-07T23:25:12Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:25:14.png" added="2015-01-07T23:25:11Z" modified="2015-01-08T07:33:46Z" visited="2015-01-07T23:25:12Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1530,12 +1533,12 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:23Z" count="4"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T07:33:46Z" count="8"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:23:58.png" added="2015-01-07T23:25:12Z" modified="2015-01-07T23:59:23Z" visited="2015-01-07T23:25:12Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:23:58.png" added="2015-01-07T23:25:12Z" modified="2015-01-08T07:33:45Z" visited="2015-01-07T23:25:12Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1543,12 +1546,12 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:23Z" count="4"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T07:33:45Z" count="7"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:22:07.png" added="2015-01-07T23:25:12Z" modified="2015-01-07T23:59:23Z" visited="2015-01-07T23:25:12Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:22:07.png" added="2015-01-07T23:25:12Z" modified="2015-01-08T17:25:32Z" visited="2015-01-07T23:25:12Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1556,12 +1559,12 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:23Z" count="4"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T17:25:32Z" count="8"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:19:50.png" added="2015-01-07T23:25:19Z" modified="2015-01-07T23:59:22Z" visited="2015-01-07T23:25:19Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:19:50.png" added="2015-01-07T23:25:19Z" modified="2015-01-08T17:25:28Z" visited="2015-01-07T23:25:19Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1569,12 +1572,12 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:22Z" count="5"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T17:25:28Z" count="8"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:18:44.png" added="2015-01-07T23:25:46Z" modified="2015-01-07T23:59:22Z" visited="2015-01-07T23:25:49Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:18:44.png" added="2015-01-07T23:25:46Z" modified="2015-01-08T17:24:19Z" visited="2015-01-07T23:25:49Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1582,12 +1585,12 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:22Z" count="4"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T17:24:19Z" count="6"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:17:36.png" added="2015-01-07T23:25:47Z" modified="2015-01-07T23:59:22Z" visited="2015-01-07T23:25:49Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:17:36.png" added="2015-01-07T23:25:47Z" modified="2015-01-08T17:24:18Z" visited="2015-01-07T23:25:49Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1595,7 +1598,7 @@
           <bookmark:group>Graphics</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:22Z" count="4"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T17:24:18Z" count="6"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -1613,7 +1616,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-08%2006%3A45%3A19.png" added="2015-01-08T01:15:21Z" modified="2015-01-08T01:15:21Z" visited="2015-01-08T01:15:21.828384Z">
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-08%2006%3A45%3A19.png" added="2015-01-08T01:15:21Z" modified="2015-01-08T01:15:21Z" visited="2015-01-08T01:15:21Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
@@ -1622,6 +1625,294 @@
         </bookmark:groups>
         <bookmark:applications>
           <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-08T01:15:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-08%2006%3A50%3A34.png" added="2015-01-08T01:20:35Z" modified="2015-01-08T01:20:35Z" visited="2015-01-08T01:20:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-08T01:20:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/LibreHatti/src/librehatti/settings.py" added="2015-01-08T04:46:55Z" modified="2015-01-08T11:50:41Z" visited="2015-01-08T04:46:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-08T11:50:41Z" count="4"/>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2015-01-08T04:56:33Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/LibreHatti/src/librehatti/config.py" added="2015-01-08T04:52:23Z" modified="2015-01-08T10:13:00Z" visited="2015-01-08T04:52:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-08T10:13:00Z" count="4"/>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2015-01-08T05:55:59Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/LibreHatti/src/librehatti/urls.py" added="2015-01-08T04:54:36Z" modified="2015-01-08T04:54:36Z" visited="2015-01-08T04:54:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-08T04:54:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/LibreHatti/src/manage.py" added="2015-01-08T04:58:20Z" modified="2015-01-08T04:58:20Z" visited="2015-01-08T04:58:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-08T04:58:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/LibreHatti/src/librehatti/__init__.py" added="2015-01-08T05:00:25Z" modified="2015-01-08T05:00:25Z" visited="2015-01-08T05:00:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-08T05:00:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/README.md" added="2015-01-08T05:18:51Z" modified="2015-01-08T05:18:51Z" visited="2015-01-08T05:18:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-markdown"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-08T05:18:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/LibreHatti/README.md" added="2015-01-08T05:19:10Z" modified="2015-01-08T10:13:00Z" visited="2015-01-08T05:19:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-markdown"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-08T10:13:00Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Downloads/git%20-%20the%20simple%20guide%20-%20no%20deep%20shit!.html" added="2015-01-08T10:21:14Z" modified="2015-01-08T16:22:20Z" visited="2015-01-08T10:21:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium-browser" exec="&apos;chromium-browser %u&apos;" modified="2015-01-08T10:40:39Z" count="2"/>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2015-01-08T16:22:20Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-08%2016%3A44%3A23.png" added="2015-01-08T11:14:25Z" modified="2015-01-08T11:14:25Z" visited="2015-01-08T11:14:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-08T11:14:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Downloads/librehatti.sql" added="2015-01-08T11:42:25Z" modified="2015-01-08T11:51:43Z" visited="2015-01-08T11:42:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/sql"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-08T11:42:47Z" count="2"/>
+          <bookmark:application name="chromium-browser" exec="&apos;chromium-browser %u&apos;" modified="2015-01-08T11:51:43Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-08%2016:44:23.png" added="2015-01-08T16:46:31Z" modified="2015-01-08T16:46:31Z" visited="2015-01-08T16:46:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T16:46:31Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Git%20-%20About%20Version%20Control_files/Git%20-%20Getting%20a%20Git%20Repository_files/git-scm-51dae02d97f150a7e22b24f0c7497beb.css" added="2015-01-08T16:47:41Z" modified="2015-01-08T16:47:41Z" visited="2015-01-08T16:47:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-08T16:47:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Git%20-%20About%20Version%20Control_files/Git%20-%20Getting%20a%20Git%20Repository_files/jsq2fql.js" added="2015-01-08T16:47:58Z" modified="2015-01-08T16:47:58Z" visited="2015-01-08T16:47:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-08T16:47:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Git%20-%20About%20Version%20Control_files/local.png" added="2015-01-08T16:48:08Z" modified="2015-01-08T16:48:08Z" visited="2015-01-08T16:48:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T16:48:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Git%20-%20About%20Version%20Control_files/git-scm-51dae02d97f150a7e22b24f0c7497beb.css" added="2015-01-08T17:10:25Z" modified="2015-01-08T17:10:25Z" visited="2015-01-08T17:10:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-08T17:10:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Downloads/git%20-%20the%20simple%20guide%20-%20no%20deep%20shit!_files/noavatar92.png" added="2015-01-08T17:10:59Z" modified="2015-01-08T17:10:59Z" visited="2015-01-08T17:10:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T17:10:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Downloads/git%20-%20the%20simple%20guide%20-%20no%20deep%20shit!_files/noavatar92.b677f9ddbee6f4bb22f473ae3bd61b85.png" added="2015-01-08T17:11:08Z" modified="2015-01-08T17:11:08Z" visited="2015-01-08T17:11:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T17:11:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Downloads/git%20-%20the%20simple%20guide%20-%20no%20deep%20shit!_files/common.ac620ca4f0db9940413c56751f61a1f4.js" added="2015-01-08T17:11:18Z" modified="2015-01-08T17:11:22Z" visited="2015-01-08T17:11:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2015-01-08T17:11:18Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-08T17:11:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Downloads/git%20-%20the%20simple%20guide%20-%20no%20deep%20shit!_files/arrow.png" added="2015-01-08T17:11:29Z" modified="2015-01-08T17:11:29Z" visited="2015-01-08T17:11:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T17:11:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Downloads/git%20-%20the%20simple%20guide%20-%20no%20deep%20shit!_files/branches.png" added="2015-01-08T17:11:32Z" modified="2015-01-08T17:11:32Z" visited="2015-01-08T17:11:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T17:11:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Downloads/git%20-%20the%20simple%20guide%20-%20no%20deep%20shit!_files/config.js" added="2015-01-08T17:11:43Z" modified="2015-01-08T17:11:43Z" visited="2015-01-08T17:11:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/javascript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-08T17:11:43Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

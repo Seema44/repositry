@@ -11,10 +11,10 @@
 ~Msle0~/:
 
 # Command Line History (newest to oldest):
+:wq
 :q
 :q!
 :.!
-:wq
 :syntax off
 :w
 :eq
@@ -44,18 +44,20 @@
 	;
 
 # File marks:
-'0  1  0  ~/progrms/pro.cpp
-'1  1  0  ~/progrms/t4.cpp
-'2  1  0  ~/progrms/program.cpp
-'3  1  0  ~/program.cpp
-'4  8  10  ~/tt.cpp
-'5  1  0  ~/t5.cpp
-'6  1  0  ~/t4.cpp
-'7  1  0  ~/t2.cpp
-'8  1  0  ~/pro.cpp
-'9  1  0  ~/hello.cpp
+'0  6  0  ~/LibreHatti/requirements.txt
+'1  1  0  ~/progrms/pro.cpp
+'2  1  0  ~/progrms/t4.cpp
+'3  1  0  ~/progrms/program.cpp
+'4  1  0  ~/program.cpp
+'5  8  10  ~/tt.cpp
+'6  1  0  ~/t5.cpp
+'7  1  0  ~/t4.cpp
+'8  1  0  ~/t2.cpp
+'9  1  0  ~/pro.cpp
 
 # Jumplist (newest first):
+-'  6  0  ~/LibreHatti/requirements.txt
+-'  1  0  ~/LibreHatti/requirements.txt
 -'  1  0  ~/progrms/pro.cpp
 -'  1  0  ~/progrms/t4.cpp
 -'  1  0  ~/progrms/program.cpp
@@ -149,8 +151,18 @@
 -'  1  0  ~/progrms/firstprogram.cpp
 -'  1  0  ~/hello.cpp
 -'  1  0  ~/aa.cpp
+-'  1  0  ~/progrms/pro.cpp
+-'  1  0  ~/progrms/t4.cpp
+-'  1  0  ~/progrms/program.cpp
+-'  1  0  ~/program.cpp
 
 # History of marks within files (newest to oldest):
+
+> ~/LibreHatti/requirements.txt
+	"	6	0
+	^	4	26
+	.	4	25
+	+	4	25
 
 > ~/progrms/pro.cpp
 	"	1	0

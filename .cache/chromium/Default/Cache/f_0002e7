@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en-us" >
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Add user | LibreHatti</title>
+  <link rel="stylesheet" type="text/css" href=""/>
+  <link rel="stylesheet" type="text/css" href="/static/suit/bootstrap/css/bootstrap.min.css" media="all"/>
+  <link rel="stylesheet" type="text/css" href="/static/suit/css/suit.css" media="all">
+  
+  
+
+  
+  <script type="text/javascript">window.__admin_media_prefix__ = "/static/admin/";</script>
+  <script src="/static/suit/js/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript">var Suit = { $: $.noConflict() }; if (!$) $ = Suit.$; </script>
+  <script src="/static/suit/bootstrap/js/bootstrap.min.js"></script>
+  
+  <style type="text/css">.required:after { content: '*'; margin: 0 0 0 5px; position: absolute; color: #ccc;}</style>
+  
+  
+<script type="text/javascript">
+    var reverseurl = "/catalog/jsreverse/";
+
+    function reverse(urlstring, callback) {
+        if (typeof callback != "function") {
+            return false;
+            }
+            
+        $.get(reverseurl + "?string=" + urlstring, callback);
+            }
+</script>
+
+  
+  <script type="text/javascript" src="/admin/jsi18n/"></script>
+
+  <script type="text/javascript" src="/static/admin/js/core.js"></script>
+<script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+<script type="text/javascript" src="/static/admin/js/actions.js"></script>
+<script type="text/javascript" src="/static/admin/js/inlines.js"></script>
+
+
+  
+    <meta name="robots" content="NONE,NOARCHIVE"/>
+</head>
+
+
+<body class="auth-user change-form">
+
+<!-- Sticky footer wrap -->
+<div id="wrap">
+
+  <!-- Container -->
+  
+    <div id="container">
+
+      
+        
+          <!-- Header -->
+          <div id="header" class="header">
+            <div id="branding">
+              <a href="/"><h1 id="site-name">LibreHatti</h1></a>
+            </div>
+
+            
+            <div class="header-content header-content-first">
+              <div class="header-column icon">
+                <i class="icon-time"></i>
+              </div>
+              <div class="header-column">
+                <span class="date"> Thursday, 8th January 2015</span><br>
+                <span class="time" id="clock">17:38</span>
+              </div>
+            </div>
+            
+
+            
+              <!--<div class="header-content">
+                <div class="header-column icon">
+                  <i class="icon-comment"></i>
+                </div>
+                <div class="header-column">
+                  <a href="" class="grey"><b>2</b> new messages</a>
+                </div>
+              </div>-->
+            
+
+            
+              <div id="user-tools">
+                Welcome,
+                <strong>
+                  
+                    Tcc</strong>.
+                <span class="user-links">
+                
+                  
+                  
+                    <a href="/admin/doc/">Documentation</a>
+                   <span class="separator">|</span>
+                  
+                  <a href="/admin/password_change/">Change password</a>
+                  <span class="separator">|</span>
+                  <a href="/admin/logout/">Log out</a>
+                  </span>
+                
+              </div>
+            
+            
+          </div>
+        
+        <!-- END Header -->
+      
+
+
+      <div class="suit-columns two-columns">
+
+        
+          <div id="suit-center" class="suit-column">
+
+            
+              
+    <ul class="breadcrumb">
+      <li>
+        <a href="/admin/">Home</a>
+        <span class="divider">&raquo;</span>
+      </li>
+      <li>
+        <a href="/admin/auth/">Auth</a>
+        <span class="divider">&raquo;</span>
+      </li>
+      <li>
+        
+          <a href="/admin/auth/user/">
+            Users</a>
+        <span class="divider">&raquo;</span>
+      </li>
+      <li class="active">
+        Add user
+      </li>
+    </ul>
+  
+            
+
+            
+              
+            
+
+            <!-- Content -->
+            <div id="content" class="colM row-fluid">
+              
+              
+                <h2 class="content-title">Add user</h2>
+              
+              
+  <div id="content-main" class="inner-two-columns">
+
+    <form enctype="multipart/form-data" action="" method="post"
+          id="user_form" class="form-horizontal">
+
+      <div class="inner-right-column">
+
+        <div class="box save-box">
+
+          
+<div class="submit-row clearfix">
+  <button type="submit" class="btn btn-high btn-info" name="_save">Save</button>
+  <button type="submit" name="_continue" class=" btn btn-high">Save and continue editing</button>
+  
+  <button type="submit" name="_addanother" class="btn">Save and add another</button>
+
+  
+</div>
+
+
+        </div>
+
+        
+          
+        
+
+      
+
+      </div>
+      <div class="inner-center-column">
+        <input type='hidden' name='csrfmiddlewaretoken' value='UJxbyt1Bq0OwXtY2pZVwZpUZhBhujYjK' />
+  
+    <p>First, enter a username and password. Then, you'll be able to edit more user options.</p>
+  
+
+        
+          
+        
+        <div class="tab-content tab-content-main">
+          
+          
+
+          
+          
+
+
+          
+            
+              
+<fieldset class="module aligned with-legend wide">
+    
+        <h2 class="legend">Add Customer
+            
+        </h2>
+  
+    
+      <div class="control-group form-row field-username ">
+        
+          <div><div class="control-label"><label class="required" for="id_username">Username:</label></div><div class="controls"><input id="id_username" maxlength="30" name="username" type="text" /><span class="help-inline">Required. 30 characters or fewer. Letters, digits and @/./+/-/_ only.</span></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-email ">
+        
+          <div><div class="control-label"><label for="id_email">Email address:</label></div><div class="controls"><input class="vTextField" id="id_email" maxlength="75" name="email" type="email" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-first_name ">
+        
+          <div><div class="control-label"><label for="id_first_name">First name:</label></div><div class="controls"><input class="vTextField" id="id_first_name" maxlength="30" name="first_name" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-last_name ">
+        
+          <div><div class="control-label"><label for="id_last_name">Last name:</label></div><div class="controls"><input class="vTextField" id="id_last_name" maxlength="30" name="last_name" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-password1 ">
+        
+          <div><div class="control-label"><label class="required" for="id_password1">Password:</label></div><div class="controls"><input id="id_password1" name="password1" type="password" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-password2 ">
+        
+          <div><div class="control-label"><label class="required" for="id_password2">Password confirmation:</label></div><div class="controls"><input id="id_password2" name="password2" type="password" /><span class="help-inline">Enter the same password as above, for verification.</span></div></div>
+        
+
+      </div>
+    
+  
+</fieldset>
+
+
+
+            
+          
+
+          
+<script type="text/javascript">document.getElementById("id_username").focus();</script>
+
+
+          
+          
+
+
+          
+            
+              
+<div class="inline-group " id="customer-group">
+  <h2>Customers</h2>
+<input id="id_customer-TOTAL_FORMS" name="customer-TOTAL_FORMS" type="hidden" value="1" /><input id="id_customer-INITIAL_FORMS" name="customer-INITIAL_FORMS" type="hidden" value="0" /><input id="id_customer-MIN_NUM_FORMS" name="customer-MIN_NUM_FORMS" type="hidden" value="0" /><input id="id_customer-MAX_NUM_FORMS" name="customer-MAX_NUM_FORMS" type="hidden" value="1" />
+
+
+<div class="inline-related" id="customer-0">
+  <h3><b>Customer:</b>&nbsp;<span class="inline_label"></span>
+    
+    
+  </h3>
+  
+  
+    
+<fieldset class="module aligned first ">
+    
+  
+    
+      <div class="control-group form-row field-address ">
+        
+          <div><div class="control-label"><label class="required" for="id_customer-0-address">Address:</label></div><div class="controls"><select id="id_customer-0-address" name="customer-0-address"><option value="" selected="selected">---------</option><option value="1">Zone-AMunicipal Corporation,Ludhiana.</option><option value="2">Nagar Panchayt Nihal Singh Wala,Moga</option><option value="3">Zone-B (B &amp; R) Municipal Corporation ,Ludhiana</option><option value="4">W/S &amp; Sanitation Sub Division No.2,Malerkotla</option><option value="5">,Patiala</option><option value="6">Municipal Corporation,Ludhiana</option><option value="7">Central Town Village Dad P.O. Lalton,Ludhiana.</option><option value="8">H.O: 3rd Floor Pink Plaza Gulati Chowk Model Town,Ludhiana</option><option value="9">Head Works,Ropar.</option><option value="10">800/400/220 KV Sub Station Complex Urja Nagar Kotkapura Road,Moga</option><option value="11">GLADA,Ludhiana</option><option value="12">B &amp; R Municipal Corporation,Ludhiana</option><option value="13">H.N0:B-XXX-3804Street No.6Hargobind PuraOpp.Tarnsport Nagar,Ludhiana.</option><option value="14">Canal MogaSub Division,Moga</option><option value="15">Municipal Corporation,Ludhiana.</option><option value="16">Vill.SharinMalerkotla Road,Ludhiana</option><option value="17">Zone-B(B &amp; R) Municipal Corporation,Ludhiana.</option><option value="18">W/S &amp; Sanitation Sub Division-4,Hoshiarpur</option><option value="19">Dham Talwandi Khurd,Distt.Ludhiana.</option><option value="20">ISGEC Heavy Engineering Ltd,Yamuna Nagar.</option><option value="21">W/S &amp; Sanitation  Division-2.,Hoshiarpur.</option><option value="22">Pb. W/s &amp; Sew. Sub Division.,Moga</option><option value="23">Punjab W/S &amp; Sewerage. Sub Division ,Rajpura.</option><option value="24">Opp.Hero Cycles Ltd.G.T.Road,Ludhiana.</option><option value="25">Bhupindra Nagar Road,Patiala</option><option value="26">Punjab Health Systems Corporation Sub Division ,Amritsar</option><option value="27">W/s &amp; Sanitation Sub Division,Ludhiana</option><option value="28">15/16Hazari BaughIBS MargVikhorli (West) ,Mumbai</option><option value="29">W/S &amp; Sanitation Sub Division-4,Ludhiana</option><option value="30">Plot No.61-62NH-1-WestOpp.Big BazarNear Satsang GharVill.Kadiyan,Ludhiana</option><option value="31">S.G.P.C.Teja Singh Samoondri Hall ,Amritsar.</option><option value="32">800/400/220 KV Sub Station Complex Urja Nagar Kotkapura Road,Moga</option><option value="33">G.T.B Market Near Veer Palace Chandigarh Road,Ludhiana</option><option value="34">W/S &amp; Sanitation Division Sidhwan Bet,Ludhiana</option><option value="35">TLSC Division PSTCL ,Jalandhar</option><option value="36">Railway Road,Tarn Taran.</option><option value="37">W/S &amp; Sanitation Division,Fazilka.</option><option value="38">H.No.2595St.No.2Guru Nanak ColonyOpp G.N.E.College,Ludhiana.</option><option value="39">GLADA,Ludhiana.</option><option value="40">Zone-A ( N )Municipal Corporation ,Ludhiana</option><option value="41">Govt.Contractor.Vill.Dabra P.O.BhangchariTeh. &amp; Distt.,Muktsar.</option><option value="42">(B &amp; R)Municipal Corporation,Jalandhar.</option><option value="43">PB W/S &amp; SewerageSub Division NO.6. ,Ludhiana</option><option value="44">38 Raghbir Nagar,Patiala</option><option value="45">Ward No.11,Rajouri</option><option value="46">Municipal Corporation,Ludhiana</option><option value="47">Construction Sub Division PWD B&amp;R Branch,Jagraon At Ludhiana</option><option value="48">Model Town,Ludhiana</option><option value="49">Municipal Corporation,Ludhiana</option><option value="50">Zone-AMunicipal Corporation,Ludhiana.</option><option value="51">Zone-A ( B&amp;R ) Municipal Corporation,Ludhiana</option><option value="52">Bhai Randhir Singh Nagar,Ludhiana</option><option value="53">W/S &amp; Sanitation Sub Division ,Dhuri</option><option value="54">34Basant ViharJawadi,Ludhiana</option><option value="55">,Jalandhar.</option><option value="56">Provincial Division B &amp; R Br.,Mansa.</option><option value="57">84 Basant Vihar Jawadi,Ludhiana</option><option value="58">293-A Model Town Extn.,Ludhiana.</option><option value="59">Sarabha NagarMunicipal Corporation,Ludhiana.</option><option value="60">Govt.Contractor.,Pathankot.</option><option value="61">Govt.Contractor. ,Ropar</option><option value="62">PHSC.,Roopnagar.</option><option value="63">Plot No.-B.58 Phase VIIFocal Point,Ludhiana</option><option value="64">PHSC.,Mohali</option><option value="65">PHSC.,Sangrur.</option><option value="66">Sidhwan Canal Sub Division,Ludhiana</option><option value="67">Subhash NagarDaresi Road ,Ludhiana</option><option value="68">Municipal Corporation,Ludhiana</option><option value="69">VPO Kohara Chandigarh Road ,Ludhiana</option><option value="70">Sri Anandpur Sahib ,Ropar.</option><option value="71">,Ludhiana</option><option value="72">W/S &amp; Sanitation Division No-2. ,Sri Muktsar Sahib</option><option value="73">Municipal Corporation,Ludhiana</option><option value="74">GLADA,Ludhiana</option><option value="75">Govt. Contr,Amritsar</option><option value="76">Municipal Corporation,Moga</option><option value="77">Municipal Corporation,Ludhiana</option><option value="78">Shaheed Karnail Singh Nagar Street No.2A H.No.1903 Behind Merado Colony Gill Road,Ludhiana</option><option value="79">263 Bharat Nagar ,Ludhiana</option><option value="80">Const.Sub Division No.3P.W.D B &amp; R.Br,Ludhiana.</option><option value="81">1st FloorOpp. Leo Fort HotelNear B.M.C. Chowk ,Jalandhar.</option><option value="82">Beant College of Engineering &amp; TechnologyPost Box-13 ,Gurdaspur</option><option value="83">Zone-CB &amp; RMunicipal Corporation,Ludhiana</option><option value="84">B-XX550Pearl PalaceGhumar Mandi,Ludhiana</option><option value="85">Plot No.F-453 Phase-8 B. Industrial Aera SAS Nagar,Mohali</option><option value="86">Nagar Concil ,Jagraon.</option><option value="87">Nagar Panchayt Kot Ishe Khan,Moga</option><option value="88">Municipal Corporation ,Ludhiana</option><option value="89">9/12LalbazarStreet E Block4th FloorRoom No.10 ,Kolkata</option><option value="90">Govt.Contractor.,Amritsar</option><option value="91">Municipal Council Amloh ,Distt.Fatehgarh Sahib.</option><option value="92">98-11Sarabha Nagar ,Ludhiana</option><option value="93">Punjab Health Systems Corporation,Ludhiana</option><option value="94">W/S &amp; Sanitation Sub Division-5,Ludhiana</option><option value="95">5th FloorDean Dayal Bldg. 7-E Jhandewalan Extn. Rani Jhansi Road ,New Delhi.</option><option value="96">Punjab Mandi Borad,Ludhiana</option><option value="97">D-1 &amp; D-2 ( B&amp;R ) Municipal Corporation ,Ludhiana</option><option value="98">GLADA,Ludhiana</option><option value="99">B &amp; R Zone-D Municipal Corporation ,Ludhiana</option><option value="100">Zone-D B &amp; RSarabha NagarMunicipal Corporation ,Ludhiana</option><option value="101">Guru Nanak Dev Engineering College Civil Deptt.,Ludhiana</option><option value="102">Guru Nanak Dev Engineering College Civil Deptt.,Ludhiana</option><option value="103">W/S &amp; Sanitation Sub Division No. 5 ,Ludhiana</option><option value="104">13-A Maqbool Road,Amritsar</option><option value="105">Regd Office: 21605Street No.6/1APower House Road,Bathinda.</option><option value="106">400/220 KV Ludhiana Sub Station 11Km Stone Lalton Kalan Pakhowal Road ,Ludhiana</option><option value="107">400/220KV Sub Station GT Road Kartarpur.,Jalandhar</option><option value="108">Zone-B(B &amp; R) Municipal Corporation,Ludhiana</option><option value="109">Zone-B(B &amp; R) Municipal Corporation,Ludhiana</option><option value="110">W/s &amp; Sanitation Sub Division  ,Rajpura.</option><option value="111">W/s &amp; Sanitation Sub Division,Banur At Rajpura.</option><option value="112">Office-41/64 JB.R.S NagarOpp.Lodhi Club,Ludhiana</option><option value="113">H.No.963/5A Street No.5 Deep Nagar Civil Lines ,Ludhiana</option><option value="114">Zone-D B &amp; RSarabha NagarMunicipal Corporation,Ludhiana</option><option value="115">Municipal Corporation,Ludhiana</option><option value="116">C-101-102 2nd Floor Lajpat Nagar-1 Near Defence Colony Flyover Market ,New Delhi.</option><option value="117">Focal Point Phase-8 Near Forits Hospital ,Ludhiana</option><option value="118">Construction Sub Division PWD (B &amp; R) Br.,Mukerian</option><option value="119">Rajasthan Feeder Division ,Ferozepur</option><option value="120">Pb. Police Housing Corpn. Ltd. ,Bathinda.</option><option value="121">Shop No.5 Near Janta Laboratory G. T. Road ,Gurdaspur </option><option value="122">Northern Railway ,Ludhiana</option><option value="123">Oiffice-602 Trade Center Bandra Kurla Complex Babdra (East) ,Mumbai</option><option value="124">Zone-B(B &amp; R) Municipal Corporation ,Ludhiana</option><option value="125">Constn.  Division PWD  B &amp; R  Br. ,Moga</option><option value="126">W/S &amp; Sanitation Division No-1.  ,Malerkotla</option><option value="127">PB. W/S &amp; Sewerage Sub Division NO.2  ,Amritsar</option><option value="128">Harike Canal Division ,Ferozepur</option><option value="129">PSPCL  ,Ludhiana</option><option value="130">Northern Railway ,Sirhind </option><option value="131">Bathinda,Bathinda</option><option value="132">Birmi ,Distt. Ludhiana</option><option value="133">PIT Hoshiarpur C/o Punjab Technical University ,Jalandhar</option><option value="134">NIT-12 Ward no-6 M. C. Doraha  ,Ludhiana</option><option value="135">315 Master Tara Singh Nagar ,Jalandhar</option><option value="136">D/o Mr. Yogesh Baweja GNDEC (Dept. CSE) ,Ludhiana</option><option value="137">S/o S. Gurdeep Singh GNDEC (Dept. CSE) ,Ludhiana</option><option value="138">D/o Mr.Rajinder Kumar GNDEC (Dept. CSE) ,Ludhiana</option><option value="139">S/o Sh. Satist Kumar Singh GNDEC (Dept CSE) ,Ludhiana</option><option value="140">S/o Sh. Ashwani Kumar GNDEC (Dept CSE) ,Ludhiana</option><option value="141">Father Name-Mr. A.K.Dutta GNDEC (Dept CSE) ,Ludhiana</option><option value="142">D/o S.Darshan Singh GNDEC (Dept CSE) ,Ludhiana</option><option value="143">S/o Sh. Satinder Kumar GNDEC (Dept CSE) ,Ludhiana</option><option value="144">D/o S. Gurbachan Singh GNDEC (Dept CSE) ,Ludhiana</option><option value="145">S/o S. Surinder Singh GNDEC (Dept. CSE) ,Ludhiana</option><option value="146">S/o S. Pargat Singh GNDEC (Dept. CSE) ,Ludhiana</option><option value="147">S/o S. Harvinder Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="148">S/o S. Baljeet Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="149">D/o  S Jaswinder Singh GNDEC (Dept. ECE)   ,Ludhiana</option><option value="150">D/o S Surinder Singh GNDEC (Dept ECE) ,Ludhiana</option><option value="151">D/o S Rai Singh GNDEC (Dept. ECE) ,Ludhiana</option><option value="152">Florence City ,Pathankot</option><option value="153">Zone-C (B &amp; R) Municipal corporation,Ludhiana</option><option value="154">S/o S. Anaib Singh Guru Nanak Dev Engineering College (Deptt. IT),Ludhiana</option><option value="155">,Jalandhar</option><option value="156">S/o S. Ram Asra SIngh GNDEC (Dept CSE) ,Ludhiana</option><option value="157">S/0 S. Tarlok Singh GNDEC (Dept CSE) ,Ludhiana</option><option value="158">Punjab Police Housing Corporation Ltd. QTR No.247-248 Police Lines ,Jalandhar</option><option value="159">Govt.Contractor. ,Kotkapura</option><option value="160">341-42-D Phase-8 Focal Point,Ludhiana</option><option value="161">PHSC.,Sangrur</option><option value="162">D/o  Mr. Suresh Chawla Chitkara University ,Baddi</option><option value="163">W/s &amp; Sanitation Sub Division ,Dhuri</option><option value="164">Punjab Police Housing Corporation Civil Sub DivisionQtr. No.29 PS Sadar ,Ludhiana</option><option value="165">D/o Sh.Mehar Chand GNDEC (Dept. IT) ,Ludhiana</option><option value="166">D/o Mr. P.N Pathak GNDEC (Dept.IT) ,Ludhiana</option><option value="167">S/o S. Avtar Singh GNDEC (Civil Deptt.),Ludhiana</option><option value="168">S/o Sh. Lekh Raj GNDEC (Dept. CSE),Ludhiana</option><option value="169">Civil Works Division PSTCL ,Jalandhar</option><option value="170">Near Jagraon Bridge (MES) ,Ludhiana</option><option value="171">International Youth Centre 2nd Floor Teen Murti Marg Chanakyapuri ,New Delhi </option><option value="172">Pb.W/S &amp; Sew Sub Division No.1,Jalandhar</option><option value="173">S/o S.Arvinder Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="174">D/o S.Daljit Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="175">S/o S. Balwant Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="176">S/o S. Surinder Singh GNDEC (Dept. Civil) ,Ludhiana</option><option value="177">S/o S. Kuldeep Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="178">S/o S. Surjit Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="179">S/o S. Gurpal Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="180">S/o S.Harjit Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="181">S/o S. Inderjit Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="182">S/o S. Varinder Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="183">S/o S. Barinderjit Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="184">S/o S. Gurbant Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="185">Pb. W/S &amp; Sew Sub Divn.,Batala</option><option value="186">S/o S. Surjit Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="187">D/o S. Raghwinder SIngh GNDEC (Dept.Civil) ,</option><option value="188">Provincial Sub Division No.3 PWD B &amp; R,Ludhiana</option><option value="189">2nd Floor B-1535/1A St.No. 4 New Prem Nagar Backside Las Vigas Pub ,Ludhiana</option><option value="190">B-III-151 Ward No. 12 Sahnewal ,Ludhiana</option><option value="191">S/o S. R.N. Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="192">S/o Mr.D.K. Sahoo GNDEC (Dept.CSE) ,Ludhiana</option><option value="193">S/o Mr. Rampratap Singh GNDEC (Dept.CS) ,Ludhiana</option><option value="194">S/o Mr. M. Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="195">Municipal Concil Sahnewal,Ludhiana</option><option value="196">50 MLD CETP Tajpur Road Adjoining Central Jail ,Ludhiana</option><option value="197">S/o S. Paramvir Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="198">D/o S.Sukhwinder Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="199">D/o S.Jasvir Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="200">D/o S.Bhajan Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="201">D/o S.Jagtar Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="202">D/o S. Surjit Singh GNDEC (Dept.IT) ,Ludhiana</option><option value="203">D/o S. Hardavinder Singh GNDEC (Dept.IT) ,Ludhiana</option><option value="204">D/o S.Hardip Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="205">Sarna,Pathankot</option><option value="206">S/o Ashwani Sharma GNDEC (Mech.Deptt.),Ludhiana</option><option value="207">D/o S. Bir Singh GNDEC (Dpet.ECE) ,Ludhiana</option><option value="208">D/o S. Narinder Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="209">S/o Mr. David GNDEC (Dept.CSE) ,Ludhiana</option><option value="210">S/o S. Baljeet Singh GNDEC (Dept.CSE),Ludhiana</option><option value="211">S/o S. Darshan Singh Bhatti GNDEC (Dept.CSE) ,Ludhiana</option><option value="212">S/o S. Karamjit Singh Lamba GNDEC (Dept.CSE) ,Ludhiana</option><option value="213">Phase-6 Focal Point ,Ludhiana</option><option value="214">S/o S. Sukhchain Singh GNDEC (Deptt. CSE),Ludhiana</option><option value="215">W/S &amp; Sanitation Division ,Fatehgarh Sahib </option><option value="216">Panchayti Raj PWD ,Ludhiana</option><option value="217">W/s &amp; Sanitation Sub Division ,Dharamkot</option><option value="218">Pb. W/s &amp; Sewerage Sub Division no-1 ,Sangrur</option><option value="219">S/o Mr. Anand Kumar GNDEC (Dept.CSE) ,Ludhiana</option><option value="220">D/o S.Rajinder Singh GNDEC (Dept. CSE) ,Ludhiana</option><option value="221">Municipal Corporation,Ludhiana</option><option value="222">#390-A Hira Singh Road Ghumar Mandi ,Ludhiana</option><option value="223">Head of Techical Advisory Group S.C.O  89-90 Sector 34-A ,Chandigarh </option><option value="224">W/S &amp; Sanitation Division ,Khanna</option><option value="225">D/o Sh. Kuldeep Kumar Sharma GNDEC (Dept. CSE) ,Ludhiana</option><option value="226">Govt.Contractor Model Town Miani Road Dasuya ,Distt. Hoshiarpur</option><option value="227">S/o S.Harjit Singh GNDEC (Dept.Civil),Ludhiana</option><option value="228">S/o S. Avtar Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="229">D/o S. Ravinder Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="230">S/o Mr.Rahul Sharma GNDEC (Dept.IT) ,Ludhiana</option><option value="231">D/o S.Parminder Singh GNDEC (Dept. IT) ,Ludhiana</option><option value="232">Father Name- Sh.Kulwinder Chopra GNDEC (Dept. IT) ,Ludhiana</option><option value="233">S/o S. Sukhwinder Singh GNDEC (Dept Civil) ,Ludhiana</option><option value="234">S/o S.Harjit Singh GNDEC (Dept. CSE) ,Ludhiana</option><option value="235">S/o Sh. Ramesh Garg GNDEC (Dept. Civil) ,Ludhiana</option><option value="236">S/o Sh. Rajpal Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="237">,Saharanpur</option><option value="238">S/o S. Satwinderpal Singh GNDEC (Deptt.Civil),Ludhiana</option><option value="239">R/o 3344 Chet singh Nagar,Ludhiana</option><option value="240">GLADA ,Ludhiana </option><option value="241">GLADA ,Ludhiana </option><option value="242">Punjab Police Housing Corporation Ltd. ,Jahankhelan</option><option value="243">D/o Mr. Sudesh Kumar GNDEC (Dept. Civil) ,Ludhiana</option><option value="244">Local Gurudwara Committee Lakhpur ,Phagwara</option><option value="245">Sadhu Singh DAV Rural Public School Mukandpur ,Distt. Sbs Nagar</option><option value="246">D/o S.Paramjit Singh G.N.D.Ploy.(Dept.CS) ,Ludhiana</option><option value="247"># 9 2nd Floor Sona Complex Miller Gunj ,Ludhiana</option><option value="248">D/o S. Baldev Singh GNDEC (Dept ECE) ,Ludhiana</option><option value="249">G.P.W.S.C. Bamial , Pathankot</option><option value="250">S/o Sh. Anil Mittal GNDEC (Deptt.CSE),Ludhiana</option><option value="251">Improvement Trust ,Amritsar</option><option value="252">S/o S.Jagdev Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="253">D/o S.Gurmeet Singh G.N.D.Poly.College  (Dept. CS) ,Ludhiana</option><option value="254">V.P.O. Uggi Teh. Nakodar ,Distt. Jalandhar</option><option value="255">B &amp; R Sub Zone D-4 Fountain Chowk Municipal Corporation,Ludhiana</option><option value="256">Guru Nanak Public School Committee Birmi,Ludhiana</option><option value="257">S/o Sh. Parshu Ram Adhikari GNDEC (Deptt. Civil),Ludhiana</option><option value="258">Zone-C (B &amp; R) Municipal corporation,Ludhiana</option><option value="259">PB. W/S &amp; Sewerage Sub Division NO.2 ,Bathinda</option><option value="260">D/o Sh. Satish Kumar GNDEC (Dept CSE) ,Ludhiana</option><option value="261">PSTCL ,Ropar</option><option value="262">Punjab Agricultural Univerisity ,Ludhiana</option><option value="263">Sehdev MarketNear P&amp;T Colony ,Jalandhar City </option><option value="264">Ropar Head Works Division ,Ropar</option><option value="265">S/o Sh. Hansraj GNDEC (Dept.Civil) ,Ludhiana</option><option value="266">Constn. Sub Division No-3 PWD  B &amp; R  Br. ,Ludhiana</option><option value="267">Punjab Mandi Borad ,Ludhiana-I</option><option value="268">GLADA ,Ludhiana</option><option value="269">Municipal Corporation ,Jalandhar</option><option value="270">S/o S. Harinder Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="271">,Ludhiana</option><option value="272">Guru Nanak Dev Engineering College,Ludhiana</option><option value="273">Guru Nanak Dev Engineering College,Ludhiana</option><option value="274">Guru Nanak Dev Engineering College,Ludhiana</option><option value="275">Guru Nanak Dev Engineering College,Ludhiana</option><option value="276">Guru Nanak Dev Engineering College,Ludhiana</option><option value="277">S/o S. Jagpal Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="278">Industrial Area-C Kanganwal Near Taxla Plastic,Ludhiana</option><option value="279">Improvement Trust,Jalandhar</option><option value="280">,Jammu (J&amp;K). </option><option value="281">S/o Sh. Yashpal Kakkar GNDEC (Dept.Civil) ,Ludhiana</option><option value="282">S/o S. Harjot Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="283">,Ludhiana</option><option value="284">400/220 KV Sub Station (PSTCL) ,Nakodar</option><option value="285">S/o S. Surinder Singh GNDEC (Dept. Civil) ,Ludhiana</option><option value="286">S/o Sh. Yashpaul Kakkar GNDEC (Dept. Civil) ,Ludhiana</option><option value="287">101 Part-III Sector-28 Gandhinagar ,Gujarat</option><option value="288">S/o Sh. Raj Kishore Prasad GNDEC (Deptt. Civil),Ludhiana</option><option value="289">Pb. W/S &amp; Sew Sub Division,Phagwara</option><option value="290">D/o Sh. Suresh jain GNDEC (Deptt. CSE),Ludhiana</option><option value="291">D/o S. Satnam Singh GNDEC (Dept.ECE) ,Ludhiana</option><option value="292">S/o S. Ram Singh Bunger Room No.64 hostel No.2 GNDEC,Ludhiana</option><option value="293">D/o S. Amarjit Singh Dr. B R Ambedkar National Institute of Technology G.T.Road Bye Pass,Jalandhar</option><option value="294">V.P.O. Sarabha ,Distt. Ludhiana</option><option value="295">B &amp; R. Sub Zone D-3 Sarabha Nagar Municipal Corporation,Ludhiana</option><option value="296">Zone-A Municipal Corporation ,Ludhiana</option><option value="297">S/o S. Sukhjit Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="298">44- Sukhdev Avenue,Ludhiana</option><option value="299">Near Lodhi Club Shaheed Bhagat Singh,Ludhiana</option><option value="300">Pb. W/S &amp; SEw Sun Divn.,Naranshahar</option><option value="301">Dr. R.G Rao Villa 1st Floor Near Amboli Church Andheri (West) ,Mumbai</option><option value="302">,Muktsar</option><option value="303">GT Road Near Manji Sahib Gurudwara ,Doraha</option><option value="304">Construction Division No.2 PWD (B&amp;R) Br. ,Kapurthala</option><option value="305">Bharat Nagar Chowk,Ludhiana</option><option value="306">Sun View Colony South City ,Ludhiana</option><option value="307">Panchayti Raj PWD ,Ludhiana</option><option value="308">S/o Sh. Arun Kumar Dubey GNDEC (Deptt.IT),Ludhiana</option><option value="309">W/S &amp; Sanitation Division No. 2 ,Shri Muktsar Sahib</option><option value="310">,Ludhiana</option><option value="311">D/o S. Ranjit Singh GNDEC (Dept.IT) ,Ludhiana</option><option value="312">Zone-A (B &amp;R) Municipal Corporation ,Ludhiana</option><option value="313">Department of Livestock Products Technology GADVASU ,Ludhiana</option><option value="314">,Ludhiana</option><option value="315">S/o. S.Daljit Singh Pandher GNDEC (Dept.Mech.) ,Ludhiana</option><option value="316">Zone-D Municipal Corporation ,Ludhiana</option><option value="317">0-116 Frist Floor Shopping Mall Arjun Marg DLF City Phase-1 Gurgaon ,Haryana</option><option value="318">Construction Division No.1 PWD (B&amp;R) Br. ,Ludhiana </option><option value="319">Punjab Mandi Borad Kisan Bhawan Sector-35A ,Chandigarh</option><option value="320">Municipal Corporation ,Ludhiana</option><option value="321">Municipal Corporation,Ludhiana</option><option value="322">,Pathankot</option><option value="323">,Pathankot</option><option value="324">Nehru Nagar College Road,Pathankot</option><option value="325">D/o S. Preet Mohinder Singh DAV Institute of Engg.&amp; Tech.,Jalandhar</option><option value="326">E-19 Focal Point ,Ludhiana</option><option value="327">Road No-9 Hanuman Nagar ,Patna</option><option value="328">W/S &amp; Sanitation Division No. 2 ,Ludhiana</option><option value="329">Rajgadh Estates Sidhwan Canal Vill Birmi Road ,Ludhiana</option><option value="330">P.H.S.C. ,Barnala</option><option value="331">Institutes of Engineers,New Delhi</option><option value="332">400/200 Kv GIS Sub Station VPO Rajera Distt. Chamba ,Himachal Pardesh</option><option value="333">C-58 Focal Point,Ludhiana</option><option value="334">Village Nanowal Kalan Behlolpur Road Tehsil Khamano,Fatehgarh Sahib</option><option value="335">S/o Sh. Paramjit Pujani DAV Institute of Engineering &amp; Technology Kabir Nagar,Jalandhar</option><option value="336">L &amp; T,Gujarat</option><option value="337">For Their Client M/s Punjab Greenfield Resources Ltd. S.C.O.-32 Basement Cabin No.2 Foroze Gandi,Ludhiana</option><option value="338">Street No. 1 Shiv Colony ,Bathinda</option><option value="339">Rites Bhawan No.1 Sector 29,Gurgaon</option><option value="340">Larsen &amp; Toubro Ltd. Kothi No.74 Modern Colony New Jawahar Nagar ,Jalandhar City</option><option value="341">119A Gandhi Nagar,Jammu</option><option value="342">N.I.T. No.7 Ward No.11 Leela Resorts M.C.Doraha,Ludhiana</option><option value="343">S/o S. Gurmeet Singh Continental Institute of Engg. &amp; Tech. NH1 Vill. Jalvehra Sirhind,Fatehgarh Sahib</option><option value="344">Zone-C (B &amp; R) Municipal Corporation ,Ludhiana</option><option value="345">V.P.O. Rasulpur Near Banga Salhon Road (Nawanshahr) ,S.B.S. Nagar</option><option value="346">,Ludhiana</option><option value="347">Sub Zone (D-2) Municipal Corporation ,Ludhiana</option><option value="348">Construction Division No.1 PWD (B&amp;R) Br. ,Jalandhar Cantt.</option><option value="349">S.C.F. 12 Urban Estate Phase-1 Dugri ,Ludhiana</option><option value="350">Pb. W/s &amp; Sewerage Sub Division No-1 ,Ludhiana</option><option value="351">W/S &amp; Sanitation Division No.1,Malerkotla</option><option value="352">Municipal Corporation ,Jalandhar</option><option value="353">Construction Sub Division PWD (B &amp; R) Br. ,Doraha</option><option value="354">Municipal Corporation ,Moga</option><option value="355">D/o S.Harjit singh GNDEC (Deptt. M.C..A),Ludhiana</option><option value="356">Dean Consultancy Guru Nanak Dev Engineering College ,Ludhiana</option><option value="357">Vill. Balachak P.O. Chabba Tarntaran Road ,Amritsar</option><option value="358">Provincial Division PWD (B &amp; R) Branch ,Jalandhar Cantt. </option><option value="359">Vigilance Bureau ,Unit Jalandhar</option><option value="360">Punjab Police Housing Corporation Ltd. D-Division Lahori Gater ,Amritsar</option><option value="361">Punjab State Warehousing Corporation SCO 119-120 Sector 17-B ,Chandigarh</option><option value="362">Zone-B (B &amp; R) Municipal Corporation,Ludhiana</option><option value="363">Jitwal Kalan Tehsil Malerkotla ,Distt. Sangrur</option><option value="364">Construction Division No.1 PWD (B&amp;R) Branch ,Bathinda</option><option value="365">Water Supply  &amp;  Sanitation Sub Division ,Ghanour</option><option value="366">GLADA ,Ludhiana</option><option value="367">Punjab Mandi Borad ,Malerkotla, Sangrur</option><option value="368">S/o S. Baldev Singh VPO Talwandi Mallian Teh. Dharamkot,Moga</option><option value="369">D/o S.Harwinder Singh Khalsa College for Women Civil Lines (Daptt. BCA) ,Ludhiana</option><option value="370">D/o Mr. Tarsem Singh Khalsa College for Women Civil Lines  (Deppt.BCA) ,Ludhiana</option><option value="371">D/o S. Prithipal Singh GNDEC (Deptt.M.C.A.),Ludhiana</option><option value="372">C/o 18 GNE Campus,Ludhiana</option><option value="373">Opp. Veer Palace Chd. Road ,Ludhiana</option><option value="374">VPO Barsal Tehsil Jagraon ,Ludhiana</option><option value="375">Gobindgarh ,Distt. Fatehgarh Sahib.</option><option value="376">Provincial Sub Division No. 1 PWD (B &amp; R) Branch ,Jalandhar Cantt.</option><option value="377">Focal Point ,Ludhiana</option><option value="378">Guru Nanak Dev Engineering College (Civil Deptt.),Ludhiana</option><option value="379">SCO-7-8 3rd Floor Jnadu Tower Miller Gunj G T Road ,Ludhiana</option><option value="380">Oiffice-602 Trade Center Bandra Kurla Complex Babdra (East) ,Mumbai </option><option value="381"># 80 Phase-I Model Town ,Bathinda</option><option value="382">Punjab Police Housing Corporation Ltd. Police Complex Phase-VII,SAS Nagar</option><option value="383">D/o S. Harwinder Singh GNDEC (Deptt. MCA),Ludhiana</option><option value="384">W/S &amp; Sanitation Sub Division No.2 ,Balachaur</option><option value="385">Municipal Corporation ,Ludhiana</option><option value="386">Indian Oil Corporation Limited (MD) Jind Road ,Sangrur </option><option value="387">(PMC for Amritsar Sewerage Project) ,Amritsar </option><option value="388">Municipal Corporation Zone-A (N),Ludhiana</option><option value="389">C-102/105 Phase-V Focal Point ,Ludhiana</option><option value="390"># 35 Sangam Enclave Sector 48-A ,Chandigarh</option><option value="391">SCO-3 1st Floor Model Town Extention ,Ludhiana</option><option value="392">,Jalandhar </option><option value="393">Prop. Shiv Kumar Bajaj 79 Central Market Gill Road ,Ludhiana</option><option value="394">Teona Canal Sub Division ,Gidharbaha</option><option value="395">3rd Floor SCO 23-24 Model Town Extn. D-Block ,Ludhiana</option><option value="396">D/o Sh. Gurpal Singh GNDEC (Deptt. MCA),Ludhiana</option><option value="397">Northern Railway,Phagwara</option><option value="398">14th Floor IFCI Tower 61 Nehru Place ,New Delhi</option><option value="399">Civil Works Division PSPCL ,Ludhiana </option><option value="400">B-257 B R S Nagar ,Ludhiana</option><option value="401">Panchayti Raj PWD ,Sri Muktsar Sahib </option><option value="402">Guru Nanak Dev Engineering College (Mech. Deptt.),Ludhiana</option><option value="403">S/o Sh. Rakesh Kumar GNDEC (Deptt. CSE),Ludhiana</option><option value="404">Zone-C (B &amp; R) Municipal Corporation ,Ludhiana</option><option value="405">St.No. 5 Opp. Girls College Ground Sh. Guru Angad Dev Nagar Amloh Road ,Khanna</option><option value="406">V.P.O. Threeke ,Ludhiana</option><option value="407">61-B Rose Enclave Pakhowal Raod ,Ludhiana</option><option value="408">Guru Nanak Dev Engineering College (Civil Deptt.),Ludhiana</option><option value="409">Punjab Health Systems Corporation ,Ludhiana</option><option value="410">Vill. Rampura PO Bhawanigarh ,Distt. Sangrur</option><option value="411">Office - Near Micky Gill Hospital Kotkapura Byepass ,Moga</option><option value="412">3rd Floor Elites Arcade Mall Road ,Ludhiana</option><option value="413">85-C Udham Singh Nagar ,Ludhiana</option><option value="414">N.R.-II 400 Kv Abdullapur Sub Station Vill. Bhamboli Jagadhri-Ambala Road ,Yamuna Nagar </option><option value="415">Improvement Trust ,Roopnagar </option><option value="416">,Srinagar (J&amp;K)</option><option value="417">D-4 Civil Lines ,Bathinda</option><option value="418">400 Kv Sub Sation. Ludhiana Road Malerkotla ,Distt. Sangrur </option><option value="419">B&amp;R Municipal Corporation ,Jalandhar </option><option value="420">Municipal Corporation ,Ludhiana</option><option value="421">,Ludhiana</option><option value="422">Improvement Trust ,Amritsar</option><option value="423">Punjab Police Housing Corporation PPA ,Phillour </option><option value="424">TRILIUM Mall C-4 Bansant Avenue Circular Road,Amritsar</option><option value="425">Punjab Mandi Borad,Ludhiana</option><option value="426">Punjab Mandi Borad ,Ludhiana</option><option value="427">Villege Bhagwanpur ,Distt. Ludhiana</option><option value="428">Village Birmi,Ludhiana</option><option value="429">,Mohali</option><option value="430">Municipal Council,Khanna</option><option value="431">M/s. Kavit Bardwaj Contractor,Khanna</option><option value="432">Nagar Panchyat Mullanpur Dakha,Ludhiana</option><option value="433">Nagar Councial,Raikot</option><option value="434">Vijay Kumar Goyal Office Shop No.65 Old Grain Market ,Sunam</option><option value="435">Sherpur Choek G T Road ,Ludhiana</option><option value="436">Central Jail ,Amritsar</option><option value="437">Guru Nanak Dev Engineering College (Elect. Deptt.),Ludhiana</option><option value="438">W/S &amp; Sanitation Division ,Tarn Taran </option><option value="439">96-F SBS Nagar,Ludhiana</option><option value="440">Hajipur ,Distt. Hoshiarpur</option><option value="441">Construction Division PWD (B&amp;R) ,Sangrur</option><option value="442">,Bathinda</option><option value="443">Village Gill Malerkotla Road ,Ludhiana</option><option value="444">Postal/Mktg Off.- 27 Chandini Complex Sherpur Kalan Focal Point Road,Ludhiana</option><option value="445">S.C.O. - 87 Frist Floor Phase-1 Dugri ,Ludhiana</option><option value="446">W/S &amp; Sanitation Division ,Kapurthala</option><option value="447">Civil Works Sub Division PSPCL ,Sri Muktsar Sahib </option><option value="448">C/o Mahatma Gandhi Institute of Public Administration Sector-26 ,Chandigarh</option><option value="449">800/400/220Kv Sub Station Complex Urja Nagar Kotkapura Road ,Moga</option><option value="450">Chandigarh Road ,Ludhiana </option><option value="451">SCO - 549 Sector - 70 ,Mohali</option><option value="452">PAU ,Ludhiana</option><option value="453">Manak Bhavan 9 Bahadur Shah Zafar Marg ,New Delhi</option><option value="454">,Doraha </option><option value="455">Country Homes (North) Near Barewal Canal Bridge,Ludhiana</option><option value="456">Municipal Corporation ,Jalandhar</option><option value="457">W/S &amp; Sanitation Sub Division No. 2 ,Nawashehar</option><option value="458">F-13 Central Plaza (DLF Golf Course Road) Sector-53 Gurgaon ,Haryana</option><option value="459">,Hoshiarpur </option><option value="460">Tel Bhawan Plot No. 6 A Sector - 19-B  ,Chandigarh</option><option value="461">Village Jhande Near Baddowal Railway Station Firozpur Road ,Ludhiana</option><option value="462">464 Mota Singh Nagar ,Jalandhar </option><option value="463">GLADA,Ludhiana</option><option value="464">Municipal Corporation ,Ludhiana</option><option value="465">Badhani Laining Sub Division ,Ludhiana</option><option value="466">Punjab Mandi Borad ,Barnala </option><option value="467">B-XIX-546 Govt. College Road Civil Lines ,Ludhiana</option><option value="468">Chawa Payal ,Ludhiana</option><option value="469">Punjab Health Systems Corporation ,Jalandhar</option><option value="470">VPO Kussa ,Distt. Moga</option><option value="471">Gram Panchyat Village Nagar Block Phillour,Jalandhar</option><option value="472">Central Sudhar Ghar Near Baba Farid University BHEL Road ,Goindwal Sahib</option><option value="473">,Ludhiana</option><option value="474">Prem Nagar Bohrawala Poilce Line Road Batala ,Distt. Gurdaspur</option><option value="475">35-A Raghunath Enclave Aggar Nagar Ferozepur Road ,Ludhiana</option><option value="476">GPWSC Village Fattu Chack Block Narote Jalmal Singh,Pathankot</option><option value="477">258 Sector-5 U.E. ,Gurgaon</option><option value="478">Village Ramgarh Nakodar Road Jagraon,Ludhiana</option><option value="479">Construction Sub Division No.3 PWD (B&amp;R) Br. ,Ludhiana</option><option value="480">W/S &amp; Sanitation Sub Division ,Jagraon</option><option value="481">Improvement Trust ,Ludhiana</option><option value="482">Ferozepur Road Opp. Circuit House ,Ludhiana</option><option value="483">Market Committiee ,Malerkotla</option><option value="484">Village Sidhwan Khurd Teh. Jagraon ,Distt. Ludhiana</option><option value="485">Office- Sahnewal Dehlon Road Vill. Paddi ,Distt. Ludhiana</option><option value="486">SCO-375 IInd Floor Sector-37-D ,Chandigarh</option><option value="487">W/S &amp; Sanitation Sub Division ,Sehna At Barnala</option><option value="488">R.O - 82 Abhyankar Nagar Park Road ,Nagpur</option><option value="489">W/S &amp; Sanitation Sub Division No. 4 ,Ludhiana</option><option value="490">Street No. 3. Bachittar Nagar Near G.N.D.E. College ,Ludhiana</option><option value="491">Ferozepur Road ,Ludhiana</option><option value="492">Ground Floor House No. 163/2 Chand Colony Near Raman Enclave Haibowal Khurd ,Ludhiana</option><option value="493">,Mukerian</option><option value="494">Water Resources Inv. Sub-Division No. 2  ,Ludhiana</option><option value="495">467-L 1st Floor Model Town ,Ludhiana</option><option value="496">Rasulpur,Distt. S.B.S. Nagar</option><option value="497"># 7 1st Floor Sant Isher Singh Nagar Pakhowal Road,Ludhiana</option><option value="498"># 7 1st Floor Sant Isher Singh Nagar Pakhowal Road,Ludhiana</option><option value="499">B-64 Sector-65 ,Noida</option><option value="500">VPO  Sarinh,Ludhiana</option><option value="501">Provincial Division PWD B &amp; R ,Ludhiana</option><option value="502">B-41 Phase-VI Focal Point ,Ludhiana</option><option value="503">Punjab Mandi Borad ,S.A.S. Nagar</option><option value="504">Mattewara Forest Range ,Mattewara</option><option value="505">Office-21605 Street No. 6/1A Power House Road ,Bathinda</option><option value="506">Nagar Council ,Gobindgarh</option><option value="507">Atam Tower Sunder Nagar,Ludhiana</option><option value="508"> Govt. Contr.,Pathankot</option><option value="509">Municipal Corporation ,Jalandhar</option><option value="510">Construction Division B&amp;R Branch ,Moga</option><option value="511">Pb.W/S &amp; Sew Sub Division No.1,Ludhiana</option><option value="512">D-2 (B&amp;R) Municipal Corporation ,Ludhiana</option><option value="513">A-191 Shakarpur Vikas Marg ,New Delhi</option><option value="514">SCO. No. 6 333 Industrial Area-A ,Ludhiana</option><option value="515">,Mohali</option><option value="516">Janpath Villas Sidhwan Canal Vill Jhammat P.O. Ayali Kalan ,Ludhiana</option><option value="517"># 47 Sector - 9 Panchkula ,Haryana</option><option value="518">Municipal Corporation B &amp; R,Jalandhar</option><option value="519">Municipal Corporation ,Moga</option><option value="520">Punjab Pollution Control Board,Patiala</option><option value="521">C-184 Arjun Nagar,Delhi-29</option><option value="522">,Batala</option><option value="523">Khoti No. 71 Phase-1 Sarabha Nagar Extension,Ludhiana</option><option value="524">Civil Lines ,Ludhiana</option><option value="525">VPO Behrampur ,Gurdaspur</option><option value="526">W/S &amp; Sanitation Sub Division No. 1 ,Pathankot</option><option value="527">Municipal Corporation ,Ludhiana</option><option value="528">Public Health GLADA ,Ludhiana</option><option value="529">Municipal Council ,Khanna (Ludhiana)</option><option value="530">Municipal Council ,Khanna</option><option value="531">Civil Construction &amp; Mtc Division PSPCL ,Ludhiana</option><option value="532">Zone-C Municipal Corporation ,Ludhiana</option><option value="533">Punjab Health Systems Corporation ,Jalandhar</option><option value="534">Ludhiana Local Centre Dugri Road ,Ludhiana</option><option value="535">Panchayti Raj PWD ,Amritsar</option><option value="536">Municipal Corporation ,Ludhiana</option><option value="537">Bhathinda Road ,Kotkapura</option><option value="538">Panchayti Raj PWD ,Jalandhar</option><option value="539">B-XXX-6754 Focal Point ,Ludhiana</option><option value="540">Central Sudhar Ghar ,Bathinda</option><option value="541">Water Resources Investigation Sub-Division No. 2 ,Ludhiana At Khanna</option><option value="542">The Revene Frist Floor 805 Bhandarkar Institute Road ,Pune, Maharashtra </option><option value="543">Construction Division PWD (B&amp;R) ,Malerkotla</option><option value="544">Punjab W/s &amp; Sew. Sub Division ,Zira</option><option value="545">E-174A Focal Point ,Ludhiana</option><option value="546">222-F Rishi Nagar Near Income Tax Office,Ludhiana</option><option value="547">Village Magat GT Road ,Ludhiana</option><option value="548">SCO No. 131-132 Sector-17-c ,Chandigarh</option><option value="549">Sri Guru Granth Sahib World University (SGPC Project) ,Fatehgarh Sahib</option><option value="550">W/s &amp; Sanitation Division ,Malot</option><option value="551">253 Medical Enclave Circular Road ,Amritsar</option><option value="552">W/s &amp; Sanitation Sub Division ,Dehlon At Ludhiana</option><option value="553">Phase-III Urban Estate Dugri ,Ludhiana</option><option value="554">G. T. Road Doraha ,Ludhiana</option><option value="555">Club Road Civil Lines,Ludhiana</option><option value="556">Improvement Trust ,Ludhiana</option><option value="557">Cum-Chief CVO Sarabha Nagar Zone-D Municipal Corporation ,Ludhiana</option><option value="558">H.No.338 Sector-06 ,Panchkula,</option><option value="559">Dakha Mullanpur ,Distt. Ludhiana</option><option value="560">D/o. S. Dalbra Singh Guru Nanak Dev Engineering College ,Ludhiana</option><option value="561">D/o. S.Amrik Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="562">D/o. S. Jagjit Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="563">D/o. S. Manjit Singh Jhalli Guru Nanak Dev Engineering College,Ludhiana</option><option value="564">S/o. S. Harpal Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="565">S/o. S. Madan Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="566">S/o. S. Jasvir Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="567">Nagar Council ,Nangal</option><option value="568">S/o. S. Harmuhan Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="569">S/o. S. Makhan Singh BIS College of Engg.&amp; Tech. Gagra,Moga</option><option value="570">D/o. S. Sukhminder Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="571">Provincial Sub Division No.3 PWD B&amp;R ,Ludhiana</option><option value="572">,Ludhiana</option><option value="573">S/o. S. Paramjit Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="574">S/o. S. Jasbir Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="575">Village Hambran,Ludhiana</option><option value="576">70-K Sarabha Nagar ,Ludhiana</option><option value="577"># B-IV/108 Gate No.1 Banasar Baag Road ,Sangrur</option><option value="578">,Amritsar</option><option value="579">Nagar Council Gobindgarh ,Fatehgarh Sahib</option><option value="580">602-R Model Town,Ludhiana</option><option value="581">Vigilence Bureau,Sri Mukatsar Sahib</option><option value="582">W/s &amp; Sanitation Sub Division No.1 ,Hoshiarpur</option><option value="583">Punjab PWD (B&amp;R) ,Patiala</option><option value="584">Village Jodhan ,Distt. Ludhiana</option><option value="585">Bhakra Beas Management Board Chandigarh Road Jamalpur ,Ludhiana</option><option value="586">D-1 &amp; D-2 (B&amp;R) Municipal Corporation ,Ludhiana</option><option value="587">Office: St.No.5 Partap Singh Nagar Near Usha Mata Mandir ,Kotkapura</option><option value="588">G.T.B. National College Dakha,Ludhiana</option><option value="589">W/s &amp; Sanitation Sub Division No.1 ,Hoshiarpur</option><option value="590">Chumo Road ,Malod, Ludhiana</option><option value="591">Air Force Station ,Halwara</option><option value="592">Near Chawal Fuel Station Didhwa Road Hambra,Ludhiana</option><option value="593">G.T. Road Dholewal,Ludhiana</option><option value="594">PSTCL T.L.S.C. Division ,Mohali</option><option value="595">10192, Street No.8, Janta Nagar, ,Ludhiana</option><option value="596">.,Phagwara</option><option value="597">VPO Ghuman,Ludhiana</option><option value="598">Harnampura Road,Khanpur,   Distt. Ludhiana</option><option value="599">G.T. Road, Sherpur Chowk,Ludhiana</option><option value="600">MC office,Pathankot</option><option value="601">Municipal Corporation,Pathankot</option><option value="602">Govt. Contructor,Gurdaspur</option><option value="603">Govt. Contructor,Gurdaspur</option><option value="604">Village Jassar, Canal Road,Ludhiana</option><option value="605">Govt. Contructor,Gurdaspur</option><option value="606">14-First Floor, Lawrence Plaza, Lawrence Road,Amritsar</option><option value="607">461G, B.R.S. Nagar,Ludhiana</option><option value="608">435, Jagriti Enclave, Vikas Marg Extn., ,Dehli</option><option value="609">Punjab Health Systems Corporation,Ludhiana</option><option value="610">Model Town,Ludhiana</option><option value="611">Village Sundra, P.O. Mubarikpur, Tehsil Derabassi, ,Distt. Mohali</option><option value="612">V.P.O. Noorpur, Dhogi Road, Near Reliance Tower,Jalandhar</option><option value="613">SCO-1, Delta Office, Main Road, Flower Enclave, Near 200 Feet Bye Pass,,Ludhiana</option><option value="614">Guru Nanak Dev Engg.College,Ludhiana</option><option value="615">Municipal Council, Amloh,,Fathegarh Sahib</option><option value="616">Sugar Mill Banga Road, ,Nawanshahr</option><option value="617">39, Ajit Nagar, ,Patiala</option><option value="618">Punjab Mandi Board, ,Banga</option><option value="619">V.P.O. Hambran, ,Distt. Ludhiana</option><option value="620">Church Complex,Barnala</option><option value="621">264, Okhla Phase-III,New Delhi</option><option value="622">C-67, Phase-III, Focal Point,Ludhiana</option></select><a href="/admin/useraccounts/address/add/?_to_field=id" class="add-another" id="add_id_customer-0-address" onclick="return showAddAnotherPopup(this);"><img src="/static/admin/img/icon_addlink.gif" width="10" height="10" alt="Add Another"/></a></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-telephone ">
+        
+          <div><div class="control-label"><label class="required" for="id_customer-0-telephone">Telephone:</label></div><div class="controls"><input class="vTextField" id="id_customer-0-telephone" maxlength="500" name="customer-0-telephone" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-fax ">
+        
+          <div><div class="control-label"><label for="id_customer-0-fax">Fax:</label></div><div class="controls"><input class="vTextField" id="id_customer-0-fax" maxlength="100" name="customer-0-fax" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-pan_no ">
+        
+          <div><div class="control-label"><label for="id_customer-0-pan_no">Pan no:</label></div><div class="controls"><input class="vTextField" id="id_customer-0-pan_no" maxlength="100" name="customer-0-pan_no" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-stc_no ">
+        
+          <div><div class="control-label"><label for="id_customer-0-stc_no">Stc no:</label></div><div class="controls"><input class="vTextField" id="id_customer-0-stc_no" maxlength="100" name="customer-0-stc_no" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-avatar ">
+        
+          <div><div class="control-label"><label for="id_customer-0-avatar">Avatar:</label></div><div class="controls"><input class="vTextField" id="id_customer-0-avatar" maxlength="100" name="customer-0-avatar" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-tagline ">
+        
+          <div><div class="control-label"><label for="id_customer-0-tagline">Tagline:</label></div><div class="controls"><input class="vTextField" id="id_customer-0-tagline" maxlength="140" name="customer-0-tagline" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-title ">
+        
+          <div><div class="control-label"><label for="id_customer-0-title">Title:</label></div><div class="controls"><input class="vTextField" id="id_customer-0-title" maxlength="200" name="customer-0-title" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-is_org ">
+        
+          <div><div class="control-label"><label class="vCheckboxLabel" for="id_customer-0-is_org">Is org</label></div><div class="controls"><input id="id_customer-0-is_org" name="customer-0-is_org" type="checkbox" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-org_type ">
+        
+          <div><div class="control-label"><label class="required" for="id_customer-0-org_type">Org type:</label></div><div class="controls"><select id="id_customer-0-org_type" name="customer-0-org_type"><option value="" selected="selected">---------</option><option value="1">Semi-Government</option><option value="2">Government</option><option value="3">Private</option></select><a href="/admin/useraccounts/organisationtype/add/?_to_field=id" class="add-another" id="add_id_customer-0-org_type" onclick="return showAddAnotherPopup(this);"><img src="/static/admin/img/icon_addlink.gif" width="10" height="10" alt="Add Another"/></a></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-company ">
+        
+          <div><div class="control-label"><label for="id_customer-0-company">Company:</label></div><div class="controls"><input class="vTextField" id="id_customer-0-company" maxlength="200" name="customer-0-company" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+</fieldset>
+
+
+
+  
+  <input id="id_customer-0-id" name="customer-0-id" type="hidden" />
+  <input id="id_customer-0-user" name="customer-0-user" type="hidden" />
+</div><div class="inline-related empty-form last-related" id="customer-empty">
+  <h3><b>Customer:</b>&nbsp;<span class="inline_label">#2</span>
+    
+    
+  </h3>
+  
+  
+    
+<fieldset class="module aligned first ">
+    
+  
+    
+      <div class="control-group form-row field-address ">
+        
+          <div><div class="control-label"><label class="required" for="id_customer-__prefix__-address">Address:</label></div><div class="controls"><select id="id_customer-__prefix__-address" name="customer-__prefix__-address"><option value="" selected="selected">---------</option><option value="1">Zone-AMunicipal Corporation,Ludhiana.</option><option value="2">Nagar Panchayt Nihal Singh Wala,Moga</option><option value="3">Zone-B (B &amp; R) Municipal Corporation ,Ludhiana</option><option value="4">W/S &amp; Sanitation Sub Division No.2,Malerkotla</option><option value="5">,Patiala</option><option value="6">Municipal Corporation,Ludhiana</option><option value="7">Central Town Village Dad P.O. Lalton,Ludhiana.</option><option value="8">H.O: 3rd Floor Pink Plaza Gulati Chowk Model Town,Ludhiana</option><option value="9">Head Works,Ropar.</option><option value="10">800/400/220 KV Sub Station Complex Urja Nagar Kotkapura Road,Moga</option><option value="11">GLADA,Ludhiana</option><option value="12">B &amp; R Municipal Corporation,Ludhiana</option><option value="13">H.N0:B-XXX-3804Street No.6Hargobind PuraOpp.Tarnsport Nagar,Ludhiana.</option><option value="14">Canal MogaSub Division,Moga</option><option value="15">Municipal Corporation,Ludhiana.</option><option value="16">Vill.SharinMalerkotla Road,Ludhiana</option><option value="17">Zone-B(B &amp; R) Municipal Corporation,Ludhiana.</option><option value="18">W/S &amp; Sanitation Sub Division-4,Hoshiarpur</option><option value="19">Dham Talwandi Khurd,Distt.Ludhiana.</option><option value="20">ISGEC Heavy Engineering Ltd,Yamuna Nagar.</option><option value="21">W/S &amp; Sanitation  Division-2.,Hoshiarpur.</option><option value="22">Pb. W/s &amp; Sew. Sub Division.,Moga</option><option value="23">Punjab W/S &amp; Sewerage. Sub Division ,Rajpura.</option><option value="24">Opp.Hero Cycles Ltd.G.T.Road,Ludhiana.</option><option value="25">Bhupindra Nagar Road,Patiala</option><option value="26">Punjab Health Systems Corporation Sub Division ,Amritsar</option><option value="27">W/s &amp; Sanitation Sub Division,Ludhiana</option><option value="28">15/16Hazari BaughIBS MargVikhorli (West) ,Mumbai</option><option value="29">W/S &amp; Sanitation Sub Division-4,Ludhiana</option><option value="30">Plot No.61-62NH-1-WestOpp.Big BazarNear Satsang GharVill.Kadiyan,Ludhiana</option><option value="31">S.G.P.C.Teja Singh Samoondri Hall ,Amritsar.</option><option value="32">800/400/220 KV Sub Station Complex Urja Nagar Kotkapura Road,Moga</option><option value="33">G.T.B Market Near Veer Palace Chandigarh Road,Ludhiana</option><option value="34">W/S &amp; Sanitation Division Sidhwan Bet,Ludhiana</option><option value="35">TLSC Division PSTCL ,Jalandhar</option><option value="36">Railway Road,Tarn Taran.</option><option value="37">W/S &amp; Sanitation Division,Fazilka.</option><option value="38">H.No.2595St.No.2Guru Nanak ColonyOpp G.N.E.College,Ludhiana.</option><option value="39">GLADA,Ludhiana.</option><option value="40">Zone-A ( N )Municipal Corporation ,Ludhiana</option><option value="41">Govt.Contractor.Vill.Dabra P.O.BhangchariTeh. &amp; Distt.,Muktsar.</option><option value="42">(B &amp; R)Municipal Corporation,Jalandhar.</option><option value="43">PB W/S &amp; SewerageSub Division NO.6. ,Ludhiana</option><option value="44">38 Raghbir Nagar,Patiala</option><option value="45">Ward No.11,Rajouri</option><option value="46">Municipal Corporation,Ludhiana</option><option value="47">Construction Sub Division PWD B&amp;R Branch,Jagraon At Ludhiana</option><option value="48">Model Town,Ludhiana</option><option value="49">Municipal Corporation,Ludhiana</option><option value="50">Zone-AMunicipal Corporation,Ludhiana.</option><option value="51">Zone-A ( B&amp;R ) Municipal Corporation,Ludhiana</option><option value="52">Bhai Randhir Singh Nagar,Ludhiana</option><option value="53">W/S &amp; Sanitation Sub Division ,Dhuri</option><option value="54">34Basant ViharJawadi,Ludhiana</option><option value="55">,Jalandhar.</option><option value="56">Provincial Division B &amp; R Br.,Mansa.</option><option value="57">84 Basant Vihar Jawadi,Ludhiana</option><option value="58">293-A Model Town Extn.,Ludhiana.</option><option value="59">Sarabha NagarMunicipal Corporation,Ludhiana.</option><option value="60">Govt.Contractor.,Pathankot.</option><option value="61">Govt.Contractor. ,Ropar</option><option value="62">PHSC.,Roopnagar.</option><option value="63">Plot No.-B.58 Phase VIIFocal Point,Ludhiana</option><option value="64">PHSC.,Mohali</option><option value="65">PHSC.,Sangrur.</option><option value="66">Sidhwan Canal Sub Division,Ludhiana</option><option value="67">Subhash NagarDaresi Road ,Ludhiana</option><option value="68">Municipal Corporation,Ludhiana</option><option value="69">VPO Kohara Chandigarh Road ,Ludhiana</option><option value="70">Sri Anandpur Sahib ,Ropar.</option><option value="71">,Ludhiana</option><option value="72">W/S &amp; Sanitation Division No-2. ,Sri Muktsar Sahib</option><option value="73">Municipal Corporation,Ludhiana</option><option value="74">GLADA,Ludhiana</option><option value="75">Govt. Contr,Amritsar</option><option value="76">Municipal Corporation,Moga</option><option value="77">Municipal Corporation,Ludhiana</option><option value="78">Shaheed Karnail Singh Nagar Street No.2A H.No.1903 Behind Merado Colony Gill Road,Ludhiana</option><option value="79">263 Bharat Nagar ,Ludhiana</option><option value="80">Const.Sub Division No.3P.W.D B &amp; R.Br,Ludhiana.</option><option value="81">1st FloorOpp. Leo Fort HotelNear B.M.C. Chowk ,Jalandhar.</option><option value="82">Beant College of Engineering &amp; TechnologyPost Box-13 ,Gurdaspur</option><option value="83">Zone-CB &amp; RMunicipal Corporation,Ludhiana</option><option value="84">B-XX550Pearl PalaceGhumar Mandi,Ludhiana</option><option value="85">Plot No.F-453 Phase-8 B. Industrial Aera SAS Nagar,Mohali</option><option value="86">Nagar Concil ,Jagraon.</option><option value="87">Nagar Panchayt Kot Ishe Khan,Moga</option><option value="88">Municipal Corporation ,Ludhiana</option><option value="89">9/12LalbazarStreet E Block4th FloorRoom No.10 ,Kolkata</option><option value="90">Govt.Contractor.,Amritsar</option><option value="91">Municipal Council Amloh ,Distt.Fatehgarh Sahib.</option><option value="92">98-11Sarabha Nagar ,Ludhiana</option><option value="93">Punjab Health Systems Corporation,Ludhiana</option><option value="94">W/S &amp; Sanitation Sub Division-5,Ludhiana</option><option value="95">5th FloorDean Dayal Bldg. 7-E Jhandewalan Extn. Rani Jhansi Road ,New Delhi.</option><option value="96">Punjab Mandi Borad,Ludhiana</option><option value="97">D-1 &amp; D-2 ( B&amp;R ) Municipal Corporation ,Ludhiana</option><option value="98">GLADA,Ludhiana</option><option value="99">B &amp; R Zone-D Municipal Corporation ,Ludhiana</option><option value="100">Zone-D B &amp; RSarabha NagarMunicipal Corporation ,Ludhiana</option><option value="101">Guru Nanak Dev Engineering College Civil Deptt.,Ludhiana</option><option value="102">Guru Nanak Dev Engineering College Civil Deptt.,Ludhiana</option><option value="103">W/S &amp; Sanitation Sub Division No. 5 ,Ludhiana</option><option value="104">13-A Maqbool Road,Amritsar</option><option value="105">Regd Office: 21605Street No.6/1APower House Road,Bathinda.</option><option value="106">400/220 KV Ludhiana Sub Station 11Km Stone Lalton Kalan Pakhowal Road ,Ludhiana</option><option value="107">400/220KV Sub Station GT Road Kartarpur.,Jalandhar</option><option value="108">Zone-B(B &amp; R) Municipal Corporation,Ludhiana</option><option value="109">Zone-B(B &amp; R) Municipal Corporation,Ludhiana</option><option value="110">W/s &amp; Sanitation Sub Division  ,Rajpura.</option><option value="111">W/s &amp; Sanitation Sub Division,Banur At Rajpura.</option><option value="112">Office-41/64 JB.R.S NagarOpp.Lodhi Club,Ludhiana</option><option value="113">H.No.963/5A Street No.5 Deep Nagar Civil Lines ,Ludhiana</option><option value="114">Zone-D B &amp; RSarabha NagarMunicipal Corporation,Ludhiana</option><option value="115">Municipal Corporation,Ludhiana</option><option value="116">C-101-102 2nd Floor Lajpat Nagar-1 Near Defence Colony Flyover Market ,New Delhi.</option><option value="117">Focal Point Phase-8 Near Forits Hospital ,Ludhiana</option><option value="118">Construction Sub Division PWD (B &amp; R) Br.,Mukerian</option><option value="119">Rajasthan Feeder Division ,Ferozepur</option><option value="120">Pb. Police Housing Corpn. Ltd. ,Bathinda.</option><option value="121">Shop No.5 Near Janta Laboratory G. T. Road ,Gurdaspur </option><option value="122">Northern Railway ,Ludhiana</option><option value="123">Oiffice-602 Trade Center Bandra Kurla Complex Babdra (East) ,Mumbai</option><option value="124">Zone-B(B &amp; R) Municipal Corporation ,Ludhiana</option><option value="125">Constn.  Division PWD  B &amp; R  Br. ,Moga</option><option value="126">W/S &amp; Sanitation Division No-1.  ,Malerkotla</option><option value="127">PB. W/S &amp; Sewerage Sub Division NO.2  ,Amritsar</option><option value="128">Harike Canal Division ,Ferozepur</option><option value="129">PSPCL  ,Ludhiana</option><option value="130">Northern Railway ,Sirhind </option><option value="131">Bathinda,Bathinda</option><option value="132">Birmi ,Distt. Ludhiana</option><option value="133">PIT Hoshiarpur C/o Punjab Technical University ,Jalandhar</option><option value="134">NIT-12 Ward no-6 M. C. Doraha  ,Ludhiana</option><option value="135">315 Master Tara Singh Nagar ,Jalandhar</option><option value="136">D/o Mr. Yogesh Baweja GNDEC (Dept. CSE) ,Ludhiana</option><option value="137">S/o S. Gurdeep Singh GNDEC (Dept. CSE) ,Ludhiana</option><option value="138">D/o Mr.Rajinder Kumar GNDEC (Dept. CSE) ,Ludhiana</option><option value="139">S/o Sh. Satist Kumar Singh GNDEC (Dept CSE) ,Ludhiana</option><option value="140">S/o Sh. Ashwani Kumar GNDEC (Dept CSE) ,Ludhiana</option><option value="141">Father Name-Mr. A.K.Dutta GNDEC (Dept CSE) ,Ludhiana</option><option value="142">D/o S.Darshan Singh GNDEC (Dept CSE) ,Ludhiana</option><option value="143">S/o Sh. Satinder Kumar GNDEC (Dept CSE) ,Ludhiana</option><option value="144">D/o S. Gurbachan Singh GNDEC (Dept CSE) ,Ludhiana</option><option value="145">S/o S. Surinder Singh GNDEC (Dept. CSE) ,Ludhiana</option><option value="146">S/o S. Pargat Singh GNDEC (Dept. CSE) ,Ludhiana</option><option value="147">S/o S. Harvinder Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="148">S/o S. Baljeet Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="149">D/o  S Jaswinder Singh GNDEC (Dept. ECE)   ,Ludhiana</option><option value="150">D/o S Surinder Singh GNDEC (Dept ECE) ,Ludhiana</option><option value="151">D/o S Rai Singh GNDEC (Dept. ECE) ,Ludhiana</option><option value="152">Florence City ,Pathankot</option><option value="153">Zone-C (B &amp; R) Municipal corporation,Ludhiana</option><option value="154">S/o S. Anaib Singh Guru Nanak Dev Engineering College (Deptt. IT),Ludhiana</option><option value="155">,Jalandhar</option><option value="156">S/o S. Ram Asra SIngh GNDEC (Dept CSE) ,Ludhiana</option><option value="157">S/0 S. Tarlok Singh GNDEC (Dept CSE) ,Ludhiana</option><option value="158">Punjab Police Housing Corporation Ltd. QTR No.247-248 Police Lines ,Jalandhar</option><option value="159">Govt.Contractor. ,Kotkapura</option><option value="160">341-42-D Phase-8 Focal Point,Ludhiana</option><option value="161">PHSC.,Sangrur</option><option value="162">D/o  Mr. Suresh Chawla Chitkara University ,Baddi</option><option value="163">W/s &amp; Sanitation Sub Division ,Dhuri</option><option value="164">Punjab Police Housing Corporation Civil Sub DivisionQtr. No.29 PS Sadar ,Ludhiana</option><option value="165">D/o Sh.Mehar Chand GNDEC (Dept. IT) ,Ludhiana</option><option value="166">D/o Mr. P.N Pathak GNDEC (Dept.IT) ,Ludhiana</option><option value="167">S/o S. Avtar Singh GNDEC (Civil Deptt.),Ludhiana</option><option value="168">S/o Sh. Lekh Raj GNDEC (Dept. CSE),Ludhiana</option><option value="169">Civil Works Division PSTCL ,Jalandhar</option><option value="170">Near Jagraon Bridge (MES) ,Ludhiana</option><option value="171">International Youth Centre 2nd Floor Teen Murti Marg Chanakyapuri ,New Delhi </option><option value="172">Pb.W/S &amp; Sew Sub Division No.1,Jalandhar</option><option value="173">S/o S.Arvinder Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="174">D/o S.Daljit Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="175">S/o S. Balwant Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="176">S/o S. Surinder Singh GNDEC (Dept. Civil) ,Ludhiana</option><option value="177">S/o S. Kuldeep Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="178">S/o S. Surjit Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="179">S/o S. Gurpal Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="180">S/o S.Harjit Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="181">S/o S. Inderjit Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="182">S/o S. Varinder Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="183">S/o S. Barinderjit Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="184">S/o S. Gurbant Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="185">Pb. W/S &amp; Sew Sub Divn.,Batala</option><option value="186">S/o S. Surjit Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="187">D/o S. Raghwinder SIngh GNDEC (Dept.Civil) ,</option><option value="188">Provincial Sub Division No.3 PWD B &amp; R,Ludhiana</option><option value="189">2nd Floor B-1535/1A St.No. 4 New Prem Nagar Backside Las Vigas Pub ,Ludhiana</option><option value="190">B-III-151 Ward No. 12 Sahnewal ,Ludhiana</option><option value="191">S/o S. R.N. Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="192">S/o Mr.D.K. Sahoo GNDEC (Dept.CSE) ,Ludhiana</option><option value="193">S/o Mr. Rampratap Singh GNDEC (Dept.CS) ,Ludhiana</option><option value="194">S/o Mr. M. Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="195">Municipal Concil Sahnewal,Ludhiana</option><option value="196">50 MLD CETP Tajpur Road Adjoining Central Jail ,Ludhiana</option><option value="197">S/o S. Paramvir Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="198">D/o S.Sukhwinder Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="199">D/o S.Jasvir Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="200">D/o S.Bhajan Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="201">D/o S.Jagtar Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="202">D/o S. Surjit Singh GNDEC (Dept.IT) ,Ludhiana</option><option value="203">D/o S. Hardavinder Singh GNDEC (Dept.IT) ,Ludhiana</option><option value="204">D/o S.Hardip Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="205">Sarna,Pathankot</option><option value="206">S/o Ashwani Sharma GNDEC (Mech.Deptt.),Ludhiana</option><option value="207">D/o S. Bir Singh GNDEC (Dpet.ECE) ,Ludhiana</option><option value="208">D/o S. Narinder Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="209">S/o Mr. David GNDEC (Dept.CSE) ,Ludhiana</option><option value="210">S/o S. Baljeet Singh GNDEC (Dept.CSE),Ludhiana</option><option value="211">S/o S. Darshan Singh Bhatti GNDEC (Dept.CSE) ,Ludhiana</option><option value="212">S/o S. Karamjit Singh Lamba GNDEC (Dept.CSE) ,Ludhiana</option><option value="213">Phase-6 Focal Point ,Ludhiana</option><option value="214">S/o S. Sukhchain Singh GNDEC (Deptt. CSE),Ludhiana</option><option value="215">W/S &amp; Sanitation Division ,Fatehgarh Sahib </option><option value="216">Panchayti Raj PWD ,Ludhiana</option><option value="217">W/s &amp; Sanitation Sub Division ,Dharamkot</option><option value="218">Pb. W/s &amp; Sewerage Sub Division no-1 ,Sangrur</option><option value="219">S/o Mr. Anand Kumar GNDEC (Dept.CSE) ,Ludhiana</option><option value="220">D/o S.Rajinder Singh GNDEC (Dept. CSE) ,Ludhiana</option><option value="221">Municipal Corporation,Ludhiana</option><option value="222">#390-A Hira Singh Road Ghumar Mandi ,Ludhiana</option><option value="223">Head of Techical Advisory Group S.C.O  89-90 Sector 34-A ,Chandigarh </option><option value="224">W/S &amp; Sanitation Division ,Khanna</option><option value="225">D/o Sh. Kuldeep Kumar Sharma GNDEC (Dept. CSE) ,Ludhiana</option><option value="226">Govt.Contractor Model Town Miani Road Dasuya ,Distt. Hoshiarpur</option><option value="227">S/o S.Harjit Singh GNDEC (Dept.Civil),Ludhiana</option><option value="228">S/o S. Avtar Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="229">D/o S. Ravinder Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="230">S/o Mr.Rahul Sharma GNDEC (Dept.IT) ,Ludhiana</option><option value="231">D/o S.Parminder Singh GNDEC (Dept. IT) ,Ludhiana</option><option value="232">Father Name- Sh.Kulwinder Chopra GNDEC (Dept. IT) ,Ludhiana</option><option value="233">S/o S. Sukhwinder Singh GNDEC (Dept Civil) ,Ludhiana</option><option value="234">S/o S.Harjit Singh GNDEC (Dept. CSE) ,Ludhiana</option><option value="235">S/o Sh. Ramesh Garg GNDEC (Dept. Civil) ,Ludhiana</option><option value="236">S/o Sh. Rajpal Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="237">,Saharanpur</option><option value="238">S/o S. Satwinderpal Singh GNDEC (Deptt.Civil),Ludhiana</option><option value="239">R/o 3344 Chet singh Nagar,Ludhiana</option><option value="240">GLADA ,Ludhiana </option><option value="241">GLADA ,Ludhiana </option><option value="242">Punjab Police Housing Corporation Ltd. ,Jahankhelan</option><option value="243">D/o Mr. Sudesh Kumar GNDEC (Dept. Civil) ,Ludhiana</option><option value="244">Local Gurudwara Committee Lakhpur ,Phagwara</option><option value="245">Sadhu Singh DAV Rural Public School Mukandpur ,Distt. Sbs Nagar</option><option value="246">D/o S.Paramjit Singh G.N.D.Ploy.(Dept.CS) ,Ludhiana</option><option value="247"># 9 2nd Floor Sona Complex Miller Gunj ,Ludhiana</option><option value="248">D/o S. Baldev Singh GNDEC (Dept ECE) ,Ludhiana</option><option value="249">G.P.W.S.C. Bamial , Pathankot</option><option value="250">S/o Sh. Anil Mittal GNDEC (Deptt.CSE),Ludhiana</option><option value="251">Improvement Trust ,Amritsar</option><option value="252">S/o S.Jagdev Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="253">D/o S.Gurmeet Singh G.N.D.Poly.College  (Dept. CS) ,Ludhiana</option><option value="254">V.P.O. Uggi Teh. Nakodar ,Distt. Jalandhar</option><option value="255">B &amp; R Sub Zone D-4 Fountain Chowk Municipal Corporation,Ludhiana</option><option value="256">Guru Nanak Public School Committee Birmi,Ludhiana</option><option value="257">S/o Sh. Parshu Ram Adhikari GNDEC (Deptt. Civil),Ludhiana</option><option value="258">Zone-C (B &amp; R) Municipal corporation,Ludhiana</option><option value="259">PB. W/S &amp; Sewerage Sub Division NO.2 ,Bathinda</option><option value="260">D/o Sh. Satish Kumar GNDEC (Dept CSE) ,Ludhiana</option><option value="261">PSTCL ,Ropar</option><option value="262">Punjab Agricultural Univerisity ,Ludhiana</option><option value="263">Sehdev MarketNear P&amp;T Colony ,Jalandhar City </option><option value="264">Ropar Head Works Division ,Ropar</option><option value="265">S/o Sh. Hansraj GNDEC (Dept.Civil) ,Ludhiana</option><option value="266">Constn. Sub Division No-3 PWD  B &amp; R  Br. ,Ludhiana</option><option value="267">Punjab Mandi Borad ,Ludhiana-I</option><option value="268">GLADA ,Ludhiana</option><option value="269">Municipal Corporation ,Jalandhar</option><option value="270">S/o S. Harinder Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="271">,Ludhiana</option><option value="272">Guru Nanak Dev Engineering College,Ludhiana</option><option value="273">Guru Nanak Dev Engineering College,Ludhiana</option><option value="274">Guru Nanak Dev Engineering College,Ludhiana</option><option value="275">Guru Nanak Dev Engineering College,Ludhiana</option><option value="276">Guru Nanak Dev Engineering College,Ludhiana</option><option value="277">S/o S. Jagpal Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="278">Industrial Area-C Kanganwal Near Taxla Plastic,Ludhiana</option><option value="279">Improvement Trust,Jalandhar</option><option value="280">,Jammu (J&amp;K). </option><option value="281">S/o Sh. Yashpal Kakkar GNDEC (Dept.Civil) ,Ludhiana</option><option value="282">S/o S. Harjot Singh GNDEC (Dept.Civil) ,Ludhiana</option><option value="283">,Ludhiana</option><option value="284">400/220 KV Sub Station (PSTCL) ,Nakodar</option><option value="285">S/o S. Surinder Singh GNDEC (Dept. Civil) ,Ludhiana</option><option value="286">S/o Sh. Yashpaul Kakkar GNDEC (Dept. Civil) ,Ludhiana</option><option value="287">101 Part-III Sector-28 Gandhinagar ,Gujarat</option><option value="288">S/o Sh. Raj Kishore Prasad GNDEC (Deptt. Civil),Ludhiana</option><option value="289">Pb. W/S &amp; Sew Sub Division,Phagwara</option><option value="290">D/o Sh. Suresh jain GNDEC (Deptt. CSE),Ludhiana</option><option value="291">D/o S. Satnam Singh GNDEC (Dept.ECE) ,Ludhiana</option><option value="292">S/o S. Ram Singh Bunger Room No.64 hostel No.2 GNDEC,Ludhiana</option><option value="293">D/o S. Amarjit Singh Dr. B R Ambedkar National Institute of Technology G.T.Road Bye Pass,Jalandhar</option><option value="294">V.P.O. Sarabha ,Distt. Ludhiana</option><option value="295">B &amp; R. Sub Zone D-3 Sarabha Nagar Municipal Corporation,Ludhiana</option><option value="296">Zone-A Municipal Corporation ,Ludhiana</option><option value="297">S/o S. Sukhjit Singh GNDEC (Dept.CSE) ,Ludhiana</option><option value="298">44- Sukhdev Avenue,Ludhiana</option><option value="299">Near Lodhi Club Shaheed Bhagat Singh,Ludhiana</option><option value="300">Pb. W/S &amp; SEw Sun Divn.,Naranshahar</option><option value="301">Dr. R.G Rao Villa 1st Floor Near Amboli Church Andheri (West) ,Mumbai</option><option value="302">,Muktsar</option><option value="303">GT Road Near Manji Sahib Gurudwara ,Doraha</option><option value="304">Construction Division No.2 PWD (B&amp;R) Br. ,Kapurthala</option><option value="305">Bharat Nagar Chowk,Ludhiana</option><option value="306">Sun View Colony South City ,Ludhiana</option><option value="307">Panchayti Raj PWD ,Ludhiana</option><option value="308">S/o Sh. Arun Kumar Dubey GNDEC (Deptt.IT),Ludhiana</option><option value="309">W/S &amp; Sanitation Division No. 2 ,Shri Muktsar Sahib</option><option value="310">,Ludhiana</option><option value="311">D/o S. Ranjit Singh GNDEC (Dept.IT) ,Ludhiana</option><option value="312">Zone-A (B &amp;R) Municipal Corporation ,Ludhiana</option><option value="313">Department of Livestock Products Technology GADVASU ,Ludhiana</option><option value="314">,Ludhiana</option><option value="315">S/o. S.Daljit Singh Pandher GNDEC (Dept.Mech.) ,Ludhiana</option><option value="316">Zone-D Municipal Corporation ,Ludhiana</option><option value="317">0-116 Frist Floor Shopping Mall Arjun Marg DLF City Phase-1 Gurgaon ,Haryana</option><option value="318">Construction Division No.1 PWD (B&amp;R) Br. ,Ludhiana </option><option value="319">Punjab Mandi Borad Kisan Bhawan Sector-35A ,Chandigarh</option><option value="320">Municipal Corporation ,Ludhiana</option><option value="321">Municipal Corporation,Ludhiana</option><option value="322">,Pathankot</option><option value="323">,Pathankot</option><option value="324">Nehru Nagar College Road,Pathankot</option><option value="325">D/o S. Preet Mohinder Singh DAV Institute of Engg.&amp; Tech.,Jalandhar</option><option value="326">E-19 Focal Point ,Ludhiana</option><option value="327">Road No-9 Hanuman Nagar ,Patna</option><option value="328">W/S &amp; Sanitation Division No. 2 ,Ludhiana</option><option value="329">Rajgadh Estates Sidhwan Canal Vill Birmi Road ,Ludhiana</option><option value="330">P.H.S.C. ,Barnala</option><option value="331">Institutes of Engineers,New Delhi</option><option value="332">400/200 Kv GIS Sub Station VPO Rajera Distt. Chamba ,Himachal Pardesh</option><option value="333">C-58 Focal Point,Ludhiana</option><option value="334">Village Nanowal Kalan Behlolpur Road Tehsil Khamano,Fatehgarh Sahib</option><option value="335">S/o Sh. Paramjit Pujani DAV Institute of Engineering &amp; Technology Kabir Nagar,Jalandhar</option><option value="336">L &amp; T,Gujarat</option><option value="337">For Their Client M/s Punjab Greenfield Resources Ltd. S.C.O.-32 Basement Cabin No.2 Foroze Gandi,Ludhiana</option><option value="338">Street No. 1 Shiv Colony ,Bathinda</option><option value="339">Rites Bhawan No.1 Sector 29,Gurgaon</option><option value="340">Larsen &amp; Toubro Ltd. Kothi No.74 Modern Colony New Jawahar Nagar ,Jalandhar City</option><option value="341">119A Gandhi Nagar,Jammu</option><option value="342">N.I.T. No.7 Ward No.11 Leela Resorts M.C.Doraha,Ludhiana</option><option value="343">S/o S. Gurmeet Singh Continental Institute of Engg. &amp; Tech. NH1 Vill. Jalvehra Sirhind,Fatehgarh Sahib</option><option value="344">Zone-C (B &amp; R) Municipal Corporation ,Ludhiana</option><option value="345">V.P.O. Rasulpur Near Banga Salhon Road (Nawanshahr) ,S.B.S. Nagar</option><option value="346">,Ludhiana</option><option value="347">Sub Zone (D-2) Municipal Corporation ,Ludhiana</option><option value="348">Construction Division No.1 PWD (B&amp;R) Br. ,Jalandhar Cantt.</option><option value="349">S.C.F. 12 Urban Estate Phase-1 Dugri ,Ludhiana</option><option value="350">Pb. W/s &amp; Sewerage Sub Division No-1 ,Ludhiana</option><option value="351">W/S &amp; Sanitation Division No.1,Malerkotla</option><option value="352">Municipal Corporation ,Jalandhar</option><option value="353">Construction Sub Division PWD (B &amp; R) Br. ,Doraha</option><option value="354">Municipal Corporation ,Moga</option><option value="355">D/o S.Harjit singh GNDEC (Deptt. M.C..A),Ludhiana</option><option value="356">Dean Consultancy Guru Nanak Dev Engineering College ,Ludhiana</option><option value="357">Vill. Balachak P.O. Chabba Tarntaran Road ,Amritsar</option><option value="358">Provincial Division PWD (B &amp; R) Branch ,Jalandhar Cantt. </option><option value="359">Vigilance Bureau ,Unit Jalandhar</option><option value="360">Punjab Police Housing Corporation Ltd. D-Division Lahori Gater ,Amritsar</option><option value="361">Punjab State Warehousing Corporation SCO 119-120 Sector 17-B ,Chandigarh</option><option value="362">Zone-B (B &amp; R) Municipal Corporation,Ludhiana</option><option value="363">Jitwal Kalan Tehsil Malerkotla ,Distt. Sangrur</option><option value="364">Construction Division No.1 PWD (B&amp;R) Branch ,Bathinda</option><option value="365">Water Supply  &amp;  Sanitation Sub Division ,Ghanour</option><option value="366">GLADA ,Ludhiana</option><option value="367">Punjab Mandi Borad ,Malerkotla, Sangrur</option><option value="368">S/o S. Baldev Singh VPO Talwandi Mallian Teh. Dharamkot,Moga</option><option value="369">D/o S.Harwinder Singh Khalsa College for Women Civil Lines (Daptt. BCA) ,Ludhiana</option><option value="370">D/o Mr. Tarsem Singh Khalsa College for Women Civil Lines  (Deppt.BCA) ,Ludhiana</option><option value="371">D/o S. Prithipal Singh GNDEC (Deptt.M.C.A.),Ludhiana</option><option value="372">C/o 18 GNE Campus,Ludhiana</option><option value="373">Opp. Veer Palace Chd. Road ,Ludhiana</option><option value="374">VPO Barsal Tehsil Jagraon ,Ludhiana</option><option value="375">Gobindgarh ,Distt. Fatehgarh Sahib.</option><option value="376">Provincial Sub Division No. 1 PWD (B &amp; R) Branch ,Jalandhar Cantt.</option><option value="377">Focal Point ,Ludhiana</option><option value="378">Guru Nanak Dev Engineering College (Civil Deptt.),Ludhiana</option><option value="379">SCO-7-8 3rd Floor Jnadu Tower Miller Gunj G T Road ,Ludhiana</option><option value="380">Oiffice-602 Trade Center Bandra Kurla Complex Babdra (East) ,Mumbai </option><option value="381"># 80 Phase-I Model Town ,Bathinda</option><option value="382">Punjab Police Housing Corporation Ltd. Police Complex Phase-VII,SAS Nagar</option><option value="383">D/o S. Harwinder Singh GNDEC (Deptt. MCA),Ludhiana</option><option value="384">W/S &amp; Sanitation Sub Division No.2 ,Balachaur</option><option value="385">Municipal Corporation ,Ludhiana</option><option value="386">Indian Oil Corporation Limited (MD) Jind Road ,Sangrur </option><option value="387">(PMC for Amritsar Sewerage Project) ,Amritsar </option><option value="388">Municipal Corporation Zone-A (N),Ludhiana</option><option value="389">C-102/105 Phase-V Focal Point ,Ludhiana</option><option value="390"># 35 Sangam Enclave Sector 48-A ,Chandigarh</option><option value="391">SCO-3 1st Floor Model Town Extention ,Ludhiana</option><option value="392">,Jalandhar </option><option value="393">Prop. Shiv Kumar Bajaj 79 Central Market Gill Road ,Ludhiana</option><option value="394">Teona Canal Sub Division ,Gidharbaha</option><option value="395">3rd Floor SCO 23-24 Model Town Extn. D-Block ,Ludhiana</option><option value="396">D/o Sh. Gurpal Singh GNDEC (Deptt. MCA),Ludhiana</option><option value="397">Northern Railway,Phagwara</option><option value="398">14th Floor IFCI Tower 61 Nehru Place ,New Delhi</option><option value="399">Civil Works Division PSPCL ,Ludhiana </option><option value="400">B-257 B R S Nagar ,Ludhiana</option><option value="401">Panchayti Raj PWD ,Sri Muktsar Sahib </option><option value="402">Guru Nanak Dev Engineering College (Mech. Deptt.),Ludhiana</option><option value="403">S/o Sh. Rakesh Kumar GNDEC (Deptt. CSE),Ludhiana</option><option value="404">Zone-C (B &amp; R) Municipal Corporation ,Ludhiana</option><option value="405">St.No. 5 Opp. Girls College Ground Sh. Guru Angad Dev Nagar Amloh Road ,Khanna</option><option value="406">V.P.O. Threeke ,Ludhiana</option><option value="407">61-B Rose Enclave Pakhowal Raod ,Ludhiana</option><option value="408">Guru Nanak Dev Engineering College (Civil Deptt.),Ludhiana</option><option value="409">Punjab Health Systems Corporation ,Ludhiana</option><option value="410">Vill. Rampura PO Bhawanigarh ,Distt. Sangrur</option><option value="411">Office - Near Micky Gill Hospital Kotkapura Byepass ,Moga</option><option value="412">3rd Floor Elites Arcade Mall Road ,Ludhiana</option><option value="413">85-C Udham Singh Nagar ,Ludhiana</option><option value="414">N.R.-II 400 Kv Abdullapur Sub Station Vill. Bhamboli Jagadhri-Ambala Road ,Yamuna Nagar </option><option value="415">Improvement Trust ,Roopnagar </option><option value="416">,Srinagar (J&amp;K)</option><option value="417">D-4 Civil Lines ,Bathinda</option><option value="418">400 Kv Sub Sation. Ludhiana Road Malerkotla ,Distt. Sangrur </option><option value="419">B&amp;R Municipal Corporation ,Jalandhar </option><option value="420">Municipal Corporation ,Ludhiana</option><option value="421">,Ludhiana</option><option value="422">Improvement Trust ,Amritsar</option><option value="423">Punjab Police Housing Corporation PPA ,Phillour </option><option value="424">TRILIUM Mall C-4 Bansant Avenue Circular Road,Amritsar</option><option value="425">Punjab Mandi Borad,Ludhiana</option><option value="426">Punjab Mandi Borad ,Ludhiana</option><option value="427">Villege Bhagwanpur ,Distt. Ludhiana</option><option value="428">Village Birmi,Ludhiana</option><option value="429">,Mohali</option><option value="430">Municipal Council,Khanna</option><option value="431">M/s. Kavit Bardwaj Contractor,Khanna</option><option value="432">Nagar Panchyat Mullanpur Dakha,Ludhiana</option><option value="433">Nagar Councial,Raikot</option><option value="434">Vijay Kumar Goyal Office Shop No.65 Old Grain Market ,Sunam</option><option value="435">Sherpur Choek G T Road ,Ludhiana</option><option value="436">Central Jail ,Amritsar</option><option value="437">Guru Nanak Dev Engineering College (Elect. Deptt.),Ludhiana</option><option value="438">W/S &amp; Sanitation Division ,Tarn Taran </option><option value="439">96-F SBS Nagar,Ludhiana</option><option value="440">Hajipur ,Distt. Hoshiarpur</option><option value="441">Construction Division PWD (B&amp;R) ,Sangrur</option><option value="442">,Bathinda</option><option value="443">Village Gill Malerkotla Road ,Ludhiana</option><option value="444">Postal/Mktg Off.- 27 Chandini Complex Sherpur Kalan Focal Point Road,Ludhiana</option><option value="445">S.C.O. - 87 Frist Floor Phase-1 Dugri ,Ludhiana</option><option value="446">W/S &amp; Sanitation Division ,Kapurthala</option><option value="447">Civil Works Sub Division PSPCL ,Sri Muktsar Sahib </option><option value="448">C/o Mahatma Gandhi Institute of Public Administration Sector-26 ,Chandigarh</option><option value="449">800/400/220Kv Sub Station Complex Urja Nagar Kotkapura Road ,Moga</option><option value="450">Chandigarh Road ,Ludhiana </option><option value="451">SCO - 549 Sector - 70 ,Mohali</option><option value="452">PAU ,Ludhiana</option><option value="453">Manak Bhavan 9 Bahadur Shah Zafar Marg ,New Delhi</option><option value="454">,Doraha </option><option value="455">Country Homes (North) Near Barewal Canal Bridge,Ludhiana</option><option value="456">Municipal Corporation ,Jalandhar</option><option value="457">W/S &amp; Sanitation Sub Division No. 2 ,Nawashehar</option><option value="458">F-13 Central Plaza (DLF Golf Course Road) Sector-53 Gurgaon ,Haryana</option><option value="459">,Hoshiarpur </option><option value="460">Tel Bhawan Plot No. 6 A Sector - 19-B  ,Chandigarh</option><option value="461">Village Jhande Near Baddowal Railway Station Firozpur Road ,Ludhiana</option><option value="462">464 Mota Singh Nagar ,Jalandhar </option><option value="463">GLADA,Ludhiana</option><option value="464">Municipal Corporation ,Ludhiana</option><option value="465">Badhani Laining Sub Division ,Ludhiana</option><option value="466">Punjab Mandi Borad ,Barnala </option><option value="467">B-XIX-546 Govt. College Road Civil Lines ,Ludhiana</option><option value="468">Chawa Payal ,Ludhiana</option><option value="469">Punjab Health Systems Corporation ,Jalandhar</option><option value="470">VPO Kussa ,Distt. Moga</option><option value="471">Gram Panchyat Village Nagar Block Phillour,Jalandhar</option><option value="472">Central Sudhar Ghar Near Baba Farid University BHEL Road ,Goindwal Sahib</option><option value="473">,Ludhiana</option><option value="474">Prem Nagar Bohrawala Poilce Line Road Batala ,Distt. Gurdaspur</option><option value="475">35-A Raghunath Enclave Aggar Nagar Ferozepur Road ,Ludhiana</option><option value="476">GPWSC Village Fattu Chack Block Narote Jalmal Singh,Pathankot</option><option value="477">258 Sector-5 U.E. ,Gurgaon</option><option value="478">Village Ramgarh Nakodar Road Jagraon,Ludhiana</option><option value="479">Construction Sub Division No.3 PWD (B&amp;R) Br. ,Ludhiana</option><option value="480">W/S &amp; Sanitation Sub Division ,Jagraon</option><option value="481">Improvement Trust ,Ludhiana</option><option value="482">Ferozepur Road Opp. Circuit House ,Ludhiana</option><option value="483">Market Committiee ,Malerkotla</option><option value="484">Village Sidhwan Khurd Teh. Jagraon ,Distt. Ludhiana</option><option value="485">Office- Sahnewal Dehlon Road Vill. Paddi ,Distt. Ludhiana</option><option value="486">SCO-375 IInd Floor Sector-37-D ,Chandigarh</option><option value="487">W/S &amp; Sanitation Sub Division ,Sehna At Barnala</option><option value="488">R.O - 82 Abhyankar Nagar Park Road ,Nagpur</option><option value="489">W/S &amp; Sanitation Sub Division No. 4 ,Ludhiana</option><option value="490">Street No. 3. Bachittar Nagar Near G.N.D.E. College ,Ludhiana</option><option value="491">Ferozepur Road ,Ludhiana</option><option value="492">Ground Floor House No. 163/2 Chand Colony Near Raman Enclave Haibowal Khurd ,Ludhiana</option><option value="493">,Mukerian</option><option value="494">Water Resources Inv. Sub-Division No. 2  ,Ludhiana</option><option value="495">467-L 1st Floor Model Town ,Ludhiana</option><option value="496">Rasulpur,Distt. S.B.S. Nagar</option><option value="497"># 7 1st Floor Sant Isher Singh Nagar Pakhowal Road,Ludhiana</option><option value="498"># 7 1st Floor Sant Isher Singh Nagar Pakhowal Road,Ludhiana</option><option value="499">B-64 Sector-65 ,Noida</option><option value="500">VPO  Sarinh,Ludhiana</option><option value="501">Provincial Division PWD B &amp; R ,Ludhiana</option><option value="502">B-41 Phase-VI Focal Point ,Ludhiana</option><option value="503">Punjab Mandi Borad ,S.A.S. Nagar</option><option value="504">Mattewara Forest Range ,Mattewara</option><option value="505">Office-21605 Street No. 6/1A Power House Road ,Bathinda</option><option value="506">Nagar Council ,Gobindgarh</option><option value="507">Atam Tower Sunder Nagar,Ludhiana</option><option value="508"> Govt. Contr.,Pathankot</option><option value="509">Municipal Corporation ,Jalandhar</option><option value="510">Construction Division B&amp;R Branch ,Moga</option><option value="511">Pb.W/S &amp; Sew Sub Division No.1,Ludhiana</option><option value="512">D-2 (B&amp;R) Municipal Corporation ,Ludhiana</option><option value="513">A-191 Shakarpur Vikas Marg ,New Delhi</option><option value="514">SCO. No. 6 333 Industrial Area-A ,Ludhiana</option><option value="515">,Mohali</option><option value="516">Janpath Villas Sidhwan Canal Vill Jhammat P.O. Ayali Kalan ,Ludhiana</option><option value="517"># 47 Sector - 9 Panchkula ,Haryana</option><option value="518">Municipal Corporation B &amp; R,Jalandhar</option><option value="519">Municipal Corporation ,Moga</option><option value="520">Punjab Pollution Control Board,Patiala</option><option value="521">C-184 Arjun Nagar,Delhi-29</option><option value="522">,Batala</option><option value="523">Khoti No. 71 Phase-1 Sarabha Nagar Extension,Ludhiana</option><option value="524">Civil Lines ,Ludhiana</option><option value="525">VPO Behrampur ,Gurdaspur</option><option value="526">W/S &amp; Sanitation Sub Division No. 1 ,Pathankot</option><option value="527">Municipal Corporation ,Ludhiana</option><option value="528">Public Health GLADA ,Ludhiana</option><option value="529">Municipal Council ,Khanna (Ludhiana)</option><option value="530">Municipal Council ,Khanna</option><option value="531">Civil Construction &amp; Mtc Division PSPCL ,Ludhiana</option><option value="532">Zone-C Municipal Corporation ,Ludhiana</option><option value="533">Punjab Health Systems Corporation ,Jalandhar</option><option value="534">Ludhiana Local Centre Dugri Road ,Ludhiana</option><option value="535">Panchayti Raj PWD ,Amritsar</option><option value="536">Municipal Corporation ,Ludhiana</option><option value="537">Bhathinda Road ,Kotkapura</option><option value="538">Panchayti Raj PWD ,Jalandhar</option><option value="539">B-XXX-6754 Focal Point ,Ludhiana</option><option value="540">Central Sudhar Ghar ,Bathinda</option><option value="541">Water Resources Investigation Sub-Division No. 2 ,Ludhiana At Khanna</option><option value="542">The Revene Frist Floor 805 Bhandarkar Institute Road ,Pune, Maharashtra </option><option value="543">Construction Division PWD (B&amp;R) ,Malerkotla</option><option value="544">Punjab W/s &amp; Sew. Sub Division ,Zira</option><option value="545">E-174A Focal Point ,Ludhiana</option><option value="546">222-F Rishi Nagar Near Income Tax Office,Ludhiana</option><option value="547">Village Magat GT Road ,Ludhiana</option><option value="548">SCO No. 131-132 Sector-17-c ,Chandigarh</option><option value="549">Sri Guru Granth Sahib World University (SGPC Project) ,Fatehgarh Sahib</option><option value="550">W/s &amp; Sanitation Division ,Malot</option><option value="551">253 Medical Enclave Circular Road ,Amritsar</option><option value="552">W/s &amp; Sanitation Sub Division ,Dehlon At Ludhiana</option><option value="553">Phase-III Urban Estate Dugri ,Ludhiana</option><option value="554">G. T. Road Doraha ,Ludhiana</option><option value="555">Club Road Civil Lines,Ludhiana</option><option value="556">Improvement Trust ,Ludhiana</option><option value="557">Cum-Chief CVO Sarabha Nagar Zone-D Municipal Corporation ,Ludhiana</option><option value="558">H.No.338 Sector-06 ,Panchkula,</option><option value="559">Dakha Mullanpur ,Distt. Ludhiana</option><option value="560">D/o. S. Dalbra Singh Guru Nanak Dev Engineering College ,Ludhiana</option><option value="561">D/o. S.Amrik Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="562">D/o. S. Jagjit Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="563">D/o. S. Manjit Singh Jhalli Guru Nanak Dev Engineering College,Ludhiana</option><option value="564">S/o. S. Harpal Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="565">S/o. S. Madan Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="566">S/o. S. Jasvir Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="567">Nagar Council ,Nangal</option><option value="568">S/o. S. Harmuhan Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="569">S/o. S. Makhan Singh BIS College of Engg.&amp; Tech. Gagra,Moga</option><option value="570">D/o. S. Sukhminder Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="571">Provincial Sub Division No.3 PWD B&amp;R ,Ludhiana</option><option value="572">,Ludhiana</option><option value="573">S/o. S. Paramjit Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="574">S/o. S. Jasbir Singh Guru Nanak Dev Engineering College,Ludhiana</option><option value="575">Village Hambran,Ludhiana</option><option value="576">70-K Sarabha Nagar ,Ludhiana</option><option value="577"># B-IV/108 Gate No.1 Banasar Baag Road ,Sangrur</option><option value="578">,Amritsar</option><option value="579">Nagar Council Gobindgarh ,Fatehgarh Sahib</option><option value="580">602-R Model Town,Ludhiana</option><option value="581">Vigilence Bureau,Sri Mukatsar Sahib</option><option value="582">W/s &amp; Sanitation Sub Division No.1 ,Hoshiarpur</option><option value="583">Punjab PWD (B&amp;R) ,Patiala</option><option value="584">Village Jodhan ,Distt. Ludhiana</option><option value="585">Bhakra Beas Management Board Chandigarh Road Jamalpur ,Ludhiana</option><option value="586">D-1 &amp; D-2 (B&amp;R) Municipal Corporation ,Ludhiana</option><option value="587">Office: St.No.5 Partap Singh Nagar Near Usha Mata Mandir ,Kotkapura</option><option value="588">G.T.B. National College Dakha,Ludhiana</option><option value="589">W/s &amp; Sanitation Sub Division No.1 ,Hoshiarpur</option><option value="590">Chumo Road ,Malod, Ludhiana</option><option value="591">Air Force Station ,Halwara</option><option value="592">Near Chawal Fuel Station Didhwa Road Hambra,Ludhiana</option><option value="593">G.T. Road Dholewal,Ludhiana</option><option value="594">PSTCL T.L.S.C. Division ,Mohali</option><option value="595">10192, Street No.8, Janta Nagar, ,Ludhiana</option><option value="596">.,Phagwara</option><option value="597">VPO Ghuman,Ludhiana</option><option value="598">Harnampura Road,Khanpur,   Distt. Ludhiana</option><option value="599">G.T. Road, Sherpur Chowk,Ludhiana</option><option value="600">MC office,Pathankot</option><option value="601">Municipal Corporation,Pathankot</option><option value="602">Govt. Contructor,Gurdaspur</option><option value="603">Govt. Contructor,Gurdaspur</option><option value="604">Village Jassar, Canal Road,Ludhiana</option><option value="605">Govt. Contructor,Gurdaspur</option><option value="606">14-First Floor, Lawrence Plaza, Lawrence Road,Amritsar</option><option value="607">461G, B.R.S. Nagar,Ludhiana</option><option value="608">435, Jagriti Enclave, Vikas Marg Extn., ,Dehli</option><option value="609">Punjab Health Systems Corporation,Ludhiana</option><option value="610">Model Town,Ludhiana</option><option value="611">Village Sundra, P.O. Mubarikpur, Tehsil Derabassi, ,Distt. Mohali</option><option value="612">V.P.O. Noorpur, Dhogi Road, Near Reliance Tower,Jalandhar</option><option value="613">SCO-1, Delta Office, Main Road, Flower Enclave, Near 200 Feet Bye Pass,,Ludhiana</option><option value="614">Guru Nanak Dev Engg.College,Ludhiana</option><option value="615">Municipal Council, Amloh,,Fathegarh Sahib</option><option value="616">Sugar Mill Banga Road, ,Nawanshahr</option><option value="617">39, Ajit Nagar, ,Patiala</option><option value="618">Punjab Mandi Board, ,Banga</option><option value="619">V.P.O. Hambran, ,Distt. Ludhiana</option><option value="620">Church Complex,Barnala</option><option value="621">264, Okhla Phase-III,New Delhi</option><option value="622">C-67, Phase-III, Focal Point,Ludhiana</option></select><a href="/admin/useraccounts/address/add/?_to_field=id" class="add-another" id="add_id_customer-__prefix__-address" onclick="return showAddAnotherPopup(this);"><img src="/static/admin/img/icon_addlink.gif" width="10" height="10" alt="Add Another"/></a></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-telephone ">
+        
+          <div><div class="control-label"><label class="required" for="id_customer-__prefix__-telephone">Telephone:</label></div><div class="controls"><input class="vTextField" id="id_customer-__prefix__-telephone" maxlength="500" name="customer-__prefix__-telephone" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-fax ">
+        
+          <div><div class="control-label"><label for="id_customer-__prefix__-fax">Fax:</label></div><div class="controls"><input class="vTextField" id="id_customer-__prefix__-fax" maxlength="100" name="customer-__prefix__-fax" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-pan_no ">
+        
+          <div><div class="control-label"><label for="id_customer-__prefix__-pan_no">Pan no:</label></div><div class="controls"><input class="vTextField" id="id_customer-__prefix__-pan_no" maxlength="100" name="customer-__prefix__-pan_no" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-stc_no ">
+        
+          <div><div class="control-label"><label for="id_customer-__prefix__-stc_no">Stc no:</label></div><div class="controls"><input class="vTextField" id="id_customer-__prefix__-stc_no" maxlength="100" name="customer-__prefix__-stc_no" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-avatar ">
+        
+          <div><div class="control-label"><label for="id_customer-__prefix__-avatar">Avatar:</label></div><div class="controls"><input class="vTextField" id="id_customer-__prefix__-avatar" maxlength="100" name="customer-__prefix__-avatar" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-tagline ">
+        
+          <div><div class="control-label"><label for="id_customer-__prefix__-tagline">Tagline:</label></div><div class="controls"><input class="vTextField" id="id_customer-__prefix__-tagline" maxlength="140" name="customer-__prefix__-tagline" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-title ">
+        
+          <div><div class="control-label"><label for="id_customer-__prefix__-title">Title:</label></div><div class="controls"><input class="vTextField" id="id_customer-__prefix__-title" maxlength="200" name="customer-__prefix__-title" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-is_org ">
+        
+          <div><div class="control-label"><label class="vCheckboxLabel" for="id_customer-__prefix__-is_org">Is org</label></div><div class="controls"><input id="id_customer-__prefix__-is_org" name="customer-__prefix__-is_org" type="checkbox" /></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-org_type ">
+        
+          <div><div class="control-label"><label class="required" for="id_customer-__prefix__-org_type">Org type:</label></div><div class="controls"><select id="id_customer-__prefix__-org_type" name="customer-__prefix__-org_type"><option value="" selected="selected">---------</option><option value="1">Semi-Government</option><option value="2">Government</option><option value="3">Private</option></select><a href="/admin/useraccounts/organisationtype/add/?_to_field=id" class="add-another" id="add_id_customer-__prefix__-org_type" onclick="return showAddAnotherPopup(this);"><img src="/static/admin/img/icon_addlink.gif" width="10" height="10" alt="Add Another"/></a></div></div>
+        
+
+      </div>
+    
+  
+    
+      <div class="control-group form-row field-company ">
+        
+          <div><div class="control-label"><label for="id_customer-__prefix__-company">Company:</label></div><div class="controls"><input class="vTextField" id="id_customer-__prefix__-company" maxlength="200" name="customer-__prefix__-company" type="text" /></div></div>
+        
+
+      </div>
+    
+  
+</fieldset>
+
+
+
+  
+  <input id="id_customer-__prefix__-id" name="customer-__prefix__-id" type="hidden" />
+  <input id="id_customer-__prefix__-user" name="customer-__prefix__-user" type="hidden" />
+</div>
+</div>
+
+<script type="text/javascript">
+(function($) {
+    $(document).ready(function() {
+        var rows = "#customer-group .inline-related";
+        var updateInlineLabel = function(row) {
+            $(rows).find(".inline_label").each(function(i) {
+                var count = i + 1;
+                $(this).html($(this).html().replace(/(#\d+)/g, "#" + count));
+            });
+        };
+        var reinitDateTimeShortCuts = function() {
+            // Reinitialize the calendar and clock widgets by force, yuck.
+            if (typeof DateTimeShortcuts != "undefined") {
+                $(".datetimeshortcuts").remove();
+                DateTimeShortcuts.init();
+            }
+        };
+        var updateSelectFilter = function() {
+            // If any SelectFilter widgets were added, instantiate a new instance.
+            if (typeof SelectFilter != "undefined"){
+                $(".selectfilter").each(function(index, value){
+                  var namearr = value.name.split('-');
+                  SelectFilter.init(value.id, namearr[namearr.length-1], false, "/static/admin/");
+                });
+                $(".selectfilterstacked").each(function(index, value){
+                  var namearr = value.name.split('-');
+                  SelectFilter.init(value.id, namearr[namearr.length-1], true, "/static/admin/");
+                });
+            }
+        };
+        var initPrepopulatedFields = function(row) {
+            row.find('.prepopulated_field').each(function() {
+                var field = $(this);
+                var input = field.find('input, select, textarea');
+                var dependency_list = input.data('dependency_list') || [];
+                var dependencies = [];
+                $.each(dependency_list, function(i, field_name) {
+                  dependencies.push('#' + row.find('.form-row .field-' + field_name).find('input, select, textarea').attr('id'));
+                });
+                if (dependencies.length) {
+                    input.prepopulate(dependencies, input.attr('maxlength'));
+                }
+            });
+        };
+        $(rows).formset({
+            prefix: "customer",
+            addText: "Add another Customer",
+            formCssClass: "dynamic-customer",
+            deleteCssClass: "inline-deletelink",
+            deleteText: "Remove",
+            emptyCssClass: "empty-form",
+            removed: updateInlineLabel,
+            added: (function(row) {
+                initPrepopulatedFields(row);
+                reinitDateTimeShortCuts();
+                updateSelectFilter();
+                updateInlineLabel(row);
+                Suit.after_inline.run("customer", row);
+            })
+        });
+    });
+})(django.jQuery);
+</script>
+
+            
+          
+
+        </div>
+
+        
+
+        
+        
+
+
+        
+          <script type="text/javascript">document.getElementById("").focus();</script>
+        
+
+        
+        
+<script type="text/javascript">
+(function($) {
+    var field;
+
+
+})(django.jQuery);
+</script>
+
+
+      </div>
+    </form>
+  </div>
+
+              
+            </div>
+            <!-- END Content -->
+          </div>
+        
+
+
+        
+          
+            <div id="suit-left" class="suit-column">
+              
+                
+                  
+                    <form class="form-search nav-quick-search" autocomplete="off" action="/admin/auth/user/" method="GET">
+                      <input type="text" name="q" class="input-medium search-query" id="quick-search">
+                      <i class="input-icon icon-search"></i>
+                      <input type="submit" class="submit" value="">
+                    </form>
+                  
+                
+              
+
+              
+
+
+
+<div class="left-nav" id="left-nav">
+  <ul>
+    
+      
+      <li>
+        <a href="/admin/"><i class="icon-home"></i>Home
+        </a>
+      </li>
+    
+
+    
+    
+      
+        
+          <li>
+            <a href="/admin/admin/logentry/"><i class="icon-chevron-right"></i>Administration
+            </a>
+            
+              <ul>
+                
+                  <li>
+                    <a href="/admin/admin/logentry/">Log entries</a></li>
+                
+              </ul>
+            
+          </li>
+        
+      
+        
+          <li class=active>
+            <a href="/admin/auth/group/"><i class="icon-lock"></i>Authentication and Authorization
+            </a>
+            
+              <ul>
+                
+                  <li>
+                    <a href="/admin/auth/group/">Groups</a></li>
+                
+                  <li class=active>
+                    <a href="/admin/auth/user/">Users</a></li>
+                
+              </ul>
+            
+          </li>
+        
+      
+        
+          <li>
+            <a href="/admin/bills/noteline/"><i class="icon-file"></i>Bills
+            </a>
+            
+              <ul>
+                
+                  <li>
+                    <a href="/admin/bills/noteline/">Quoted Order Note</a></li>
+                
+                  <li>
+                    <a href="/admin/bills/quotedorder/">Quoted orders</a></li>
+                
+              </ul>
+            
+          </li>
+        
+      
+        
+          <li>
+            <a href="/admin/catalog/attributes/"><i class="icon-chevron-right"></i>Catalog
+            </a>
+            
+              <ul>
+                
+                  <li>
+                    <a href="/admin/catalog/attributes/">Attributes</a></li>
+                
+                  <li>
+                    <a href="/admin/catalog/catalog/">Catalogs</a></li>
+                
+                  <li>
+                    <a href="/admin/catalog/category/">Categorys</a></li>
+                
+                  <li>
+                    <a href="/admin/catalog/headerfooter/">Header and Footer</a></li>
+                
+                  <li>
+                    <a href="/admin/catalog/modeofpayment/">Modes of payment</a></li>
+                
+                  <li>
+                    <a href="/admin/catalog/nonpaymentorder/">Non payment orders</a></li>
+                
+                  <li>
+                    <a href="/admin/catalog/product/">Products</a></li>
+                
+                  <li>
+                    <a href="/admin/catalog/purchaseorder/">Purchase orders</a></li>
+                
+                  <li>
+                    <a href="/admin/catalog/surcharge/">Surcharges</a></li>
+                
+                  <li>
+                    <a href="/admin/catalog/unit/">Units</a></li>
+                
+              </ul>
+            
+          </li>
+        
+      
+        
+          <li>
+            <a href="/admin/programmeletter/letterdata/"><i class="icon-chevron-right"></i>Programmeletter
+            </a>
+            
+              <ul>
+                
+                  <li>
+                    <a href="/admin/programmeletter/letterdata/">Letter datas</a></li>
+                
+                  <li>
+                    <a href="/admin/programmeletter/teamname/">Team names</a></li>
+                
+              </ul>
+            
+          </li>
+        
+      
+        
+          <li>
+            <a href="/admin/reports/savedregisters/"><i class="icon-chevron-right"></i>Reports
+            </a>
+            
+              <ul>
+                
+                  <li>
+                    <a href="/admin/reports/savedregisters/">Saved registerss</a></li>
+                
+              </ul>
+            
+          </li>
+        
+      
+        
+          <li>
+            <a href="/admin/sites/site/"><i class="icon-leaf"></i>Sites
+            </a>
+            
+              <ul>
+                
+                  <li>
+                    <a href="/admin/sites/site/">Sites</a></li>
+                
+              </ul>
+            
+          </li>
+        
+      
+        
+          <li>
+            <a href="/admin/suspense/department/"><i class="icon-chevron-right"></i>Suspense
+            </a>
+            
+              <ul>
+                
+                  <li>
+                    <a href="/admin/suspense/department/">Departments</a></li>
+                
+                  <li>
+                    <a href="/admin/suspense/staff/">Staff</a></li>
+                
+                  <li>
+                    <a href="/admin/suspense/staffposition/">Staff positions</a></li>
+                
+                  <li>
+                    <a href="/admin/suspense/suspenseorder/">Suspense orders</a></li>
+                
+                  <li>
+                    <a href="/admin/suspense/transport/">Transport</a></li>
+                
+                  <li>
+                    <a href="/admin/suspense/vehicle/">Vehicles</a></li>
+                
+              </ul>
+            
+          </li>
+        
+      
+        
+          <li>
+            <a href="/admin/useraccounts/address/"><i class="icon-chevron-right"></i>Useraccounts
+            </a>
+            
+              <ul>
+                
+                  <li>
+                    <a href="/admin/useraccounts/address/">Addresses</a></li>
+                
+                  <li>
+                    <a href="/admin/useraccounts/adminorganisations/">Admin Organisations</a></li>
+                
+                  <li>
+                    <a href="/admin/useraccounts/customer/">Customers</a></li>
+                
+                  <li>
+                    <a href="/admin/useraccounts/organisationtype/">Organisation types</a></li>
+                
+              </ul>
+            
+          </li>
+        
+      
+        
+          <li>
+            <a href="/admin/voucher/categorydistributiontype/"><i class="icon-chevron-right"></i>Voucher
+            </a>
+            
+              <ul>
+                
+                  <li>
+                    <a href="/admin/voucher/categorydistributiontype/">Category distribution types</a></li>
+                
+                  <li>
+                    <a href="/admin/voucher/distribution/">Distributions</a></li>
+                
+                  <li>
+                    <a href="/admin/voucher/financialsession/">Financial sessions</a></li>
+                
+                  <li>
+                    <a href="/admin/voucher/voucherid/">Voucher ids</a></li>
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+  </ul>
+</div>
+
+
+            </div>
+          
+        
+
+      </div>
+    </div>
+  
+
+  
+  <!-- Sticky footer push -->
+  <div id="push"></div>
+  
+
+</div>
+
+
+  
+  <div id="footer" class="footer">
+    <div class="content">
+      <div class="tools">
+        
+          <a href="http://djangosuit.com/support/" target="_blank" class="icon"><i class="icon-question-sign"></i>Support</a>
+          <a href="http://djangosuit.com/pricing/" target="_blank" class="icon"><i class="icon-bookmark"></i>Licence</a>
+          <a href="http://github.com/darklow/django-suit/issues" target="_blank" class="icon"><i class="icon-comment"></i>Report a bug</a>
+        
+      </div>
+
+      <div class="copyright">
+        
+          Copyright &copy; 2013 DjangoSuit.com<br>Developed by <a href="http://djangosuit.com" target="_blank">DjangoSuit.com</a>
+        
+      </div>
+
+      <div class="branding">
+        
+          LibreHatti
+          
+        
+      </div>
+    </div>
+  </div>
+  
+
+
+  <script src="/static/suit/js/suit.js"></script>
+  
+  
+
+  
+    <!-- Warn on leaving unsaved form -->
+    <script src="/static/suit/js/suit-form-confirm.js"></script>
+    <script type="text/javascript">
+      confirmExitIfModified('user_form', 'You have unsaved changes.');
+    </script>
+  
+
+  
+        
+  <script>
+    (function ($) {
+      $(function () {
+        $("#user_form").suit_form_debounce();
+      });
+    }(Suit.$))    
+  </script>
+
+
+
+</body>
+</html>
