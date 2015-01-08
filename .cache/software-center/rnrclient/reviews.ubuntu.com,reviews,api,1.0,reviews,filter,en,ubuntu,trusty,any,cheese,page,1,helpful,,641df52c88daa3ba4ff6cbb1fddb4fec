@@ -1,0 +1,93 @@
+status: 200
+content-length: 2928
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: http://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/en/ubuntu/trusty/any/cheese/page/1/helpful/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Fri, 21 Nov 2014 11:12:55 GMT
+vary: Accept
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Fri, 21 Nov 2014 11:07:55 GMT
+connection: close
+cache-control: max-age=300
+date: Fri, 21 Nov 2014 11:07:55 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Cheese Webcam Booth", 
+        "language": "en", 
+        "reviewer_username": "88sBJ4K", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "Works like a charm on 14.04.", 
+        "date_deleted": null, 
+        "summary": "Works like a charm on 14.04.", 
+        "version": "3.10.2-0ubuntu2", 
+        "id": 85305, 
+        "date_created": "2014-03-15 13:48:46", 
+        "reviewer_displayname": "Joe Carey", 
+        "package_name": "cheese", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 1, 
+        "hide": false, 
+        "app_name": "Cheese Webcam Booth", 
+        "language": "en", 
+        "reviewer_username": "HMxAFd3", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "HI I AM USING CHEESE WEBCAM BOOTH, AND I LOVE IT.   Except the sound does not work.   Why is that?", 
+        "date_deleted": null, 
+        "summary": "cheese webcam booth sound", 
+        "version": "3.10.2-0ubuntu2", 
+        "id": 91995, 
+        "date_created": "2014-11-10 23:45:41", 
+        "reviewer_displayname": "Leila", 
+        "package_name": "cheese", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "", 
+        "language": "en", 
+        "reviewer_username": "WYAR3Ar", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Both picture and video recording feature works for me. I use Xubuntu 14.04LTS, but it worked for me on other Linux distros before. I have a Dell Latitude D-830 Laptop.", 
+        "date_deleted": null, 
+        "summary": "Always worked for me", 
+        "version": "3.10.2-0ubuntu2", 
+        "id": 90625, 
+        "date_created": "2014-09-19 16:40:47", 
+        "reviewer_displayname": "Sina Momken", 
+        "package_name": "cheese", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 1, 
+        "hide": false, 
+        "app_name": "Cheese Webcam Booth", 
+        "language": "en", 
+        "reviewer_username": "kk8D7WA", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 0, 
+        "review_text": "I just upgraded to 14.04 and who ever is saying that it works on ubuntu 14.04 has never tryed it. It needs to be fixed. It will take picture, but 9 out of 10 times it will not recorde a video. If I wanted to take pictures I would use a camera not a webcam.", 
+        "date_deleted": null, 
+        "summary": "Broken in Ubuntu 14.04", 
+        "version": "3.10.2-0ubuntu2", 
+        "id": 87580, 
+        "date_created": "2014-05-31 14:07:35", 
+        "reviewer_displayname": "quintin smith", 
+        "package_name": "cheese", 
+        "distroseries": "trusty"
+    }
+]

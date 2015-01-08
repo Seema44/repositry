@@ -1,0 +1,68 @@
+
+(eog:2750): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/7696dc772877662ffa31ad2348a7e6e0.png': No such file or directory
+
+(eog:2764): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/e4d8d1d23f5c8274569ec75c8ce81f7d.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/4bd557c58602205caa761adef37289b0.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/06d67639c593954602a98dc96a2e1613.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/2aa418fa0a82ad7b33fba11ae071ec84.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/4a9061b063fe367a237a0add7c85f239.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/1c91b5cae41584a6572c05c466c8ed98.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/eb77eeb683e2413139af8011fc6df2c3.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/f937fdf22e1fb46a83286996a0c52595.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/5e83284cec814ae0623554309dfc77c4.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/e6ba59a2c806a456e2a6e3bfc03c2bc2.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/b0cd4d12656115d73a101ba13b550538.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/0b4d088c39406dd0352a1d3dc678a93f.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/18f81e56eaaa6c9aa155863702f853af.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/c17a87c5e7e69532f0f10726223e5df9.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/e26f0157d53f1669dabe59669e29bcfe.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/4a1d0a44a3e05de929ea2cba985a04e9.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/1bf33357ba17d96082e5528ec85c09f5.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/027c152fbbfa05c9b9fe19f94dc1cc7b.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/5e67c7abfab3fdf87a6be4c2c3781e0a.png': No such file or directory
+
+(eog:2772): EOG-WARNING **: Failed to open file '/home/seema/.cache/thumbnails/normal/9321452c2a1e4bf3911466052417768d.png': No such file or directory
+
+(gnome-terminal:2781): GLib-GIO-CRITICAL **: g_settings_get: the format string may not contain '&' (key 'monospace-font-name' from schema 'org.gnome.desktop.interface'). This call will probably stop working with a future version of glib.
+NOTE: child process received `Goodbye', closing down
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+[3195:3195:0108/053240:ERROR:CONSOLE(0)] "Application Cache Error event: Manifest fetch failed (6) https://www.google.co.in/_/chrome/newtab/manifest?espv=2&ie=UTF-8&client=ubuntu", source: https://www.google.co.in/_/chrome/newtab?espv=2&ie=UTF-8&client=ubuntu (0)
+Fontconfig error: Cannot load default config file
+[3195:3228:0108/053303:ERROR:channel.cc(290)] RawChannel read error (connection broken)
+NOTE: child process received `Goodbye', closing down
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 48 was not found when attempting to remove it
+
+** (nm-applet:2428): WARNING **: async_got_type: could not read properties for /org/freedesktop/NetworkManager/ActiveConnection/2: Method "Get" with signature "ss" on interface "org.freedesktop.DBus.Properties" doesn't exist
+
+
+** (nm-applet:2428): WARNING **: Could not create object for /org/freedesktop/NetworkManager/ActiveConnection/2: Method "GetAll" with signature "s" on interface "org.freedesktop.DBus.Properties" doesn't exist
+
+
+(deja-dup-monitor:2731): GLib-CRITICAL **: Source ID 48 was not found when attempting to remove it
+NOTE: child process received `Goodbye', closing down
+ERROR 2015-01-08 06:30:08 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2015-01-08 06:30:08 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2015-01-08 06:30:08 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+** (update-notifier:2683): WARNING **: log file empty (logrotate?) /var/log/dpkg.log
+
+** (update-notifier:2683): WARNING **: log file empty (logrotate?) /var/log/apt/term.log

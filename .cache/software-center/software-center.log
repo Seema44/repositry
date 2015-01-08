@@ -1,0 +1,455 @@
+2014-11-21 21:28:02,762 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2014-11-21 21:28:02,953 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-11-21 21:28:06,057 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-11-21 21:28:06,357 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2014-11-21 21:28:06,380 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2014-11-21 21:28:06,414 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2014-11-21 21:28:06,414 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2014-11-21 21:28:06,496 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-11-21 21:28:11,658 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2014-11-21 21:28:11,659 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2014-11-21 21:28:11,690 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2014-11-21 21:28:13,577 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-11-21 21:28:18,813 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2014-11-21 21:28:37,409 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2014-11-21 21:28:37,410 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-11-21 21:28:37,412 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-11-21 16:15:43,270 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2014-11-21 16:15:43,279 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-11-21 16:15:48,188 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2014-11-21 16:15:48,192 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2014-11-21 16:15:48,201 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2014-11-21 16:15:48,200 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2014-11-21 16:15:48,268 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-11-21 16:15:52,334 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2014-11-21 16:15:52,334 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2014-11-21 16:16:00,615 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-11-21 16:16:04,305 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2014-11-21 16:16:43,298 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2014-11-21 16:16:43,299 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-11-21 16:16:43,303 - softwarecenter.db.database - ERROR - failed to add apt-xapian-index
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/db/database.py", line 194, in _get_new_xapiandb
+    softwarecenter.paths.APT_XAPIAN_INDEX_DB_PATH)
+  File "/usr/lib/python2.7/dist-packages/xapian/__init__.py", line 3667, in __init__
+    _xapian.Database_swiginit(self,_xapian.new_Database(*args))
+DatabaseOpeningError: Couldn't stat '/var/lib/apt-xapian-index/index' (No such file or directory)
+2014-11-21 16:23:56,046 - softwarecenter.backend - ERROR - error in _on_trans_finished 'Error: Failed to download package files
+Check your Internet connection.
+
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/liba/libaacs/libaacs0_0.7.0-1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://security.ubuntu.com/ubuntu/pool/universe/liba/libav/libavutil52_9.16-0ubuntu0.14.04.1_amd64.deb Temporary failure resolving 'security.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libg/libgsm/libgsm1_1.0.13-4_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/l/lame/libmp3lame0_3.99.5+repack1-3ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/o/openjpeg/libopenjpeg2_1.3+dfsg-4.7ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/main/o/opus/libopus0_1.1-0ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/s/schroedinger/libschroedinger-1.0-0_1.0.11-2ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libv/libva/libva1_1.3.0-2_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/x/x264/libx264-142_0.142.2389+git956c8d8-2_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/x/xvidcore/libxvidcore4_1.3.2-9ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://security.ubuntu.com/ubuntu/pool/universe/liba/libav/libavcodec54_9.16-0ubuntu0.14.04.1_amd64.deb Temporary failure resolving 'security.ubuntu.com'
+Failed to fetch http://security.ubuntu.com/ubuntu/pool/universe/liba/libav/libavformat54_9.16-0ubuntu0.14.04.1_amd64.deb Temporary failure resolving 'security.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libl/liblivemedia/libbasicusageenvironment0_2014.01.13-1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libb/libbluray/libbluray1_0.5.0-1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/c/crystalhd/libcrystalhd3_0.0~git20110715.fdd2f19-9ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/d/dirac/libdirac-encoder0_1.0.2-6ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/t/tslib/tsconf_1.0-12_all.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/t/tslib/libts-0.0-0_1.0-12_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/d/directfb/libdirectfb-1.2-9_1.2.10.0-5_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libd/libdvbpsi/libdvbpsi8_1.0.0-3_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libd/libdvdread/libdvdread4_4.2.1-2ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libd/libdvdnav/libdvdnav4_4.2.1-3_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libe/libebml/libebml4_1.3.0-2_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/e/enca/libenca0_1.15-2_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/f/faad2/libfaad2_2.7-8_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/main/n/nettle/libhogweed2_2.7.1-1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/g/gnutls28/libgnutls28_3.2.11-2ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libl/liblivemedia/libgroupsock1_2014.01.13-1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libl/liblivemedia/liblivemedia23_2014.01.13-1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libm/libmad/libmad0_0.15.1b-8ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libm/libmatroska/libmatroska6_1.4.1-2_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/m/mpeg2dec/libmpeg2-4_0.5.1-5ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/main/libs/libsdl1.2/libsdl1.2debian_1.2.15-8ubuntu1.1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/s/sdl-image1.2/libsdl-image1.2_1.2.12-5build2_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libs/libssh2/libssh2-1_1.4.3-2_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://security.ubuntu.com/ubuntu/pool/universe/liba/libav/libswscale2_9.16-0ubuntu0.14.04.1_amd64.deb Temporary failure resolving 'security.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libl/liblivemedia/libusageenvironment1_2014.01.13-1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libv/libva/libva-x11-1_1.3.0-2_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libp/libproxy/libproxy-tools_0.4.11-0ubuntu4_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://security.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc-data_2.1.4-0ubuntu14.04.1_all.deb Temporary failure resolving 'security.ubuntu.com'
+Failed to fetch http://security.ubuntu.com/ubuntu/pool/universe/v/vlc/libvlccore7_2.1.4-0ubuntu14.04.1_amd64.deb Temporary failure resolving 'security.ubuntu.com'
+Failed to fetch http://security.ubuntu.com/ubuntu/pool/universe/v/vlc/libvlc5_2.1.4-0ubuntu14.04.1_amd64.deb Temporary failure resolving 'security.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb-composite0_1.10-2ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/main/libx/libxcb/libxcb-xv0_1.10-2ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/z/zvbi/libzvbi-common_0.2.35-2_all.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/z/zvbi/libzvbi0_0.2.35-2_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/a/a52dec/liba52-0.7.4_0.7.4-17_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/liba/libass/libass4_0.10.1-3ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libc/libcddb/libcddb2_1.3.2-4fakesync2_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/c/chromaprint/libchromaprint0_1.1-1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libd/libdc1394-22/libdc1394-22_2.2.1-2ubuntu2_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libd/libdca/libdca0_0.0.5-6ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libk/libkate/libkate1_0.4.1-1ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libm/libmodplug/libmodplug1_0.8.8.4-4.1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libm/libmpc/libmpcdec6_0.1~r459-1ubuntu3_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libp/libpostproc/libpostproc52_0.git20120821-4_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/s/sidplay-libs/libresid-builder0c2a_2.1.1-14_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/s/sidplay-libs/libsidplay2_2.1.1-14_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/t/twolame/libtwolame0_0.3.13-1ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libu/libupnp/libupnp6_1.6.17-1.2_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libc/libcdio/libiso9660-8_0.83-4.1ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/v/vcdimager/libvcdinfo0_0.7.24+dfsg-0.1ubuntu2_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://security.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc-nox_2.1.4-0ubuntu14.04.1_amd64.deb Temporary failure resolving 'security.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/universe/libt/libtar/libtar0_1.2.20-3ubuntu0.1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/main/x/xcb-util-keysyms/libxcb-keysyms1_0.3.9-1ubuntu1_amd64.deb Temporary failure resolving 'in.archive.ubuntu.com'
+Failed to fetch http://security.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc_2.1.4-0ubuntu14.04.1_amd64.deb Temporary failure resolving 'security.ubuntu.com'
+Failed to fetch http://security.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc-plugin-notify_2.1.4-0ubuntu14.04.1_amd64.deb Temporary failure resolving 'security.ubuntu.com'
+Failed to fetch http://security.ubuntu.com/ubuntu/pool/universe/v/vlc/vlc-plugin-pulse_2.1.4-0ubuntu14.04.1_amd64.deb Temporary failure resolving 'security.ubuntu.com'
+'
+2014-11-21 16:25:02,229 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-11-21 16:25:03,005 - softwarecenter.utils - WARNING - Could not determine the installed desktop file path for app-install desktop file: '/usr/share/app-install/desktop/vlc:vlc.desktop'
+2014-11-21 16:25:03,006 - softwarecenter.backend.zeitgeist_logger - WARNING - Invalid desktop file provided, impossible to log event
+2014-11-21 16:39:43,997 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-11-21 16:39:51,668 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-11-21 16:40:01,843 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-11-21 16:44:39,844 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-11-21 16:47:06,394 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-11-22 11:40:21,650 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2014-11-22 11:40:25,813 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-11-22 11:40:26,511 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2014-11-22 11:40:26,537 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2014-11-22 11:40:26,582 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2014-11-22 11:40:26,582 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2014-11-22 11:40:26,676 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-11-22 11:40:26,986 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats', '{"days": 1}']'
+2014-11-22 11:40:26,987 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2014-11-22 11:40:36,545 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-11-22 11:40:37,135 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2014-11-22 11:40:39,401 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2014-11-22 14:08:03,495 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2014-11-22 14:08:06,151 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-11-22 14:08:06,796 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2014-11-22 14:08:06,824 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2014-11-22 14:08:06,869 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2014-11-22 14:08:06,869 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2014-11-22 14:08:06,960 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-11-22 14:08:07,136 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats', '{"days": 1}']'
+2014-11-22 14:08:07,137 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2014-11-22 14:08:11,120 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2014-11-22 14:08:13,750 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-11-22 14:08:16,523 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2014-11-22 15:39:09,706 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2014-11-22 15:39:12,541 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-11-22 15:39:13,230 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2014-11-22 15:39:13,259 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2014-11-22 15:39:13,303 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2014-11-22 15:39:13,303 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2014-11-22 15:39:13,384 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-11-22 15:39:13,572 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats', '{"days": 1}']'
+2014-11-22 15:39:13,573 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2014-11-22 15:39:20,401 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2014-11-22 15:39:25,018 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-11-22 15:39:28,066 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2014-11-22 16:21:07,685 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2014-11-22 16:21:08,313 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-11-22 16:21:08,683 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2014-11-22 16:21:08,686 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2014-11-22 16:21:08,694 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2014-11-22 16:21:08,694 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2014-11-22 16:21:08,758 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-11-22 16:21:09,179 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats', '{"days": 2}']'
+2014-11-22 16:21:09,179 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2014-11-22 16:21:10,583 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2014-11-22 16:21:13,581 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-11-22 16:21:16,360 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2014-11-27 08:49:40,108 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2014-11-27 08:49:42,768 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-11-27 08:49:43,423 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2014-11-27 08:49:43,451 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2014-11-27 08:49:43,485 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2014-11-27 08:49:43,485 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2014-11-27 08:49:43,579 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-11-27 08:49:43,753 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats', '{"days": 6}']'
+2014-11-27 08:49:43,754 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2014-11-27 08:49:47,472 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2014-11-27 08:49:50,250 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-11-27 08:49:52,969 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2014-12-30 19:10:22,362 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2014-12-30 19:10:25,092 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2014-12-30 19:10:25,707 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2014-12-30 19:10:25,740 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2014-12-30 19:10:25,773 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2014-12-30 19:10:25,773 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2014-12-30 19:10:25,838 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2014-12-30 19:10:53,000 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-01-06 11:14:32,777 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-01-06 11:14:35,653 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-01-06 11:14:36,273 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-01-06 11:14:36,302 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-01-06 11:14:36,336 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2015-01-06 11:14:36,336 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2015-01-06 11:14:36,419 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-06 11:14:42,380 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-01-06 11:14:42,438 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-01-06 11:14:42,501 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-01-06 11:15:00,965 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-01-06 11:15:01,026 - softwarecenter.db.application - WARNING - document no longer valid after db reopen
+2015-01-07 11:29:34,297 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-01-07 11:29:37,241 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-01-07 11:29:37,878 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-01-07 11:29:37,911 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-01-07 11:29:37,944 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2015-01-07 11:29:37,943 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2015-01-07 11:29:38,093 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-07 11:29:43,478 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-01-07 11:29:43,540 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-01-07 11:29:44,105 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-01-07 11:30:01,142 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-01-07 11:48:12,812 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-01-07 11:48:13,461 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-01-07 11:48:13,463 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-01-07 11:48:13,471 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2015-01-07 11:48:13,470 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2015-01-07 11:48:13,536 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-07 11:48:33,750 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats', '{"days": 1}']'
+2015-01-07 11:48:33,751 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2015-01-07 11:48:35,094 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-01-07 11:48:42,011 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-01-07 12:37:07,632 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-01-07 12:37:08,649 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-01-07 12:37:08,653 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-01-07 12:37:08,661 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/gi/importer.py', 51, 'find_module')'
+2015-01-07 12:37:08,660 - root - ERROR - Could not find any typelib for LaunchpadIntegration
+2015-01-07 12:37:08,727 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-07 12:37:11,360 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-01-07 12:37:11,361 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Invalid argument -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-01-07 12:37:12,630 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-01-07 12:37:52,820 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-01-07 12:41:44,812 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-07 12:41:45,535 - softwarecenter.backend.zeitgeist_logger - WARNING - Invalid desktop file provided, impossible to log event
+2015-01-07 12:41:55,070 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-07 12:42:51,718 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_get_reviews_helper.py', '--language', 'en', '--origin', 'ubuntu', '--distroseries', 'trusty', '--pkgname', 'flashplugin-installer', '--page', '1', '--sort', 'helpful']'
+2015-01-07 12:42:51,719 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'ERROR:__main__:get_reviews
+Traceback (most recent call last):
+  File "/usr/share/software-center/piston_get_reviews_helper.py", line 68, in <module>
+    piston_reviews = try_get_reviews(kwargs)
+  File "/usr/share/software-center/piston_get_reviews_helper.py", line 23, in try_get_reviews
+    piston_reviews = rnrclient.get_reviews(**kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 168, in wrapper
+    body = func(self, *args, **kwargs)
+  File "/usr/share/software-center/softwarecenter/backend/piston/rnrclient_pristine.py", line 121, in get_reviews
+    scheme=PUBLIC_API_SCHEME)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 787, in _get
+    extra_headers=extra_headers)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 491, in get
+    return self.request_url(url, method='GET', headers=headers)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 419, in request_url
+    url, method=method, body=body, headers=headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1569, in request
+    (response, content) = self._request(conn, authority, uri, request_uri, method, body, headers, redirections, cachekey)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1316, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/usr/lib/python2.7/dist-packages/httplib2/__init__.py", line 1299, in _conn_request
+    content = response.read()
+  File "/usr/lib/python2.7/httplib.py", line 551, in read
+    s = self._safe_read(self.length)
+  File "/usr/lib/python2.7/httplib.py", line 660, in _safe_read
+    raise IncompleteRead(''.join(s), amt)
+IncompleteRead: IncompleteRead(6842 bytes read, 472 more expected)
+'
+2015-01-07 12:46:47,418 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "screenscrap"}']'
+2015-01-07 12:46:47,419 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:404: {'status': '404', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'MISS from sumac.canonical.com', 'transfer-encoding': 'chunked', 'x-cache-lookup': 'MISS from sumac.canonical.com:3128', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'etag': '"eee114646774cb604122164f4ff3a4d4"', 'cache-control': 'max-age=300', 'date': 'Wed, 07 Jan 2015 07:16:46 GMT', 'content-type': 'text/html; charset=utf-8'}
+'
+2015-01-07 12:46:47,419 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:404: {'status': '404', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'MISS from sumac.canonical.com', 'transfer-encoding': 'chunked', 'x-cache-lookup': 'MISS from sumac.canonical.com:3128', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'etag': '"eee114646774cb604122164f4ff3a4d4"', 'cache-control': 'max-age=300', 'date': 'Wed, 07 Jan 2015 07:16:46 GMT', 'content-type': 'text/html; charset=utf-8'}
+
+2015-01-07 12:46:47,420 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:404: {'status': '404', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'MISS from sumac.canonical.com', 'transfer-encoding': 'chunked', 'x-cache-lookup': 'MISS from sumac.canonical.com:3128', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache/2.2.22 (Ubuntu)', 'etag': '"eee114646774cb604122164f4ff3a4d4"', 'cache-control': 'max-age=300', 'date': 'Wed, 07 Jan 2015 07:16:46 GMT', 'content-type': 'text/html; charset=utf-8'}
+
+2015-01-07 13:08:35,209 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-07 13:08:43,991 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-07 13:25:20,991 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-07 13:39:09,991 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-07 13:45:27,990 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-07 13:52:40,991 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-07 13:53:36,990 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-07 16:48:55,618 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_get_reviews_helper.py', '--language', 'en', '--origin', 'any', '--distroseries', 'any', '--pkgname', 'tuxpaint', '--page', '3', '--sort', 'helpful']'
+2015-01-07 16:48:55,618 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'Traceback (most recent call last):
+  File "/usr/share/software-center/piston_get_reviews_helper.py", line 79, in <module>
+    piston_reviews = try_get_reviews(kwargs)
+  File "/usr/share/software-center/piston_get_reviews_helper.py", line 23, in try_get_reviews
+    piston_reviews = rnrclient.get_reviews(**kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 171, in wrapper
+    data = _parse_json(body)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 124, in _parse_json
+    raise APIError('No JSON object could be decoded', body=json_data)
+piston_mini_client.failhandlers.APIError: No JSON object could be decoded
+'
+2015-01-07 16:49:25,633 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_get_reviews_helper.py', '--language', 'en', '--origin', 'any', '--distroseries', 'any', '--pkgname', 'tuxpaint', '--page', '3', '--sort', 'helpful']'
+2015-01-07 16:49:25,634 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'Traceback (most recent call last):
+  File "/usr/share/software-center/piston_get_reviews_helper.py", line 79, in <module>
+    piston_reviews = try_get_reviews(kwargs)
+  File "/usr/share/software-center/piston_get_reviews_helper.py", line 23, in try_get_reviews
+    piston_reviews = rnrclient.get_reviews(**kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 171, in wrapper
+    data = _parse_json(body)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 124, in _parse_json
+    raise APIError('No JSON object could be decoded', body=json_data)
+piston_mini_client.failhandlers.APIError: No JSON object could be decoded
+'
+2015-01-07 16:49:25,666 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_get_reviews_helper.py', '--language', 'en', '--origin', 'any', '--distroseries', 'any', '--pkgname', 'tuxpaint', '--page', '3', '--sort', 'helpful']'
+2015-01-07 16:49:25,667 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'Traceback (most recent call last):
+  File "/usr/share/software-center/piston_get_reviews_helper.py", line 79, in <module>
+    piston_reviews = try_get_reviews(kwargs)
+  File "/usr/share/software-center/piston_get_reviews_helper.py", line 23, in try_get_reviews
+    piston_reviews = rnrclient.get_reviews(**kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 49, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/validators.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 171, in wrapper
+    data = _parse_json(body)
+  File "/usr/lib/python2.7/dist-packages/piston_mini_client/__init__.py", line 124, in _parse_json
+    raise APIError('No JSON object could be decoded', body=json_data)
+piston_mini_client.failhandlers.APIError: No JSON object could be decoded
+'
+2015-01-07 17:25:44,150 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-07 17:26:28,150 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-01-07 17:31:55,150 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()

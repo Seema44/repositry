@@ -1,0 +1,22 @@
+logrotate state -- version 2
+"/home/seema/.cache/upstart/im-config.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/hud.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/indicator-messages.log" 2014-12-30-18:57:50
+"/home/seema/.cache/upstart/indicator-bluetooth.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/indicator-datetime.log" 2014-12-30-18:57:50
+"/home/seema/.cache/upstart/update-notifier-release.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/unity-settings-daemon.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/unity-panel-service.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/unity-panel-service-lockscreen.log" 2015-1-5-20:1:15
+"/home/seema/.cache/upstart/indicator-power.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/at-spi2-registryd.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/unity7.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/gnome-session-Unity.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/indicator-application.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/indicator-sound.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/update-notifier-crash-_var_crash__usr_lib_unity-settings-daemon_unity-settings-daemon.1000.crash.log" 2014-12-8-22:42:17
+"/home/seema/.cache/upstart/window-stack-bridge.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/update-notifier-crash-_var_crash__usr_share_apport_apport-gtk.1000.crash.log" 2014-12-12-22:9:45
+"/home/seema/.cache/upstart/indicator-printers.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/dbus.log" 2015-1-8-4:50:22
+"/home/seema/.cache/upstart/indicator-session.log" 2015-1-6-9:56:19

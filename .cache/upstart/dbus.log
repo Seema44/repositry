@@ -1,0 +1,23 @@
+
+** (zeitgeist-fts:2554): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:2554): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:2554): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:2554): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:2554): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:2554): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+
+** (zeitgeist-fts:2554): WARNING **: Unable to get info on application://nautilus-autostart.desktop
+module-cache-reaper-Message: Reaping abandoned data directories
+module-cache-reaper-Message: Reaping abandoned cache directories
+Activating service name='com.ubuntu.OneConf'
+Successfully activated service 'com.ubuntu.OneConf'
+WARNING:oneconf.hosts:Error in loading other_hosts file: [Errno 2] No such file or directory: '/home/seema/.cache/oneconf/d0d62873a79456431e9397c1546f5fc5/other_hosts'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'
+Activating service name='com.ubuntu.sso'
+Successfully activated service 'com.ubuntu.sso'

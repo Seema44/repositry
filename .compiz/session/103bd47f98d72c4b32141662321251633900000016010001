@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<compiz_session id="103bd47f98d72c4b32141662321251633900000016010001">
+  <window id="103bd47f98d72c4b32141662324013106400000016010045" title="VLC media player" class="Vlc" name="vlc" role="vlc-main">
+    <geometry x="65" y="24" width="1301" height="744"/>
+    <minimized/>
+    <maximized vert="yes" horz="yes"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

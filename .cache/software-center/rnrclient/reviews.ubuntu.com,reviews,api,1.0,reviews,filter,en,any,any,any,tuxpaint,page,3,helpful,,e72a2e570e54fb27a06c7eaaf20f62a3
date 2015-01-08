@@ -1,0 +1,16 @@
+status: 200
+content-length: 2
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: http://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/en/any/any/any/tuxpaint/page/3/helpful/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Wed, 07 Jan 2015 17:20:05 GMT
+vary: Accept
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Wed, 07 Jan 2015 17:15:05 GMT
+connection: close
+cache-control: max-age=300
+date: Wed, 07 Jan 2015 17:15:05 GMT
+content-type: application/json; charset=utf-8
+
+[]

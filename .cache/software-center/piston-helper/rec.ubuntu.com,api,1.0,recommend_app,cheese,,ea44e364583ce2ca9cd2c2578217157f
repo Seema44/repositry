@@ -1,0 +1,512 @@
+status: 200
+content-length: 12178
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/cheese/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Fri, 21 Nov 2014 11:13:01 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Fri, 21 Nov 2014 11:08:01 GMT
+etag: "e7e0c0e35b95e5696505500ee467bc40"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Fri, 21 Nov 2014 11:08:01 GMT
+content-type: application/json; charset=utf-8
+
+{
+    "rid": "0071a3759fd220895f870abf24e281cc", 
+    "data": [
+        {
+            "lift": 1.71263110550957, 
+            "package_name": "alacarte", 
+            "similarity": 0.4259
+        }, 
+        {
+            "package_name": "quadrapassel", 
+            "similarity": 0.4236
+        }, 
+        {
+            "package_name": "gnome-shell", 
+            "similarity": 0.421
+        }, 
+        {
+            "package_name": "mono-runtime", 
+            "similarity": 0.4187
+        }, 
+        {
+            "package_name": "evolution", 
+            "similarity": 0.4161
+        }, 
+        {
+            "lift": 1.68886574681372, 
+            "package_name": "gimp", 
+            "similarity": 0.412
+        }, 
+        {
+            "package_name": "tomboy", 
+            "similarity": 0.4018
+        }, 
+        {
+            "package_name": "inkscape", 
+            "similarity": 0.3962
+        }, 
+        {
+            "package_name": "vinagre", 
+            "similarity": 0.3905
+        }, 
+        {
+            "lift": 1.6009552540841, 
+            "package_name": "synaptic", 
+            "similarity": 0.3796
+        }, 
+        {
+            "package_name": "gdebi", 
+            "similarity": 0.369
+        }, 
+        {
+            "package_name": "glchess", 
+            "similarity": 0.3656
+        }, 
+        {
+            "package_name": "epiphany-browser", 
+            "similarity": 0.3525
+        }, 
+        {
+            "package_name": "gnotravex", 
+            "similarity": 0.34
+        }, 
+        {
+            "package_name": "gnibbles", 
+            "similarity": 0.3381
+        }, 
+        {
+            "package_name": "gnect", 
+            "similarity": 0.3379
+        }, 
+        {
+            "package_name": "glines", 
+            "similarity": 0.3367
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gnobots2", 
+            "similarity": 0.3355
+        }, 
+        {
+            "package_name": "gnotski", 
+            "similarity": 0.3342
+        }, 
+        {
+            "package_name": "iagno", 
+            "similarity": 0.3338
+        }, 
+        {
+            "package_name": "gnome-tweak-tool", 
+            "similarity": 0.3264
+        }, 
+        {
+            "package_name": "compizconfig-settings-manager", 
+            "similarity": 0.3242
+        }, 
+        {
+            "lift": 1.58014199568065, 
+            "package_name": "gstreamer0.10-plugins-bad-multiverse", 
+            "similarity": 0.3226
+        }, 
+        {
+            "package_name": "sound-juicer", 
+            "similarity": 0.3208
+        }, 
+        {
+            "lift": 1.4849490656776, 
+            "package_name": "icedtea-netx-common", 
+            "similarity": 0.3137
+        }, 
+        {
+            "lift": 1.51684247915883, 
+            "package_name": "p7zip-full", 
+            "similarity": 0.3137
+        }, 
+        {
+            "package_name": "winetricks", 
+            "similarity": 0.3098
+        }, 
+        {
+            "lift": 1.59060907807403, 
+            "package_name": "ubuntu-restricted-extras", 
+            "similarity": 0.3071
+        }, 
+        {
+            "package_name": "openjdk-6-jre", 
+            "similarity": 0.303
+        }, 
+        {
+            "lift": 1.43259756108888, 
+            "package_name": "kdelibs5-data", 
+            "similarity": 0.3024
+        }, 
+        {
+            "lift": 1.4319042355171, 
+            "package_name": "kde-runtime", 
+            "similarity": 0.3
+        }, 
+        {
+            "lift": 1.24370438704849, 
+            "package_name": "gstreamer0.10-plugins-bad", 
+            "similarity": 0.2962
+        }, 
+        {
+            "lift": 1.29194291875309, 
+            "package_name": "vlc", 
+            "similarity": 0.2852
+        }, 
+        {
+            "lift": 1.55339305843226, 
+            "package_name": "gparted", 
+            "similarity": 0.2768
+        }, 
+        {
+            "package_name": "wine1.4", 
+            "similarity": 0.2738
+        }, 
+        {
+            "package_name": "liferea", 
+            "similarity": 0.2681
+        }, 
+        {
+            "package_name": "ekiga", 
+            "similarity": 0.268
+        }, 
+        {
+            "package_name": "gnash", 
+            "similarity": 0.2668
+        }, 
+        {
+            "lift": 1.17457266279625, 
+            "package_name": "gstreamer0.10-plugins-ugly", 
+            "similarity": 0.2647
+        }, 
+        {
+            "package_name": "gstreamer0.10-ffmpeg", 
+            "similarity": 0.2644
+        }, 
+        {
+            "package_name": "hamster-applet", 
+            "similarity": 0.2597
+        }, 
+        {
+            "lift": 1.17084903814278, 
+            "package_name": "metacity", 
+            "similarity": 0.2591
+        }, 
+        {
+            "lift": 1.15979596038084, 
+            "package_name": "gnome-contacts", 
+            "similarity": 0.2561
+        }, 
+        {
+            "package_name": "audacity", 
+            "similarity": 0.2545
+        }, 
+        {
+            "lift": 1.06063832395334, 
+            "package_name": "gnome-nettool", 
+            "similarity": 0.2487
+        }, 
+        {
+            "lift": 1.55052259711027, 
+            "package_name": "openjdk-7-jre", 
+            "similarity": 0.2452
+        }, 
+        {
+            "package_name": "dconf-tools", 
+            "similarity": 0.2364
+        }, 
+        {
+            "lift": 1.23375935923518, 
+            "package_name": "chromium-browser", 
+            "similarity": 0.2303
+        }, 
+        {
+            "package_name": "openshot", 
+            "similarity": 0.2281
+        }, 
+        {
+            "package_name": "gnome-panel", 
+            "similarity": 0.2228
+        }, 
+        {
+            "lift": 1.67243013482627, 
+            "package_name": "imagemagick"
+        }, 
+        {
+            "lift": 1.61880059158642, 
+            "package_name": "shotwell-common"
+        }, 
+        {
+            "lift": 1.61336449632871, 
+            "package_name": "signon-ui"
+        }, 
+        {
+            "lift": 1.60936923362349, 
+            "package_name": "activity-log-manager"
+        }, 
+        {
+            "lift": 1.37500802846791, 
+            "package_name": "unity-webapps-common"
+        }, 
+        {
+            "lift": 1.33377904841806, 
+            "package_name": "gkbd-capplet"
+        }, 
+        {
+            "lift": 1.31448622509822, 
+            "package_name": "gnome-mines"
+        }, 
+        {
+            "lift": 1.31335109588325, 
+            "package_name": "gnome-calculator"
+        }, 
+        {
+            "lift": 1.30763597907451, 
+            "package_name": "im-config"
+        }, 
+        {
+            "lift": 1.30110986397466, 
+            "package_name": "remmina"
+        }, 
+        {
+            "lift": 1.26366760390532, 
+            "package_name": "unity-scope-gdrive"
+        }, 
+        {
+            "lift": 1.2412953118725, 
+            "package_name": "gnome-mahjongg"
+        }, 
+        {
+            "lift": 1.12943531432103, 
+            "package_name": "gnome-system-monitor"
+        }, 
+        {
+            "lift": 1.11431477970267, 
+            "package_name": "gcr"
+        }, 
+        {
+            "lift": 1.07389237863238, 
+            "package_name": "flashplugin-installer"
+        }, 
+        {
+            "lift": 1.07173592537326, 
+            "package_name": "unity-lens-photos"
+        }, 
+        {
+            "lift": 1.00050078368964, 
+            "package_name": "gnome-orca"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "unity-2d-launcher"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "gftp-gtk"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "unity-2d-places"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "pornview"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "conduit"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "amora-applet"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "blogtk"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "literki"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "gnome-photo-printer"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "kmetronome"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "pyscrabble"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "photoprint"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "gnome-gmail"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "sugar-emulator-0.90"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "kshutdown"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "lgeneral"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "etherwake"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "alleyoop"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "lshw-gtk"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "wakeup"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "ryzom"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "freetennis"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gshutdown"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "twitux"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "dgen"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "w3af"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "kadu"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "jokosher"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gtklick"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "nrg2iso"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "bovo"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "xmille"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "hipo"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "darkroom"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "salasaga"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "umbrello"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gnome-theme-gilouche"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "g2ipmsg"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "x3270"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "pychess"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gnome-art"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "seamonkey-mailnews"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gmail-notify"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "pybridge"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "apmd"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gnome-paint"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "bnetd"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gadmin-rsync"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "fglrx"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "laptop-mode-tools"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gnome-color-chooser"
+        }
+    ], 
+    "app": "cheese"
+}

@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///media/seema/New%20Volume/chintpurni%20mata/Bhandara%202014.mpg" added="2014-11-21T19:01:04Z" modified="2014-12-26T17:26:23Z" visited="2014-11-21T19:01:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-26T17:26:23Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/CCPP/main.cpp.save" added="2014-11-23T03:15:26Z" modified="2015-01-06T05:39:46Z" visited="2014-11-23T03:15:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-06T05:39:46Z" count="6"/>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2015-01-06T05:39:46Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/con.cpp" added="2014-11-25T06:11:07Z" modified="2015-01-06T05:45:45Z" visited="2014-11-25T06:11:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-06T05:45:45Z" count="3"/>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2014-11-25T06:14:30Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/progrms/t4.cpp" added="2014-11-25T06:18:58Z" modified="2015-01-06T06:32:56Z" visited="2014-11-25T06:18:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-06T06:32:56Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/pro.cpp" added="2014-11-25T12:20:07Z" modified="2015-01-06T05:49:31Z" visited="2014-11-25T12:20:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2014-11-25T12:20:07Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-06T05:49:31Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/friends/friends%201/friends%20-%20122%20-The%20One%20with%20the%20Ick%20Factor.avi" added="2014-11-27T16:35:37Z" modified="2014-12-08T17:18:17Z" visited="2014-11-27T16:35:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-08T17:18:17Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/friends/friends%201/friends%20-%20123%20-%20the%20one%20with%20the%20birth.avi" added="2014-12-08T17:39:34Z" modified="2014-12-08T17:39:34Z" visited="2014-12-08T17:39:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-08T17:39:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/friends/friends%201/friends%20-%20124%20rachel%20finds%20out.avi" added="2014-12-08T17:59:39Z" modified="2014-12-08T17:59:39Z" visited="2014-12-08T17:59:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-08T17:59:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/friends/season2/friends%20-%20201%20-%20the%20one%20with%20ross&apos;%20new%20girlfriend.avi" added="2014-12-08T18:20:24Z" modified="2014-12-08T18:20:24Z" visited="2014-12-08T18:20:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-08T18:20:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/friends/season2/friends%20-%20202%20-%20the%20one%20with%20the%20breast%20milk.avi" added="2014-12-08T18:41:43Z" modified="2014-12-08T18:41:43Z" visited="2014-12-08T18:41:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-08T18:41:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/friends/season2/friends%20-%20214%20-%20the%20one%20with%20the%20prom%20video.avi" added="2014-12-08T19:03:22Z" modified="2014-12-08T19:03:22Z" visited="2014-12-08T19:03:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-08T19:03:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/friends/season2/friends%20-%20215%20the%20one%20where%20ross%20and%20rachel,%20you%20know.avi" added="2014-12-08T19:12:15Z" modified="2014-12-08T19:12:15Z" visited="2014-12-08T19:12:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-08T19:12:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/shorinthecity01(www.songs.pk).mp3" added="2014-12-09T08:15:48Z" modified="2014-12-09T08:15:59Z" visited="2014-12-09T08:15:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-09T08:15:59Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/shorinthecity08(www.songs.pk).mp3" added="2014-12-09T08:16:19Z" modified="2014-12-09T08:16:26Z" visited="2014-12-09T08:16:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-09T08:16:26Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/friends/season2/friends%20-%20203%20-%20the%20one%20where%20mr.%20heckles%20dies.avi" added="2014-12-12T16:42:16Z" modified="2014-12-12T16:42:16Z" visited="2014-12-12T16:42:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-12T16:42:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/friends/season2/friends%20-%20204%20-%20the%20one%20with%20phoebe&apos;s%20husband%20.avi" added="2014-12-12T17:05:10Z" modified="2014-12-12T17:05:10Z" visited="2014-12-12T17:05:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-12T17:05:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/friends/season2/friends%20-%20205%20-%20the%20one%20with%20five%20steaks%20and%20an%20eggplant.avi" added="2014-12-12T17:26:29Z" modified="2014-12-12T17:26:29Z" visited="2014-12-12T17:26:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-12T17:26:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/friends/season2/friends%20-%20206%20-%20the%20one%20with%20the%20baby%20on%20the%20bus.avi" added="2014-12-12T17:47:54Z" modified="2014-12-12T17:47:54Z" visited="2014-12-12T17:47:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-12T17:47:54Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/friends/season2/friends%20-%20207%20-%20the%20one%20where%20ross%20finds%20out.avi" added="2014-12-12T18:09:12Z" modified="2014-12-12T18:09:28Z" visited="2014-12-12T18:09:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-12T18:09:28Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/friends/season2/friends%20-%20208%20-%20the%20one%20with%20the%20list.avi" added="2014-12-12T18:12:05Z" modified="2014-12-12T18:12:05Z" visited="2014-12-12T18:12:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-12T18:12:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/PORFFESNAL/D14.mpg" added="2014-12-18T15:58:40Z" modified="2014-12-18T15:58:46Z" visited="2014-12-18T15:58:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-18T15:58:46Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/PORFFESNAL/Sikh-Wedding-Cinematic--Jaspal-Weds-Malkeet.mp4" added="2014-12-18T16:05:29Z" modified="2014-12-18T16:05:29Z" visited="2014-12-18T16:05:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-18T16:05:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/PORFFESNAL/Sikh_Wedding_Singapore_Manmeet_Sharin.mp4" added="2014-12-18T16:12:31Z" modified="2014-12-18T16:12:31Z" visited="2014-12-18T16:12:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-18T16:12:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume1/friends/season2/friends%20-%20215%20the%20one%20where%20ross%20and%20rachel,%20you%20know.avi" added="2014-12-19T17:05:35Z" modified="2014-12-19T18:30:15Z" visited="2014-12-19T17:05:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-19T18:30:15Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume1/friends/season2/friends%20-%20216%20-%20the%20one%20where%20joey%20moves%20out.avi" added="2014-12-19T18:35:51Z" modified="2014-12-19T18:35:51Z" visited="2014-12-19T18:35:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-19T18:35:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume1/friends/season2/friends%20-%20217%20-%20the%20one%20where%20eddie%20moves%20in.avi" added="2014-12-19T18:57:15Z" modified="2014-12-19T18:57:15Z" visited="2014-12-19T18:57:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-19T18:57:15Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume1/friends/season2/friends%20-%20218%20-%20the%20one%20where%20dr.%20ramoray%20dies.avi" added="2014-12-19T19:18:38Z" modified="2014-12-19T19:18:38Z" visited="2014-12-19T19:18:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-19T19:18:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume1/Candidate%20Photograph.Jpg.jpg" added="2014-12-21T09:31:44Z" modified="2014-12-21T09:31:44Z" visited="2014-12-21T09:31:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2014-12-21T09:31:44Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume1/Candidate%20Photograph.jpg" added="2014-12-21T09:32:45Z" modified="2014-12-21T09:32:45Z" visited="2014-12-21T09:32:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2014-12-21T09:32:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume1/Candidate%20Signature.jpg.JPG" added="2014-12-21T09:33:55Z" modified="2014-12-21T09:33:55Z" visited="2014-12-21T09:33:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2014-12-21T09:33:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume1/Candidate%20Left%20Thumb%20Impression.JPG" added="2014-12-21T09:35:52Z" modified="2014-12-21T09:35:52Z" visited="2014-12-21T09:35:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2014-12-21T09:35:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/Aisi_Mulaqaat-(Jatt.fm).mp3" added="2014-12-21T11:29:30Z" modified="2014-12-21T11:29:30Z" visited="2014-12-21T11:29:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-21T11:29:30Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/Shaapit%202010%20DVDRip%20XviD%20E-SuB%20xRG_Trimmed_Trimmed.avi" added="2014-12-21T11:34:53Z" modified="2014-12-21T11:34:53Z" visited="2014-12-21T11:34:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/x-msvideo"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-21T11:34:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/Dil_Harri_(DJ_Aks_Remix)-(Mr-Jatt.com)%20(2).mp3" added="2014-12-21T11:38:18Z" modified="2014-12-21T11:38:18Z" visited="2014-12-21T11:38:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-21T11:38:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/Lag_Ja_Gale-(Jatt.fm).mp3" added="2014-12-21T11:40:14Z" modified="2014-12-21T11:40:14Z" visited="2014-12-21T11:40:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-21T11:40:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/1A64F07264F0524D/Users/Public/Music/Sample%20Music/AlbumArt_%7B5FA05D35-A682-4AF6-96F7-0773E42D4D16%7D_Large.jpg" added="2014-12-22T11:47:40Z" modified="2014-12-22T12:12:37Z" visited="2014-12-22T11:47:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2014-12-22T11:47:40Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-22T12:12:37Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/1A64F07264F0524D/Users/Public/Music/Sample%20Music/Maid%20with%20the%20Flaxen%20Hair.mp3" added="2014-12-22T11:48:22Z" modified="2014-12-22T11:48:22Z" visited="2014-12-22T11:48:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-22T11:48:22Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume1/imp.jpg" added="2014-12-22T11:50:13Z" modified="2014-12-22T11:50:13Z" visited="2014-12-22T11:50:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-22T11:50:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/1A64F07264F0524D/Users/Public/Music/Sample%20Music/AlbumArt_%7B5FA05D35-A682-4AF6-96F7-0773E42D4D16%7D_Small.jpg" added="2014-12-22T12:12:24Z" modified="2014-12-22T12:12:38Z" visited="2014-12-22T12:12:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-22T12:12:38Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/1A64F07264F0524D/Users/Public/Music/Sample%20Music/AlbumArtSmall.jpg" added="2014-12-22T12:12:25Z" modified="2014-12-22T12:12:37Z" visited="2014-12-22T12:12:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-22T12:12:37Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/1A64F07264F0524D/Users/Public/Music/Sample%20Music/Folder.jpg" added="2014-12-22T12:12:26Z" modified="2014-12-22T12:12:37Z" visited="2014-12-22T12:12:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-22T12:12:37Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/abc%20(2).txt" added="2014-12-22T12:13:26Z" modified="2014-12-22T12:13:26Z" visited="2014-12-22T12:13:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2014-12-22T12:13:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/CURICULUM%20VITAE_1417751922363%20-%20Copy.odt" added="2014-12-22T12:16:37Z" modified="2014-12-22T12:16:43Z" visited="2014-12-22T12:16:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.oasis.opendocument.text"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;libreoffice --writer %U&apos;" modified="2014-12-22T12:16:37Z" count="1"/>
+          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2014-12-22T12:16:43Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/Resumee.docx" added="2014-12-22T12:18:40Z" modified="2015-01-07T15:33:21Z" visited="2014-12-22T12:18:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;libreoffice --writer %U&apos;" modified="2015-01-07T15:33:17Z" count="2"/>
+          <bookmark:application name="LibreOffice 4.2" exec="&apos;soffice %u&apos;" modified="2015-01-07T15:33:21Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/01%20boot%20palishaan.mp3" added="2014-12-22T12:18:57Z" modified="2014-12-22T12:18:57Z" visited="2014-12-22T12:18:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-22T12:18:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/SAAH.mp3" added="2014-12-22T12:22:46Z" modified="2014-12-22T12:22:46Z" visited="2014-12-22T12:22:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-22T12:22:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/06%20afwah.mp3" added="2014-12-22T12:22:46Z" modified="2014-12-22T12:22:46Z" visited="2014-12-22T12:22:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-22T12:22:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/03%20CHARKHA.mp3" added="2014-12-22T12:22:46Z" modified="2014-12-22T12:22:46Z" visited="2014-12-22T12:22:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-22T12:22:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/06%20HUM%20TUM.mp3" added="2014-12-22T12:22:46Z" modified="2014-12-22T12:22:46Z" visited="2014-12-22T12:22:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-22T12:22:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/Chaahat_-_www.mp3" added="2014-12-22T12:22:46Z" modified="2014-12-22T12:22:46Z" visited="2014-12-22T12:22:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-22T12:22:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/07%20mere%20dholna.MP3" added="2014-12-22T12:22:46Z" modified="2014-12-22T12:22:46Z" visited="2014-12-22T12:22:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-22T12:22:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/03%20LAKH%20PARDESI.mp3" added="2014-12-22T12:22:46Z" modified="2014-12-22T12:22:46Z" visited="2014-12-22T12:22:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-22T12:22:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/01%20-%20woh%20ajnabee.mp3" added="2014-12-22T12:22:46Z" modified="2014-12-22T12:22:46Z" visited="2014-12-22T12:22:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-22T12:22:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/Tum%20ho-%20Rockstar.mp3" added="2014-12-22T12:22:46Z" modified="2014-12-22T12:22:46Z" visited="2014-12-22T12:22:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-22T12:22:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/songs/Skotch-VipJaTT.CoM.mp3" added="2014-12-22T12:22:46Z" modified="2014-12-22T12:22:46Z" visited="2014-12-22T12:22:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-22T12:22:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///bin/gunzip" added="2014-12-22T12:25:13Z" modified="2014-12-22T12:25:13Z" visited="2014-12-22T12:25:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2014-12-22T12:25:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/Link%20to%20songs" added="2014-12-23T02:48:31Z" modified="2014-12-23T02:48:31Z" visited="2014-12-23T02:48:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/symlink"/>
+        <bookmark:applications>
+          <bookmark:application name="bluetooth-sendto" exec="&apos;bluetooth-sendto %u&apos;" modified="2014-12-23T02:48:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume2/BAAZ_(2014)_DvDSCR_Rip_Audio_Cleaned_by_-Filmywap.CoM.mp4" added="2014-12-27T11:45:07Z" modified="2014-12-27T11:45:25Z" visited="2014-12-27T11:45:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2014-12-27T11:45:25Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/1cup.JPG" added="2014-12-30T13:27:32Z" modified="2014-12-30T13:27:32Z" visited="2014-12-30T13:27:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:27:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0035.JPG" added="2014-12-30T13:28:16Z" modified="2014-12-30T13:30:26Z" visited="2014-12-30T13:28:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:30:26Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0039.JPG" added="2014-12-30T13:28:22Z" modified="2014-12-30T13:30:27Z" visited="2014-12-30T13:28:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:30:27Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0050.JPG" added="2014-12-30T13:28:32Z" modified="2014-12-30T13:28:32Z" visited="2014-12-30T13:28:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:28:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0054.JPG" added="2014-12-30T13:28:35Z" modified="2014-12-30T13:28:35Z" visited="2014-12-30T13:28:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:28:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0058.JPG" added="2014-12-30T13:28:38Z" modified="2014-12-30T13:28:38Z" visited="2014-12-30T13:28:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:28:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0075.JPG" added="2014-12-30T13:28:41Z" modified="2014-12-30T13:28:41Z" visited="2014-12-30T13:28:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:28:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0077.JPG" added="2014-12-30T13:28:43Z" modified="2014-12-30T13:28:43Z" visited="2014-12-30T13:28:44Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:28:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0079.JPG" added="2014-12-30T13:28:46Z" modified="2014-12-30T13:28:46Z" visited="2014-12-30T13:28:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:28:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0081.JPG" added="2014-12-30T13:28:48Z" modified="2014-12-30T13:28:48Z" visited="2014-12-30T13:28:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:28:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0083.JPG" added="2014-12-30T13:28:50Z" modified="2014-12-30T13:28:50Z" visited="2014-12-30T13:28:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:28:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0085.JPG" added="2014-12-30T13:28:51Z" modified="2014-12-30T13:28:51Z" visited="2014-12-30T13:28:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:28:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0090.JPG" added="2014-12-30T13:28:58Z" modified="2014-12-30T13:28:58Z" visited="2014-12-30T13:28:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:28:58Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0096.JPG" added="2014-12-30T13:29:01Z" modified="2014-12-30T13:29:01Z" visited="2014-12-30T13:29:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:29:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0097.JPG" added="2014-12-30T13:29:05Z" modified="2014-12-30T13:29:15Z" visited="2014-12-30T13:29:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:29:15Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0113.JPG" added="2014-12-30T13:29:14Z" modified="2014-12-30T13:29:34Z" visited="2014-12-30T13:29:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:29:34Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0116.JPG" added="2014-12-30T13:29:43Z" modified="2014-12-30T13:29:43Z" visited="2014-12-30T13:29:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:29:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0123.JPG" added="2014-12-30T13:30:00Z" modified="2014-12-30T13:30:00Z" visited="2014-12-30T13:30:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:30:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0132.JPG" added="2014-12-30T13:30:03Z" modified="2014-12-30T13:30:03Z" visited="2014-12-30T13:30:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:30:03Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0158.JPG" added="2014-12-30T13:30:06Z" modified="2014-12-30T13:30:06Z" visited="2014-12-30T13:30:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:30:06Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0184.JPG" added="2014-12-30T13:30:09Z" modified="2014-12-30T13:30:09Z" visited="2014-12-30T13:30:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:30:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0197.JPG" added="2014-12-30T13:30:18Z" modified="2014-12-30T13:30:18Z" visited="2014-12-30T13:30:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:30:18Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0201.JPG" added="2014-12-30T13:30:21Z" modified="2014-12-30T13:30:21Z" visited="2014-12-30T13:30:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:30:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/EOS_DIGITAL/29-12/1-5x7%20%20each/jpg0211.JPG" added="2014-12-30T13:30:24Z" modified="2014-12-30T13:30:24Z" visited="2014-12-30T13:30:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2014-12-30T13:30:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/seema/New%20Volume/movies/Mr_&amp;_Mrs_420_2014_DVDSCR_by_-Filmywap.CoM.mp4" added="2015-01-05T14:31:01Z" modified="2015-01-05T14:31:03Z" visited="2015-01-05T14:31:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/vlc --started-from-file %U&apos;" modified="2015-01-05T14:31:03Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202014-11-24%2018:01:56.png" added="2015-01-06T05:46:52Z" modified="2015-01-08T00:32:38Z" visited="2015-01-06T05:46:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:32:38Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/progrms/t2.cpp" added="2015-01-06T06:26:50Z" modified="2015-01-06T06:26:50Z" visited="2015-01-06T06:26:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-06T06:26:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/progrms/firstpromain.cpp" added="2015-01-06T06:44:42Z" modified="2015-01-06T06:44:42Z" visited="2015-01-06T06:44:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-06T06:44:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/progrms/program.cpp" added="2015-01-06T06:44:53Z" modified="2015-01-06T06:44:53Z" visited="2015-01-06T06:44:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-c++src"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-06T06:44:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202014-11-24%2017:57:44.png" added="2015-01-07T06:43:02Z" modified="2015-01-08T00:32:38Z" visited="2015-01-07T06:43:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2015-01-07T06:43:02Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:32:38Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/centralized.png" added="2015-01-07T10:30:46Z" modified="2015-01-08T00:32:37Z" visited="2015-01-07T10:30:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-01-07T10:30:47Z" count="2"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:32:37Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Git%20-%20About%20Version%20Control.html" added="2015-01-07T10:33:13Z" modified="2015-01-07T10:33:14Z" visited="2015-01-07T10:33:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-01-07T10:33:14Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Git%20-%20About%20Version%20Control_files/Git%20-%20Getting%20a%20Git%20Repository.html" added="2015-01-07T10:46:14Z" modified="2015-01-07T10:46:15Z" visited="2015-01-07T10:46:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-01-07T10:46:15Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Git%20-%20About%20Version%20Control_files/Code%20School%20-%20Try%20Git.html" added="2015-01-07T11:20:01Z" modified="2015-01-07T11:26:22Z" visited="2015-01-07T11:20:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-01-07T11:26:22Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/repositry/README.md" added="2015-01-07T17:05:09Z" modified="2015-01-07T17:05:09Z" visited="2015-01-07T17:05:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-markdown"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2015-01-07T17:05:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Downloads/1.htm" added="2015-01-07T17:15:54Z" modified="2015-01-07T23:20:05Z" visited="2015-01-07T17:15:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2015-01-07T17:15:54Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2015-01-07T23:20:05Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2022%3A58%3A34.png" added="2015-01-07T17:28:37Z" modified="2015-01-07T17:28:37Z" visited="2015-01-07T17:28:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:28:37Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A11%3A17.png" added="2015-01-07T17:41:21Z" modified="2015-01-07T17:41:21Z" visited="2015-01-07T17:41:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:41:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A11%3A53.png" added="2015-01-07T17:41:56Z" modified="2015-01-07T17:41:56Z" visited="2015-01-07T17:41:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:41:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A12%3A33.png" added="2015-01-07T17:42:35Z" modified="2015-01-07T17:42:35Z" visited="2015-01-07T17:42:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:42:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A14%3A47.png" added="2015-01-07T17:44:50Z" modified="2015-01-07T17:44:50Z" visited="2015-01-07T17:44:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:44:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A17%3A36.png" added="2015-01-07T17:47:38Z" modified="2015-01-07T17:47:38Z" visited="2015-01-07T17:47:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:47:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A18%3A44.png" added="2015-01-07T17:48:47Z" modified="2015-01-07T17:48:47Z" visited="2015-01-07T17:48:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:48:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A19%3A50.png" added="2015-01-07T17:49:52Z" modified="2015-01-07T17:49:52Z" visited="2015-01-07T17:49:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:49:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A22%3A07.png" added="2015-01-07T17:52:09Z" modified="2015-01-07T17:52:09Z" visited="2015-01-07T17:52:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:52:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A23%3A58.png" added="2015-01-07T17:54:00Z" modified="2015-01-07T17:54:00Z" visited="2015-01-07T17:54:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:54:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A25%3A14.png" added="2015-01-07T17:55:16Z" modified="2015-01-07T17:55:16Z" visited="2015-01-07T17:55:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:55:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A26%3A31.png" added="2015-01-07T17:56:32Z" modified="2015-01-07T17:56:32Z" visited="2015-01-07T17:56:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:56:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A28%3A25.png" added="2015-01-07T17:58:27Z" modified="2015-01-07T17:58:27Z" visited="2015-01-07T17:58:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:58:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A29%3A00.png" added="2015-01-07T17:59:02Z" modified="2015-01-07T17:59:02Z" visited="2015-01-07T17:59:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:59:02Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A29%3A30.png" added="2015-01-07T17:59:32Z" modified="2015-01-07T17:59:32Z" visited="2015-01-07T17:59:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T17:59:32Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A30%3A06.png" added="2015-01-07T18:00:08Z" modified="2015-01-07T18:00:08Z" visited="2015-01-07T18:00:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T18:00:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A30%3A47.png" added="2015-01-07T18:00:48Z" modified="2015-01-07T18:00:48Z" visited="2015-01-07T18:00:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T18:00:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A30%3A54.png" added="2015-01-07T18:00:55Z" modified="2015-01-07T18:00:55Z" visited="2015-01-07T18:00:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T18:00:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A32%3A18.png" added="2015-01-07T18:02:19Z" modified="2015-01-07T18:02:19Z" visited="2015-01-07T18:02:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T18:02:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023%3A32%3A51.png" added="2015-01-07T18:02:53Z" modified="2015-01-07T18:02:53Z" visited="2015-01-07T18:02:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-07T18:02:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2022:58:34.png" added="2015-01-07T23:23:10Z" modified="2015-01-08T00:32:39Z" visited="2015-01-07T23:23:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:32:39Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:11:17.png" added="2015-01-07T23:23:23Z" modified="2015-01-08T00:32:40Z" visited="2015-01-07T23:23:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:32:40Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:11:53.png" added="2015-01-07T23:23:46Z" modified="2015-01-08T00:32:40Z" visited="2015-01-07T23:23:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:32:40Z" count="8"/>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2015-01-07T23:59:11Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:12:33.png" added="2015-01-07T23:24:55Z" modified="2015-01-08T00:05:00Z" visited="2015-01-07T23:24:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:04:01Z" count="6"/>
+          <bookmark:application name="nautilus" exec="&apos;eog %U&apos;" modified="2015-01-08T00:05:00Z" count="13"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:14:47.png" added="2015-01-07T23:24:56Z" modified="2015-01-07T23:59:22Z" visited="2015-01-07T23:24:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:22Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:32:51.png" added="2015-01-07T23:25:05Z" modified="2015-01-08T00:31:26Z" visited="2015-01-07T23:25:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:31:26Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:32:18.png" added="2015-01-07T23:25:07Z" modified="2015-01-08T00:31:13Z" visited="2015-01-07T23:25:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:31:13Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:30:54.png" added="2015-01-07T23:25:08Z" modified="2015-01-08T00:30:32Z" visited="2015-01-07T23:25:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:30:32Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:30:47.png" added="2015-01-07T23:25:08Z" modified="2015-01-08T00:30:30Z" visited="2015-01-07T23:25:09Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:30:30Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:30:06.png" added="2015-01-07T23:25:09Z" modified="2015-01-08T00:29:22Z" visited="2015-01-07T23:25:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:29:22Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:29:30.png" added="2015-01-07T23:25:10Z" modified="2015-01-08T00:28:50Z" visited="2015-01-07T23:25:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:28:50Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:29:00.png" added="2015-01-07T23:25:10Z" modified="2015-01-08T00:27:22Z" visited="2015-01-07T23:25:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-08T00:27:22Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:28:25.png" added="2015-01-07T23:25:10Z" modified="2015-01-07T23:59:24Z" visited="2015-01-07T23:25:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:24Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:26:31.png" added="2015-01-07T23:25:11Z" modified="2015-01-07T23:59:23Z" visited="2015-01-07T23:25:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:23Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:25:14.png" added="2015-01-07T23:25:11Z" modified="2015-01-07T23:59:23Z" visited="2015-01-07T23:25:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:23Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:23:58.png" added="2015-01-07T23:25:12Z" modified="2015-01-07T23:59:23Z" visited="2015-01-07T23:25:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:23Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:22:07.png" added="2015-01-07T23:25:12Z" modified="2015-01-07T23:59:23Z" visited="2015-01-07T23:25:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:23Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:19:50.png" added="2015-01-07T23:25:19Z" modified="2015-01-07T23:59:22Z" visited="2015-01-07T23:25:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:22Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:18:44.png" added="2015-01-07T23:25:46Z" modified="2015-01-07T23:59:22Z" visited="2015-01-07T23:25:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:22Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-07%2023:17:36.png" added="2015-01-07T23:25:47Z" modified="2015-01-07T23:59:22Z" visited="2015-01-07T23:25:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2015-01-07T23:59:22Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-08%2006%3A42%3A22.png" added="2015-01-08T01:12:25Z" modified="2015-01-08T01:12:25Z" visited="2015-01-08T01:12:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-08T01:12:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/seema/Pictures/Screenshot%20from%202015-01-08%2006%3A45%3A19.png" added="2015-01-08T01:15:21Z" modified="2015-01-08T01:15:21Z" visited="2015-01-08T01:15:21.828384Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="GNOME Screenshot" exec="&apos;eog %u&apos;" modified="2015-01-08T01:15:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

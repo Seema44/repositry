@@ -1,0 +1,337 @@
+status: 200
+content-length: 8076
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/flashplugin-installer/
+x-cache: HIT from sumac.canonical.com
+age: 19
+expires: Wed, 07 Jan 2015 07:12:24 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Wed, 07 Jan 2015 07:07:24 GMT
+etag: "475a6e43bd1281a3efa723c2d498a890"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Wed, 07 Jan 2015 07:07:24 GMT
+content-type: application/json; charset=utf-8
+x-cache-lookup: HIT from sumac.canonical.com:3128
+
+{
+    "rid": "5637900a12d0d8993867789b1979b77c", 
+    "data": [
+        {
+            "lift": 1.1794571508346, 
+            "package_name": "gstreamer0.10-ffmpeg", 
+            "similarity": 3.5145
+        }, 
+        {
+            "lift": 1.18409198604636, 
+            "package_name": "gstreamer0.10-plugins-ugly", 
+            "similarity": 3.44
+        }, 
+        {
+            "lift": 1.19242366547478, 
+            "package_name": "gstreamer0.10-plugins-bad", 
+            "similarity": 3.1648
+        }, 
+        {
+            "package_name": "software-center", 
+            "similarity": 3.0931
+        }, 
+        {
+            "package_name": "software-properties-gtk", 
+            "similarity": 3.0858
+        }, 
+        {
+            "package_name": "update-manager", 
+            "similarity": 3.0675
+        }, 
+        {
+            "package_name": "file-roller", 
+            "similarity": 3.051
+        }, 
+        {
+            "package_name": "yelp", 
+            "similarity": 3.0478
+        }, 
+        {
+            "package_name": "network-manager-gnome", 
+            "similarity": 3.0405
+        }, 
+        {
+            "package_name": "gcalctool", 
+            "similarity": 3.0377
+        }, 
+        {
+            "package_name": "system-config-printer-gnome", 
+            "similarity": 3.0364
+        }, 
+        {
+            "package_name": "ibus", 
+            "similarity": 3.0353
+        }, 
+        {
+            "package_name": "xterm", 
+            "similarity": 3.0341
+        }, 
+        {
+            "package_name": "language-selector-gnome", 
+            "similarity": 3.0204
+        }, 
+        {
+            "package_name": "gucharmap", 
+            "similarity": 3.0161
+        }, 
+        {
+            "package_name": "evince", 
+            "similarity": 2.9753
+        }, 
+        {
+            "package_name": "simple-scan", 
+            "similarity": 2.9309
+        }, 
+        {
+            "package_name": "xul-ext-ubufox", 
+            "similarity": 2.9091
+        }, 
+        {
+            "package_name": "usb-creator-gtk", 
+            "similarity": 2.8475
+        }, 
+        {
+            "package_name": "libreoffice-writer", 
+            "similarity": 2.8284
+        }, 
+        {
+            "package_name": "gedit", 
+            "similarity": 2.8082
+        }, 
+        {
+            "package_name": "libreoffice-draw", 
+            "similarity": 2.8053
+        }, 
+        {
+            "package_name": "libreoffice-math", 
+            "similarity": 2.8008
+        }, 
+        {
+            "package_name": "onboard", 
+            "similarity": 2.7971
+        }, 
+        {
+            "package_name": "libreoffice-calc", 
+            "similarity": 2.7955
+        }, 
+        {
+            "package_name": "libreoffice-impress", 
+            "similarity": 2.7843
+        }, 
+        {
+            "package_name": "apturl", 
+            "similarity": 2.778
+        }, 
+        {
+            "package_name": "gnome-disk-utility", 
+            "similarity": 2.7746
+        }, 
+        {
+            "package_name": "compiz-core", 
+            "similarity": 2.7693
+        }, 
+        {
+            "package_name": "firefox", 
+            "similarity": 2.7608
+        }, 
+        {
+            "package_name": "brasero", 
+            "similarity": 2.7601
+        }, 
+        {
+            "package_name": "gnome-power-manager", 
+            "similarity": 2.748
+        }, 
+        {
+            "package_name": "gnome-media", 
+            "similarity": 2.7401
+        }, 
+        {
+            "package_name": "shotwell", 
+            "similarity": 2.733
+        }, 
+        {
+            "package_name": "gnome-terminal", 
+            "similarity": 2.7318
+        }, 
+        {
+            "package_name": "gnome-font-viewer", 
+            "similarity": 2.73
+        }, 
+        {
+            "package_name": "seahorse", 
+            "similarity": 2.7269
+        }, 
+        {
+            "package_name": "eog", 
+            "similarity": 2.6997
+        }, 
+        {
+            "package_name": "gnome-bluetooth", 
+            "similarity": 2.694
+        }, 
+        {
+            "package_name": "gnome-user-share", 
+            "similarity": 2.682
+        }, 
+        {
+            "package_name": "xdiagnose", 
+            "similarity": 2.6753
+        }, 
+        {
+            "package_name": "checkbox-qt", 
+            "similarity": 2.6476
+        }, 
+        {
+            "package_name": "deja-dup", 
+            "similarity": 2.6426
+        }, 
+        {
+            "package_name": "transmission-gtk", 
+            "similarity": 2.6287
+        }, 
+        {
+            "package_name": "gnome-sudoku", 
+            "similarity": 2.628
+        }, 
+        {
+            "package_name": "vino", 
+            "similarity": 2.6238
+        }, 
+        {
+            "package_name": "gnomine", 
+            "similarity": 2.5914
+        }, 
+        {
+            "package_name": "totem", 
+            "similarity": 2.5611
+        }, 
+        {
+            "package_name": "aisleriot", 
+            "similarity": 2.5267
+        }, 
+        {
+            "package_name": "remmina-common", 
+            "similarity": 2.5249
+        }, 
+        {
+            "lift": 1.16777521718354, 
+            "package_name": "gstreamer0.10-plugins-bad-multiverse"
+        }, 
+        {
+            "lift": 1.11063880811823, 
+            "package_name": "p7zip-full"
+        }, 
+        {
+            "lift": 1.09361318238575, 
+            "package_name": "vlc"
+        }, 
+        {
+            "lift": 1.04609569521059, 
+            "package_name": "gnome-calculator"
+        }, 
+        {
+            "lift": 1.04577300184888, 
+            "package_name": "im-config"
+        }, 
+        {
+            "lift": 1.04569841397409, 
+            "package_name": "gkbd-capplet"
+        }, 
+        {
+            "lift": 1.04460616276177, 
+            "package_name": "remmina"
+        }, 
+        {
+            "lift": 1.04435024370581, 
+            "package_name": "gnome-mines"
+        }, 
+        {
+            "lift": 1.04186432217299, 
+            "package_name": "unity-scope-gdrive"
+        }, 
+        {
+            "lift": 1.04155942441618, 
+            "package_name": "python3.3"
+        }, 
+        {
+            "lift": 1.03603197824944, 
+            "package_name": "gnome-control-center-unity"
+        }, 
+        {
+            "lift": 1.02550544040694, 
+            "package_name": "gnome-mahjongg"
+        }, 
+        {
+            "lift": 1.02293671675763, 
+            "package_name": "gnome-contacts"
+        }, 
+        {
+            "lift": 1.02071674363974, 
+            "package_name": "gcr"
+        }, 
+        {
+            "lift": 1.01991481844497, 
+            "package_name": "gnome-system-monitor"
+        }, 
+        {
+            "lift": 1.01727089267363, 
+            "package_name": "unity-lens-photos"
+        }, 
+        {
+            "lift": 1.01243977570742, 
+            "package_name": "ubuntuone-control-panel-qt"
+        }, 
+        {
+            "lift": 1.01036365317117, 
+            "package_name": "gnome-control-center-signon"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "zapping"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "balazar"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "gnome-alsamixer"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "fceux"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "etw"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "jsymphonic"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "epdfview"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "ocrfeeder"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "wbar"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "indicator-multiload"
+        }
+    ], 
+    "app": "flashplugin-installer"
+}
